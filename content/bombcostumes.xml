@@ -1,0 +1,129 @@
+<bombcostumes anm2root="gfx/items/pick ups/bombs/">
+<!--
+	Rules are evaluated from top to bottom. A rule will only trigger if all of its conditions are true.
+	
+	Conditions:
+		- includeFlags: True if all provided flags are set
+		- excludeFlags: True if none of the provided flags are set
+	Layers (in rendering order):
+		- back
+		- body
+		- body2
+		- front
+		- front2
+		- overlay
+	GFX suffixes:
+		- suffix
+		- suffix2
+-->
+	<bomb variant="920"> <!-- Nugget bomb -->
+		<rule body="nugget/bomb.anm2" />
+		<rule includeFlags="28" body="nugget/sad.anm2" />
+		<rule includeFlags="4" body="nugget/poison.anm2" />
+		<rule includeFlags="29" body="nugget/poop.anm2" />
+		<rule includeFlags="28 29" body="nugget/poop_sad.anm2" />
+		
+		<rule includeFlags="28" front="nugget/tears.anm2" />
+		<rule includeFlags="28 4" front="nugget/poison_tears.anm2" />
+		<rule includeFlags="28 29" front="nugget/poop_tears.anm2" />
+		
+		<rule includeFlags="22" back="nugget/flame.anm2" />
+		<rule includeFlags="22 4" back="nugget/poison_flame.anm2" />
+		<rule includeFlags="22 29" back="nugget/poop_flame.anm2" />
+		
+		<rule includeFlags="2" body2="nugget/homing.anm2" />
+		<rule includeFlags="2 4" body2="nugget/poison_homing.anm2" />
+		<rule includeFlags="2 29" body2="nugget/poop_homing.anm2" />
+		
+		<rule includeFlags="35" overlay="glitter_sparkle.anm2" />
+	</bomb>
+	
+	<bomb variant="921"> <!-- Locust bomb -->
+		<rule body="locust/bomb.anm2" />
+	</bomb>
+	
+	<bomb variant="922"> <!-- Slippy bomb -->
+		<rule body="slippy/bomb.anm2" />
+	</bomb>
+	
+	<bomb variant="923"> <!-- Copper bomb -->
+		<rule body="copper/bomb.anm2" />
+		<rule includeFlags="126" front2="copper/fast.anm2" />
+		<rule includeFlags="125" suffix2="_gold" />
+		
+		<rule includeFlags="2" body2="copper/homing.anm2" />
+		<rule includeFlags="22" body="copper/hot.anm2" back="copper/flame.anm2" />
+		<rule includeFlags="28" body="copper/sad.anm2" />
+		<rule includeFlags="4" body="copper/poison.anm2" />
+		<rule includeFlags="29" body="copper/poop.anm2" />
+		<rule includeFlags="35" body="copper/glitter.anm2" overlay="copper/glitter_sparkle.anm2" />
+		<rule includeFlags="45" body="copper/bomber.anm2" />
+		<rule includeFlags="37" body="copper/sticky.anm2" />
+		<rule includeFlags="36" body="copper/scatter.anm2" />
+		
+		<rule includeFlags="37 22" body="copper/sticky_hot.anm2" />
+		<rule includeFlags="36 4" body="copper/scatter_poison.anm2" />
+		
+		<rule includeFlags="28" excludeFlags="45 36" front="copper/tears.anm2" />
+		<rule includeFlags="28 37" body="copper/sticky_sad.anm2" front="copper/tears.anm2" />
+		<rule includeFlags="28 35" body="copper/glitter_sad.anm2" front="copper/tears.anm2" />
+		<rule includeFlags="28 29" body="copper/poop_sad.anm2" front="copper/tears.anm2" />
+		
+<!-- REPENTANCE BEGIN -->
+		<rule includeFlags="78" body="copper/ghost.anm2" />
+		<rule includeFlags="35 78" body="copper/glitter_ghost.anm2" />
+		<rule includeFlags="29 78" body="copper/poop_ghost.anm2" />
+		
+		<rule includeFlags="28 72" excludeFlags="45 36" front="copper/tears_blood.anm2" />
+		<rule includeFlags="72" excludeFlags="28" body="copper/blood.anm2" />
+		<rule includeFlags="36 72" body="copper/scatter_blood.anm2" />
+		<rule includeFlags="75" body="copper/brimstone.anm2" />
+		<rule includeFlags="75 22" back="copper/wide_flame.anm2" />
+<!-- REPENTANCE END -->
+	</bomb>
+	
+	<!-- <bomb variant="19" subtype="920"> <!-- Copper Rocket (for Rocket in a Jar) doesn't work with subtypes do not uncomment unless fixed- ->
+		<rule includeFlags="125" suffix2="_gold" />
+		<rule body="copper/rocket.anm2" />
+	</bomb> -->
+	
+	<bomb variant="924"> <!-- Copper Nugget bomb -->
+		<rule body="nugget_copper/bomb.anm2" />
+		<rule includeFlags="28" body="nugget_copper/sad.anm2" />
+		<rule includeFlags="4" body="nugget_copper/poison.anm2" />
+		<rule includeFlags="29" body="nugget_copper/poop.anm2" />
+		<rule includeFlags="28 29" body="nugget_copper/poop_sad.anm2" />
+		
+		<rule includeFlags="28" front="nugget_copper/tears.anm2" />
+		<rule includeFlags="28 4" front="nugget_copper/poison_tears.anm2" />
+		<rule includeFlags="28 29" front="nugget_copper/poop_tears.anm2" />
+		
+		<rule includeFlags="22" back="nugget_copper/flame.anm2" />
+		<rule includeFlags="22 4" back="nugget_copper/poison_flame.anm2" />
+		<rule includeFlags="22 29" back="nugget_copper/poop_flame.anm2" />
+		
+		<rule includeFlags="2" body2="nugget_copper/homing.anm2" />
+		<rule includeFlags="2 4" body2="nugget_copper/poison_homing.anm2" />
+		<rule includeFlags="2 29" body2="nugget_copper/poop_homing.anm2" />
+		
+		<rule includeFlags="35" overlay="glitter_sparkle.anm2" />
+	</bomb>
+	
+	<bomb variant="925"> <!-- Copper Locust bomb -->
+		<rule body="locust_copper/bomb.anm2" />
+	</bomb>
+	
+	<bomb variant="926"> <!-- Copper Slippy bomb -->
+		<rule body="slippy_copper/bomb.anm2" />
+	</bomb>
+	
+	<bomb variant="927"> <!-- Bridge bomb -->
+		<rule body="bridge/bomb.anm2" />
+		<rule includeFlags="125" suffix2="_gold" />
+	</bomb>
+	
+	<bomb variant="928"> <!-- Copper Bridge bomb -->
+		<rule body="bridge_copper/bomb.anm2" />
+	</bomb>
+</bombcostumes>
+

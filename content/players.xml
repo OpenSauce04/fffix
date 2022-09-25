@@ -1,0 +1,95 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/" bigportraitroot="gfx/ui/stage/">
+    <player
+		name="Fiend"
+		hp="0" black="4" card="18"
+		skin="player_fiend.png" skinColor="-1"
+		nameimage="playername_fiend.png"
+		portrait="null.png"
+		extraportrait="extra_fiend.anm2"
+		costumeSuffix="fiend"
+		birthright="Fiendish fireballs"
+	/>
+	<player
+		name="Fiend" bSkinParent="Fiend"
+		hp="0" black="4"
+		skin="player_fiendb.png" skinColor="1"
+		nameimage="playername_fiend.png"
+		portrait="null.png"
+		extraportrait="extra_biend.anm2"
+		costumeSuffix="biend"
+		birthright="Malicious healing + individuality up"
+	/>
+	<player
+		name="Golem"
+		hp="2" armor="2" bombs="2"
+		skin="player_golem.png" skinColor="5"
+		nameimage="playername_golem.png"
+		portrait="null.png"
+		extraportrait="extra_golem.anm2"
+		costumeSuffix="golem"
+        birthright="Rockier tinted rocks + luck up"
+	/>
+	<player
+		name="Golem" bSkinParent="Golem"
+		hp="2" armor="2" bombs="2"
+		skin="player_golem.png" skinColor="5"
+		nameimage="playername_golem.png"
+		portrait="null.png"
+		extraportrait="extra_golem.anm2"
+		costumeSuffix="golem"
+	/>
+
+	<!--
+		If you want these fine fellows below to appear
+		on the character select, just set hidden to false
+	-->
+	
+	<player
+		name="Slippy" hidden="true"
+		hp="6"
+		skin="player_slippy.png" skinColor="4"
+		nameimage="playername_slippy.png"
+		portrait="playerportrait_slippy.png"
+		costumeSuffix="slippy"
+		birthright="Pungent odor"
+	/>
+
+	<player
+		name="China" hidden="true"
+		hp="2"
+		skin="player_china.png" skinColor="3"
+		nameimage="playername_china.png"
+		portrait="playerportrait_china.png"
+		costumeSuffix="china"
+		birthright="Super glue"
+	/>
+
+    <player
+        name="Peat" hidden="true"
+        hp="8"
+        skin="../../enemies/peat/family_guy__peter_griffin_sprites_by_fatchrisb-d4kkfha.png" skinColor="0"
+        nameimage="../../enemies/peat/bossname_peat.png"
+        portrait="../../enemies/peat/portraitgiffin_player.png"
+		birthright="Holy crap, Lois!"
+    />
+
+	<player
+		name="Fient" hidden="true"
+		hp="2" black="4" coins="4" bombs="2"
+		skin="player_fient_bw.png" skinColor="-1"
+		nameimage="playername_fient_bw.png"
+		portrait="playerportrait_fient_bw.png"
+		costumeSuffix="fient"
+		birthright="Reefer madness"
+	/>
+	
+	<player
+		name="Fend" hidden="true"
+		hp="4" armor="2" items="579" coins="4"
+		skin="player_fend_bw.png" skinColor="3"
+		nameimage="playername_fend_bw.png"
+		portrait="playerportrait_fend_Bw.png"
+		costumeSuffix="fend"
+		birthright="Libido up!"
+	/>
+</players>

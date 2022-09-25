@@ -1,0 +1,2386 @@
+<sounds root="sounds/">
+	<sound name="InsectSwarmLoop">
+		<sample weight="1" path="insect swarm.wav" />
+	</sound>
+	<sound name="LightningFlyBuzzLoop">
+		<sample weight="1" path="LightningFlyBuzz.wav" />
+	</sound>
+	<sound name="LezSuck">
+		<sample weight="1" path="suck.wav" />
+	</sound>
+	<sound name="LezSwallow">
+		<sample weight="1" path="swallow.wav" />
+	</sound>
+	<sound name="LezEffectGet">
+		<sample weight="1" path="effect.wav" />
+	</sound>
+	<sound name="SplashSmall">
+		<sample weight="1" path="Splash01.wav"/>
+		<sample weight="1" path="Splash02.wav"/>
+		<sample weight="1" path="Splash03.wav"/>
+		<sample weight="1" path="Splash04.wav"/>
+		<sample weight="1" path="Splash05.wav"/>
+		<sample weight="1" path="Splash06.wav"/>
+		<sample weight="1" path="Splash07.wav"/>
+		<sample weight="1" path="Splash08.wav"/>
+		<sample weight="1" path="Splash09.wav"/>
+		<sample weight="1" path="Splash10.wav"/>
+		<sample weight="1" path="Splash11.wav"/>
+		<sample weight="1" path="Splash12.wav"/>
+	</sound>
+	<sound name="SplashLarge">
+		<sample weight="1" path="LargeSplash01.wav"/>
+		<sample weight="1" path="LargeSplash02.wav"/>
+		<sample weight="1" path="LargeSplash03.wav"/>
+		<sample weight="1" path="LargeSplash04.wav"/>
+		<sample weight="1" path="LargeSplash05.wav"/>
+		<sample weight="1" path="LargeSplash06.wav"/>
+	</sound>
+	<sound name="SplashLargePlonkless">
+		<sample weight="1" path="LargeSplash03.wav"/>
+		<sample weight="1" path="LargeSplash04.wav"/>
+		<sample weight="1" path="LargeSplash05.wav"/>
+		<sample weight="1" path="LargeSplash06.wav"/>
+	</sound>
+	<sound name="Slurp">
+		<sample weight="1" path="Slurp01.wav"/>
+		<sample weight="1" path="Slurp03.wav"/>
+	</sound>
+	<sound name="MukChargeUp">
+		<sample weight="1" path="DroolerChargeUp.wav"/>
+	</sound>
+	<sound name="MukCharge">
+		<sample weight="1" path="DroolerCharge01.wav"/>
+		<sample weight="1" path="DroolerCharge02.wav"/>
+	</sound>
+	<sound name="MukLaugh">
+		<sample weight="1" path="DroolerLaugh.wav"/>
+	</sound>
+	<sound name="MukVomit">
+		<sample weight="1" path="MukVomit01.wav"/>
+		<sample weight="1" path="MukVomit02.wav"/>
+	</sound>
+	<sound name="TemperAnger">
+		<sample weight="1" path="TemperRoar02.wav"/>
+	</sound>
+	<sound name="TemperCharge">
+		<sample weight="1" path="TemperRoar01.wav"/>
+	</sound>
+	<sound name="EpicTwinkle">
+		<sample weight="1" path="Epic Twinkle.wav"/>
+	</sound>
+	<sound name="EpicTwinkleV">
+		<sample weight="1" path="Epic TwinkleV.wav"/>
+	</sound>
+	<sound name="NimbusSigh">
+		<sample weight="1" path="nimbussighidle.wav"/>
+	</sound>
+	<sound name="NimbusShoot">
+		<sample weight="1" path="nimbusshootsigh.wav"/>
+	</sound>
+	<sound name="Tada">
+		<sample weight="1" path="tada.wav"/>
+	</sound>
+	<sound name="WingFlap">
+		<sample weight="1" path="WingFlap1.wav"/>
+		<sample weight="1" path="WingFlap2.wav"/>
+	</sound>
+	<sound name="Skid">
+		<sample weight="1" path="skid.wav"/>
+	</sound>
+	<sound name="FlashShakeyKidRoar">
+		<sample weight="1" path="ShakeyKidRoar0.wav"/>
+		<sample weight="1" path="ShakeyKidRoar1.wav"/>
+		<sample weight="1" path="ShakeyKidRoar2.wav"/>
+	</sound>
+	<sound name="MonsterYellFlash">
+		<sample weight="1" path="MonsterYellA0.wav"/>
+	</sound>
+	<sound name="Foresee">
+		<sample weight="1" path="Foresee.wav"/>
+	</sound>
+	<sound name="ForeseerClap">
+		<sample weight="1" path="ForeseerClap.wav"/>
+	</sound>
+	<sound name="Ricochet">
+		<sample weight="1" path="Rico01.wav"/>
+		<sample weight="1" path="Rico02.wav"/>
+		<sample weight="1" path="Rico03.wav"/>
+		<sample weight="1" path="Rico04.wav"/>
+		<sample weight="1" path="Rico05.wav"/>
+		<sample weight="1" path="Rico06.wav"/>
+		<sample weight="1" path="Rico07.wav"/>
+		<sample weight="1" path="Rico08.wav"/>
+		<sample weight="1" path="Rico09.wav"/>
+	</sound>
+	<sound name="Lighter">
+		<sample weight="1" path="Lighter.wav"/>
+	</sound>
+	<sound name="Uke">
+		<sample weight="1" path="uke.wav"/>
+	</sound>
+	<sound name="CoughRasp">
+		<sample weight="1" path="CoughRasp01.wav"/>
+		<sample weight="1" path="CoughRasp02.wav"/>
+		<sample weight="1" path="CoughRasp03.wav"/>
+		<sample weight="1" path="CoughRasp04.wav"/>
+	</sound>
+	<sound name="FireballLand">
+		<sample weight="1" path="FireballLand.wav"/>
+	</sound>
+	<sound name="FireballLaunch">
+		<sample weight="1" path="FireballLaunch.wav"/>
+	</sound>
+	<sound name="MagicStrike">
+		<sample weight="1" path="MagicStrike.wav"/>
+	</sound>
+	<sound name="teleport">
+		<sample weight="1" path="teleport.wav"/>
+	</sound>
+	<sound name="fingersnap">
+		<sample weight="1" path="snap2.wav"/>
+	</sound>
+	<sound name="FireLight">
+		<sample weight="1" path="FireLight01.wav"/>
+		<sample weight="1" path="FireLight02.wav"/>
+	</sound>
+	<sound name="FireFizzle">
+		<sample weight="1" path="FireFizzle.wav"/>
+	</sound>
+	<sound name="Baloon">
+		<sample weight="1" path="BalloonBlowingUp.wav"/>
+	</sound>
+	<sound name="BaloonShort">
+		<sample weight="1" path="BalloonBlowingUpShort.wav"/>
+	</sound>
+	<sound name="BaloonBounce">
+		<sample weight="1" path="BaloonBounce.wav"/>
+	</sound>
+	<sound name="LandSoft">
+		<sample weight="1" path="LandSoft.wav"/>
+	</sound>
+	<sound name="WateryBarf">
+		<sample weight="1" path="WateryBarf01.wav"/>
+		<sample weight="1" path="WateryBarf02.wav"/>
+	</sound>
+	<sound name="WateryBarfShort">
+		<sample weight="1" path="WateryBarfShort01.wav"/>
+	</sound>
+	<sound name="WateryBurble">
+		<sample weight="1" path="WateryBurble01.wav"/>
+	</sound>
+	<sound name="BathtubFart">
+		<sample weight="1" path="bubblefartithinl.wav"/>
+	</sound>
+	<sound name="FrogHurgle">
+		<sample weight="1" path="frogshoot1.wav"/>
+	</sound>
+	<sound name="FrogHurgleShort">
+		<sample weight="1" path="frogshoot1Short.wav"/>
+	</sound>
+	<sound name="FrogShoot">
+		<sample weight="1" path="frogshoot2.wav"/>
+	</sound>
+	<sound name="SniffleShoot">
+		<sample weight="1" path="sniffle.wav"/>
+	</sound>
+	<sound name="SniffleShootOldShort">
+		<sample weight="1" path="sniffle old short.wav"/>
+	</sound>
+	<sound name="FriedStart">
+		<sample weight="1" path="fire1.wav"/>
+	</sound>
+	<sound name="FriedLoop">
+		<sample weight="1" path="fire2.wav"/>
+	</sound>
+	<sound name="FriedEnd">
+		<sample weight="1" path="fire3.wav"/>
+	</sound>
+	<sound name="CrosseyeAppear">
+		<sample weight="1" path="psion crosseye appear.wav"/>
+	</sound>
+	<sound name="CrosseyeShootLoop">
+		<sample weight="1" path="psion crosseye shootloop.wav"/>
+	</sound>
+	<sound name="PsionBubble">
+		<sample weight="1" path="psionbubble.wav"/>
+	</sound>
+	<sound name="PsionBubbleBreak">
+		<sample weight="1" path="psionbubble break.wav"/>
+	</sound>
+	<sound name="PsionDeath">
+		<sample weight="1" path="psion death.wav"/>
+	</sound>
+	<sound name="PsionLeech">
+		<sample weight="1" path="psion_leech.wav"/>
+		<sample weight="1" path="psion_leech2.wav"/>
+	</sound>
+	<sound name="PsionRedirectLoop">
+		<sample weight="1" path="psion redirect loop.wav"/>
+	</sound>
+	<sound name="PsionShoot">
+		<sample weight="1" path="psion shoot.wav"/>
+		<sample weight="1" path="psion shoot2.wav"/>
+	</sound>
+	<sound name="PsionSummon">
+		<sample weight="1" path="psion summon.wav"/>
+	</sound>
+	<sound name="PsionTaunt">
+		<sample weight="1" path="psion taunt.wav"/>
+		<sample weight="1" path="psion taunt short.wav"/>
+	</sound>
+	<sound name="TapStart">
+		<sample weight="1" path="tap_open1.wav"/>
+	</sound>
+	<sound name="TapTap">
+		<sample weight="1" path="tap_open2.wav"/>
+	</sound>
+	<sound name="TapLoop">
+		<sample weight="1" path="tap_loop.wav"/>
+	</sound>
+	<sound name="TapEnd">
+		<sample weight="1" path="tap_close.wav"/>
+	</sound>
+	<sound name="TapHoney01">
+		<sample weight="1" path="MP01.wav"/>
+	</sound>
+	<sound name="TapHoney02">
+		<sample weight="1" path="MP02.wav"/>
+	</sound>
+	<sound name="GnawfulNoises">
+		<sample weight="1" path="gnaful bite setup.wav"/>
+	</sound>
+	<sound name="GnawfulBite">
+		<sample weight="1" path="gnaful bite.wav"/>
+	</sound>
+	<sound name="ShotgunBlast">
+		<sample weight="1" path="shotguun_sohot.wav"/>
+	</sound>
+	<sound name="EpicPunch">
+		<sample weight="1" path="punch.wav"/>
+	</sound>
+    <sound name="CursedPennyNeutral">
+		<sample weight="1" path="cursed_penny_neutral.wav"/>
+	</sound>
+    <sound name="CursedPennyPositive">
+		<sample weight="1" path="cursed_penny_positive.wav"/>
+	</sound>
+    <sound name="CursedPennyPositiveSuper">
+		<sample weight="1" path="cursed_penny_positive_super.wav"/>
+	</sound>
+    <sound name="CursedPennyPositiveMega">
+		<sample weight="1" path="cursed_penny_positive_mega.wav"/>
+	</sound>
+    <sound name="CursedPennyNegative">
+		<sample weight="1" path="cursed_penny_negative.wav"/>
+	</sound>
+    <sound name="CursedPennyNegativeSuper">
+		<sample weight="1" path="cursed_penny_negative_super.wav"/>
+	</sound>
+    <sound name="CursedPennyNegativeMega">
+		<sample weight="1" path="cursed_penny_negative_mega.wav"/>
+	</sound>
+	<sound name="OverwatchOverwatch">
+		<sample weight="1" path="overwatcj.wav"/>
+	</sound>
+	<sound name="ChainSnap">
+		<sample weight="1" path="ChainSnap01.wav"/>
+		<sample weight="1" path="ChainSnap02.wav"/>
+		<sample weight="1" path="ChainSnap03.wav"/>
+		<sample weight="1" path="ChainSnap04.wav"/>
+	</sound>
+	<sound name="circus">
+		<sample weight="1" path="circus.wav"/>
+	</sound>
+	<sound name="GutbusterRun">
+		<sample weight="1" path="gutbusterrun.wav"/>
+	</sound>
+	<sound name="GriddleScream">
+		<sample weight="1" path="GriddleScream.wav"/>
+	</sound>
+	<sound name="GriddleDeath">
+		<sample weight="1" path="GriddleDeath.wav"/>
+	</sound>
+	<sound name="BuckAppear1">
+		<sample weight="1" path="Buck/Buck_Appear1_1.wav"/>
+	</sound>
+	<sound name="BuckAppear2">
+		<sample weight="1" path="Buck/Buck_Appear1_2.wav"/>
+	</sound>
+	<sound name="BuckCharge">
+		<sample weight="1" path="Buck/Buck_Charge1_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Charge2_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Charge3_1.wav"/>
+	</sound>
+	<sound name="BuckDeath1">
+		<sample weight="1" path="Buck/Buck_Death1_1.wav"/>
+	</sound>
+	<sound name="BuckDeath2">
+		<sample weight="1" path="Buck/Buck_Death1_2.wav"/>
+	</sound>
+	<sound name="BuckDeath3">
+		<sample weight="1" path="Buck/Buck_Death1_3.wav"/>
+	</sound>
+	<sound name="BuckHeadRecover">
+		<sample weight="1" path="Buck/Buck_HeadRecover1_1.wav"/>
+	</sound>
+	<sound name="BuckRummage">
+		<sample weight="1" path="Buck/Buck_Rummage1_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Rummage2_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Rummage3_1.wav"/>
+	</sound>
+	<sound name="BuckShoot">
+		<sample weight="1" path="Buck/Buck_Shooting1_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Shooting2_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Shooting3_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Shooting4_1.wav"/>
+	</sound>
+	<sound name="BuckSpit">
+		<sample weight="1" path="Buck/Buck_Spit1_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Spit2_1.wav"/>
+		<sample weight="1" path="Buck/Buck_Spit3_1.wav"/>
+	</sound>
+	<sound name="BuckVictory">
+		<sample weight="1" path="Buck/Buck_Victory.wav"/>
+	</sound>
+	<sound name="Baba">
+		<sample weight="1" path="baba/Move1.wav"/>
+		<sample weight="1" path="baba/Move2.wav"/>
+		<sample weight="1" path="baba/Move3.wav"/>
+		<sample weight="1" path="baba/Move4.wav"/>
+		<sample weight="1" path="baba/Move5.wav"/>
+		<sample weight="1" path="baba/Move6.wav"/>
+		<sample weight="1" path="baba/Move7.wav"/>
+		<sample weight="1" path="baba/Move8.wav"/>
+		<sample weight="1" path="baba/Move9.wav"/>
+		<sample weight="1" path="baba/Move10.wav"/>
+		<sample weight="1" path="baba/Move11.wav"/>
+		<sample weight="1" path="baba/Move12.wav"/>
+	</sound>
+	<sound name="Valvo">
+		<sample weight="1" path="valvo2.wav"/>
+	</sound>
+	<sound name="SteamTrain">
+		<sample weight="1" path="SteamTrain.wav"/>
+	</sound>
+	<sound name="SteamTrainWhistle">
+		<sample weight="1" path="SteamTrainWhistle.wav"/>
+		<sample weight="1" path="TrainWhistle.wav"/>
+	</sound>
+	<sound name="SpitumCharge">
+		<sample weight="1" path="Spitum_charge.wav"/>
+	</sound>
+	<sound name="SpitumShoot">
+		<sample weight="1" path="Spitum_shoot.wav"/>
+	</sound>
+	<sound name="RolyPolyRoll">
+		<sample weight="1" path="rolling.wav"/>
+	</sound>
+	<sound name="Waterboom">
+		<sample weight="1" path="waterboom.wav"/>
+	</sound>
+	<sound name="BascoBlast">
+		<sample weight="1" path="BascoBlast.wav"/>
+	</sound>
+	<sound name="WormScoot">
+		<sample weight="1" path="wormswalk.wav" />
+	</sound>
+	<sound name="WormsReload">
+		<sample weight="1" path="wormsreload.wav" />
+	</sound>
+	<sound name="LuncheonVom">
+		<sample weight="1" path="DroolerCharge01.wav"/>
+	</sound>
+	<sound name="CartoonSlurp">
+		<sample weight="1" path="CartoonSlurp.wav"/>
+	</sound>
+	<sound name="CronchyWorms">
+		<sample weight="1" path="Cronchy1.wav"/>
+		<sample weight="1" path="Cronchy2.wav"/>
+		<sample weight="1" path="Cronchy3.wav"/>
+	</sound>
+	<sound name="GhostHiding">
+		<sample weight="1" path="Ghost91.wav"/>
+	</sound>
+	<sound name="GhostAngered">
+		<sample weight="1" path="Ghost38.wav"/>
+	</sound>
+	<sound name="GhostAppear">
+		<sample weight="1" path="Ghost46.wav"/>
+	</sound>
+	<sound name="GhostCalm">
+		<sample weight="1" path="Ghost47.wav"/>
+	</sound>
+    <sound name="Hoot6">
+		<sample weight="1" path="hoot6.wav"/>
+	</sound>
+    <sound name="Bouja">
+		<sample weight="1" path="bouja.wav"/>
+	</sound>
+    <sound name="PiperAttack">
+		<sample weight="1" path="piper_attack.wav"/>
+	</sound>
+    <sound name="DripSuck">
+		<sample weight="1" path="drip_suck.wav"/>
+	</sound>
+    <sound name="FurnaceStart">
+		<sample weight="1" path="furnace_start.wav"/>
+	</sound>
+    <sound name="FurnaceLoop">
+		<sample weight="1" path="furnace_loop.wav"/>
+	</sound>
+    <sound name="FurnaceEnd">
+		<sample weight="1" path="furnace_end.wav"/>
+	</sound>
+    <sound name="GraterEmege">
+		<sample weight="1" path="gater_emerge.wav"/>
+	</sound>
+    <sound name="GraterBurrow">
+		<sample weight="1" path="gater_burrow.wav"/>
+	</sound>
+    <sound name="GraterShake">
+		<sample weight="1" path="gater_shakeloop.wav"/>
+	</sound>
+    <sound name="GraterShakeShort">
+		<sample weight="1" path="gater_shakeshort.wav"/>
+	</sound>
+    <sound name="WardenCharge">
+		<sample weight="1" path="warden_charge.wav"/>
+	</sound>
+    <sound name="WardenAttack">
+		<sample weight="1" path="warden_attack.wav"/>
+	</sound>
+    <sound name="WardenHit">
+		<sample weight="1" path="wardenstar_hit.wav"/>
+	</sound>
+    <sound name="StretchEye">
+		<sample weight="1" path="Stretch1.wav"/>
+		<sample weight="1" path="Stretch2.wav"/>
+	</sound>
+    <sound name="WhipCrack">
+		<sample weight="1" path="Whip1.wav"/>
+		<sample weight="1" path="Whip2.wav"/>
+	</sound>
+    <sound name="HorseGoWhee">
+		<sample weight="1" path="obcheval.wav"/>
+	</sound>
+    <sound name="BingBingWahoo">
+		<sample weight="1" path="bingbingwahoo.wav"/>
+	</sound>
+    <sound name="LoopingBike">
+		<sample weight="1" path="bikeloop.wav"/>
+	</sound>
+    <sound name="CarIgnition">
+		<sample weight="1" path="ignition.wav"/>
+	</sound>
+    <sound name="SlowMotor">
+		<sample weight="1" path="slowMotor.wav"/>
+	</sound>
+    <sound name="SkateboardJump">
+		<sample weight="1" path="skateboardJump.wav"/>
+	</sound>
+    <sound name="SkateboardLand">
+		<sample weight="1" path="skateboardLand.wav"/>
+	</sound>
+    <sound name="SkidShort">
+		<sample weight="1" path="skidShort.wav"/>
+	</sound>
+    <sound name="SkidUltraShort">
+		<sample weight="1" path="SkidUltraShort1.wav"/>
+	</sound>
+    <sound name="PollutionLaugh">
+		<sample weight="1" path="MukLaugh01.wav"/>
+	</sound>
+    <sound name="PollutionSpit">
+		<sample weight="1" path="MukCharge01.wav"/>
+	</sound>
+    <sound name="PollutionSmirk">
+		<sample weight="1" path="MukChargeUp01.wav"/>
+	</sound>
+    <sound name="PollutionCharge">
+		<sample weight="1" path="MukCharge02.wav"/>
+	</sound>
+    <sound name="PollutionVom">
+		<sample weight="1" path="MukVomit02.wav"/>
+	</sound>
+    <sound name="PollutionWins">
+		<sample weight="1" path="PollutionKillsYou.wav"/>
+	</sound>
+    <sound name="WormSplode">
+		<sample weight="1" path="wormsplode.wav"/>
+	</sound>
+    <sound name="LookerShoot">
+		<sample weight="1" path="looker_attack1.wav"/>
+		<sample weight="1" path="looker_attack2.wav"/>
+	</sound>
+    <sound name="LookerCharge">
+		<sample weight="1" path="looker_charge.wav"/>
+	</sound>
+    <sound name="LookerBreak">
+		<sample weight="1" path="looker_break.wav"/>
+	</sound>
+    <sound name="BusterBurpskyEnd">
+		<sample weight="1" path="thebusterfolder/buster_burpskyend.wav"/>
+	</sound>
+    <sound name="BusterBurpskyShoot">
+		<sample weight="1" path="thebusterfolder/buster_burpskyshoot_attack.wav"/>
+	</sound>
+    <sound name="BusterBurpskyCharge">
+		<sample weight="1" path="thebusterfolder/buster_burpskyshoot_charge.wav"/>
+	</sound>
+    <sound name="BusterBurpSpawn">
+		<sample weight="1" path="thebusterfolder/buster_burpspawn.wav"/>
+	</sound>
+    <sound name="BusterChargeEnd1">
+		<sample weight="1" path="thebusterfolder/buster_charge_end1.wav"/>
+	</sound>
+    <sound name="BusterChargeEnd2">
+		<sample weight="1" path="thebusterfolder/buster_charge_end2.wav"/>
+	</sound>
+    <sound name="BusterChargeLoop">
+		<sample weight="1" path="thebusterfolder/buster_charge_loop.wav"/>
+	</sound>
+    <sound name="BusterChargeStart">
+		<sample weight="1" path="thebusterfolder/buster_charge_start.wav"/>
+	</sound>
+    <sound name="BusterChargeStart2">
+		<sample weight="1" path="thebusterfolder/buster_charge_start2.wav"/>
+	</sound>
+    <sound name="BusterDeth">
+		<sample weight="1" path="thebusterfolder/buster_deth.wav"/>
+	</sound>
+    <sound name="BusterDethBeep">
+		<sample weight="1" path="thebusterfolder/buster_deth_beep.wav"/>
+	</sound>
+    <sound name="BusterEatChew">
+		<sample weight="1" path="thebusterfolder/buster_eat_chew.wav"/>
+	</sound>
+    <sound name="BusterEatStart">
+		<sample weight="1" path="thebusterfolder/buster_eat_start.wav"/>
+	</sound>
+    <sound name="BusterHotShriekScream">
+		<sample weight="1" path="thebusterfolder/buster_hotshriek_scream.wav"/>
+	</sound>
+    <sound name="BusterHotShriekStart">
+		<sample weight="1" path="thebusterfolder/buster_hotshriek_start.wav"/>
+	</sound>
+    <sound name="BusterSnicker">
+		<sample weight="1" path="thebusterfolder/buster_snicker1.wav"/>
+		<sample weight="1" path="thebusterfolder/buster_snicker2.wav"/>
+	</sound>
+    <sound name="BusterSpitoomAttack">
+		<sample weight="1" path="thebusterfolder/buster_spitoom_attack.wav"/>
+	</sound>
+    <sound name="BusterSpitoomCharge">
+		<sample weight="1" path="thebusterfolder/buster_spitoom_charge.wav"/>
+	</sound>
+    <sound name="BusterVictory">
+		<sample weight="1" path="thebusterfolder/buster_victory.wav"/>
+	</sound>
+    <sound name="BusterWalkChewLoop">
+		<sample weight="1" path="thebusterfolder/buster_walkchew_loop.wav"/>
+	</sound>
+    <sound name="BusterWhistle">
+		<sample weight="1" path="thebusterfolder/buster_whistle_1.wav"/>
+		<sample weight="1" path="thebusterfolder/buster_whistle_2.wav"/>
+		<sample weight="1" path="thebusterfolder/buster_whistle_3.wav"/>
+	</sound>
+    <sound name="PollutionWins2">
+		<sample weight="1" path="region.wav"/>
+	</sound>
+    <sound name="DrShambleHeal">
+		<sample weight="1" path="MAGIC1.wav"/>
+		<sample weight="1" path="MAGIC2.wav"/>
+	</sound>
+    <sound name="BatBaseballHit">
+		<sample weight="1" path="bat_baseball_hit1.wav"/>
+		<sample weight="1" path="bat_baseball_hit2.wav"/>
+	</sound>
+    <sound name="FishRoll">
+		<sample weight="1" path="SndRoll.wav"/>
+	</sound>
+    <sound name="FishRollVA">
+		<sample weight="1" path="FishRoll.wav"/>
+	</sound>
+    <sound name="FishAppearVA">
+		<sample weight="1" path="SndMutant1Wrld.wav"/>
+	</sound>
+    <sound name="FishHurtVA">
+		<sample weight="1" path="SndMutant1LowH.wav"/>
+	</sound>
+	<sound name="SlideWhistle">
+		<sample weight="1" path="SlideWhistle1.wav"/>
+		<sample weight="1" path="SlideWhistle2.wav"/>
+		<sample weight="1" path="SlideWhistle3.wav"/>
+		<sample weight="1" path="SlideWhistle4.wav"/>
+		<sample weight="1" path="SlideWhistle5.wav"/>
+		<sample weight="1" path="SlideWhistle6.wav"/>
+	</sound>
+    <sound name="WatcherEyeShoot">
+		<sample weight="1" path="watcher/watcher_eye_shoot1.wav"/>
+	</sound>
+    <sound name="WatcherShootStart">
+		<sample weight="1" path="watcher/watcher_shoot_start.wav"/>
+	</sound>
+    <sound name="WatcherShootEnd">
+		<sample weight="1" path="watcher/watcher_shoot_end.wav"/>
+	</sound>
+    <sound name="WatcherTeliInStart">
+		<sample weight="1" path="watcher/watcher_teleportin_start.wav"/>
+	</sound>
+    <sound name="WatcherTeliInEnd">
+		<sample weight="1" path="watcher/watcher_teleportin_end.wav"/>
+	</sound>
+    <sound name="WatcherTeliOutStart">
+		<sample weight="1" path="watcher/watcher_teleportout_start.wav"/>
+	</sound>
+    <sound name="WatcherTeliOutEnd">
+		<sample weight="1" path="watcher/watcher_teleportout_end.wav"/>
+	</sound>
+    <sound name="GravediggerDig">
+		<sample weight="1" path="gravedigger_dig.wav"/>
+	</sound>
+    <sound name="GravediggerDigUp">
+		<sample weight="1" path="gravedigger_digup.wav"/>
+	</sound>
+    <sound name="CisternAttack">
+		<sample weight="1" path="cistern/cistern_attack1.wav"/>
+		<sample weight="1" path="cistern/cistern_attack2.wav"/>
+	</sound>
+    <sound name="CisternWhimper">
+		<sample weight="1" path="cistern/cistern_whimper1.wav"/>
+		<sample weight="1" path="cistern/cistern_whimper2.wav"/>
+		<sample weight="1" path="cistern/cistern_whimper3.wav"/>
+	</sound>
+    <sound name="SpeedyStart">
+		<sample weight="1" path="Ghost138.wav"/>
+		<sample weight="1" path="Ghost139.wav"/>
+	</sound>
+    <sound name="SpeedyChargeStart">
+		<sample weight="1" path="Ghost61.wav"/>
+	</sound>
+    <sound name="SpeedyChargeBash">
+		<sample weight="1" path="Ghost60.wav"/>
+	</sound>
+    <sound name="SpeedySmugass">
+		<sample weight="1" path="Ghost23.wav"/>
+	</sound>
+    <sound name="BashfulSpotted">
+		<sample weight="1" path="Ghost124.wav"/>
+		<sample weight="1" path="Ghost125.wav"/>
+		<sample weight="1" path="Ghost126.wav"/>
+	</sound>
+    <sound name="PokeyCrazy">
+		<sample weight="1" path="Ghost105.wav"/>
+		<sample weight="1" path="Ghost106.wav"/>
+		<sample weight="1" path="Ghost107.wav"/>
+	</sound>
+    <sound name="PokeyCalm">
+		<sample weight="1" path="Ghost99.wav"/>
+	</sound>
+    <sound name="ChaserPickup">
+		<sample weight="1" path="Ghost42.wav"/>
+	</sound>
+    <sound name="ChaserLaunch">
+		<sample weight="1" path="Ghost29.wav"/>
+	</sound>
+    <sound name="ChaserWhimper">
+		<sample weight="1" path="Ghost32.wav"/>
+	</sound>
+    <sound name="GhostFizzle">
+		<sample weight="1" path="ghostfizzle.wav"/>
+	</sound>
+    <sound name="Archvile">
+		<sample weight="1" path="dsskesit.wav"/>
+	</sound>
+    <sound name="FlashBaby">
+		<sample weight="1" path="flashBaby1.wav"/>
+		<sample weight="1" path="flashBaby2.wav"/>
+		<sample weight="1" path="flashBaby3.wav"/>
+	</sound>
+    <sound name="ChoriSing">
+		<sample weight="1" path="Ghost10.wav"/>
+	</sound>
+    <sound name="Monch">
+		<sample weight="1" path="monch.wav"/>
+	</sound>
+    <sound name="FiendFolioBook">
+		<sample weight="1" path="items/thefiendfolio bigbook.wav"/>
+	</sound>
+    <sound name="BeeBuzz">
+		<sample weight="1" path="beebuzz.wav"/>
+	</sound>
+    <sound name="BeeBuzzPrep">
+		<sample weight="1" path="beebuzzPrep.wav"/>
+	</sound>
+    <sound name="BeeBuzzDown">
+		<sample weight="1" path="beebuzzDown.wav"/>
+	</sound>
+    <sound name="Burpie">
+		<sample weight="1" path="burp.wav"/>
+	</sound>
+    <sound name="WaterSwish">
+		<sample weight="1" path="waterSwish1.wav"/>
+		<sample weight="1" path="waterSwish2.wav"/>
+	</sound>
+    <sound name="GlobGulp">
+		<sample weight="1" path="GLOGLO1.wav"/>
+		<sample weight="1" path="GLOGLO2.wav"/>
+	</sound>
+    <sound name="GlobSwallow">
+		<sample weight="1" path="GLOMALIN.wav"/>
+	</sound>
+    <sound name="GlobSurprise">
+		<sample weight="1" path="Gl_flip1.wav"/>
+	</sound>
+    <sound name="BubbleLaunch">
+		<sample weight="1" path="BUBBLE2.wav"/>
+	</sound>
+    <sound name="ArcaneFizzle">
+		<sample weight="1" path="arcaneFizzle.wav"/>
+	</sound>
+    <sound name="LightningImpact">
+		<sample weight="1" path="LightningImpact.wav"/>
+	</sound>
+    <sound name="ClothRip">
+		<sample weight="1" path="ClothRip1.wav"/>
+	</sound>
+	<sound name="TearFireFuckYouRevv">
+		<sample weight="1" path="tear fire 4.wav" />
+		<sample weight="1" path="tear fire 5.wav" />
+	</sound>
+	<sound name="FlashDevilCard">
+		<sample weight="1" path="FlashDevilCard.wav" />
+		<sample weight="1" path="FlashDeathCard.wav" />
+	</sound>
+	<sound name="FlashSatanBlast">
+		<sample weight="1" path="FlashSatanBlast.wav" />
+	</sound>
+	<sound name="FlashSatanHurt">
+		<sample weight="1" path="FlashSatanHurt.wav" />
+	</sound>
+	<sound name="FlashSatanSpit1">
+		<sample weight="1" path="FlashSatanSpit1.wav" />
+	</sound>
+	<sound name="FlashSatanSpit2">
+		<sample weight="1" path="FlashSatanSpit2.wav" />
+	</sound>
+	<sound name="FlashSatanCharge">
+		<sample weight="1" path="FlashSatanCharge.wav" />
+	</sound>
+	<sound name="PinballFlipper">
+		<sample weight="1" path="pinballFlipper.wav" />
+	</sound>
+	<sound name="PinballHit">
+		<sample weight="1" path="pinballhit_1.wav" />
+		<sample weight="1" path="pinballhit_2.wav" />
+		<sample weight="1" path="pinballhit_3.wav" />
+		<sample weight="1" path="pinballhit_4.wav" />
+		<sample weight="1" path="pinballhit_5.wav" />
+	</sound>
+	<sound name="FiendHurt">
+		<sample weight="1" path="fiiiiend/fiend_hurt01.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt02.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt03.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt04.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt05.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt06.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt07.wav" />
+		<sample weight="1" path="fiiiiend/fiend_hurt08.wav" />
+	</sound>
+	<sound name="FiendDies">
+		<sample weight="1" path="fiiiiend/fiend_death.wav" />
+	</sound>
+	<sound name="FlashZap">
+		<sample weight="1" path="FlashZap01.wav" />
+		<sample weight="1" path="FlashZap02.wav" />
+		<sample weight="1" path="FlashZap03.wav" />
+	</sound>
+	<sound name="PHSwordSwing">
+		<sample weight="1" path="tf_katana_04.wav" />
+		<sample weight="1" path="tf_katana_05.wav" />
+	</sound>
+	<sound name="PHSwordHit">
+		<sample weight="1" path="tf_katana_slice_01.wav" />
+		<sample weight="1" path="tf_katana_slice_02.wav" />
+		<sample weight="1" path="tf_katana_slice_03.wav" />
+	</sound>
+	<sound name="ImpSodaCrit">
+		<sample weight="1" path="impact_crit_soda.wav" />
+	</sound>
+	<sound name="CritShoot">
+		<sample weight="1" path="critShoot.wav" />
+	</sound>
+	<sound name="FunnyBonk">
+		<sample weight="1" path="meltdown/funnybonk.wav" />
+	</sound>
+	<sound name="Nuke">
+		<sample weight="1" path="meltdown/meltdown_phase1_nuke.wav" />
+	</sound>
+	<sound name="Boink">
+		<sample weight="1" path="meltdown/boink.wav" />
+	</sound>
+	<sound name="MetalDrop">
+		<sample weight="1" path="meltdown/metalDrop.wav" />
+	</sound>
+	<sound name="RiseUp">
+		<sample weight="1" path="meltdown/riseup.wav" />
+	</sound>	
+	<sound name="ShottieShot">
+		<sample weight="1" path="shottie_shot.wav" />
+	</sound>
+	<sound name="ShottieFlak">
+		<sample weight="1" path="shottie_flak.wav" />
+	</sound>
+	<sound name="ShottieReload">
+		<sample weight="1" path="shottie_reload.wav" />
+	</sound>
+	<sound name="Plorp">
+		<sample weight="1" path="plorp_1.wav" />
+		<sample weight="1" path="plorp_2.wav" />
+		<sample weight="1" path="plorp_3.wav" />
+		<sample weight="1" path="plorp_4.wav" />
+	</sound>
+
+	<sound name="MDP1_DashEnd">
+		<sample weight="1" path="meltdown/meltdown_phase1_dashend.wav" />
+	</sound>
+	<sound name="MDP1_DashStartGrah">
+		<sample weight="1" path="meltdown/meltdown_phase1_dashstart_grah.wav" />
+	</sound>
+	<sound name="MDP1_DashStartScream">
+		<sample weight="1" path="meltdown/meltdown_phase1_dashstart_scream.wav" />
+	</sound>
+	<sound name="MDP1_DashStartStart">
+		<sample weight="1" path="meltdown/meltdown_phase1_dashstart_start.wav" />
+	</sound>
+	<sound name="MDP1_Flinch">
+		<sample weight="1" path="meltdown/meltdown_phase1_flinch_1_1.wav" />
+		<sample weight="1" path="meltdown/meltdown_phase1_flinch_1_2.wav" />
+		<sample weight="1" path="meltdown/meltdown_phase1_flinch_1_3.wav" />
+	</sound>
+	<sound name="MDP1_HitHorseScream">
+		<sample weight="1" path="meltdown/meltdown_phase1_hithorse_scream.wav" />
+	</sound>
+	<sound name="MDP1_HitHorseStart">
+		<sample weight="1" path="meltdown/meltdown_phase1_hithorse_start.wav" />
+	</sound>
+	<sound name="MDP1_TNT_1">
+		<sample weight="1" path="meltdown/meltdown_phase1_tnt_1_1.wav" />
+	</sound>
+	<sound name="MDP1_TNT_2">
+		<sample weight="1" path="meltdown/meltdown_phase1_tnt_1_2.wav" />
+	</sound>
+	<sound name="MDP1_TNT_3">
+		<sample weight="1" path="meltdown/meltdown_phase1_tnt_1_3.wav" />
+	</sound>
+	<sound name="MDP1_TransGrr">
+		<sample weight="1" path="meltdown/meltdown_phase1_transition_grr.wav" />
+	</sound>
+	<sound name="MDP1_TransitionStrangle">
+		<sample weight="1" path="meltdown/meltdown_phase1_transition_strangle.wav" />
+	</sound>
+	<sound name="MDP1_TransThrow">
+		<sample weight="1" path="meltdown/meltdown_phase1_transition_throw.wav" />
+	</sound>
+	<sound name="MDP2_Appear">
+		<sample weight="1" path="meltdown/meltdown_phase2_appear.wav" />
+	</sound>
+	<sound name="MDP2_Death">
+		<sample weight="1" path="meltdown/meltdown_phase2_death.wav" />
+	</sound>
+	<sound name="MDP2_PickupOhboy">
+		<sample weight="1" path="meltdown/meltdown_phase2_pickupbomb_ohboy.wav" />
+	</sound>
+	<sound name="MDP2_PickupPickup">
+		<sample weight="1" path="meltdown/meltdown_phase2_pickupbomb_pickup.wav" />
+	</sound>
+	<sound name="MDP2_PickupScream">
+		<sample weight="1" path="meltdown/meltdown_phase2_pickupbomb_scream.wav" />
+	</sound>
+	<sound name="MDP2_PickupStrain">
+		<sample weight="1" path="meltdown/meltdown_phase2_pickupbomb_strain.wav" />
+	</sound>
+	<sound name="MDP2_Throw">
+		<sample weight="1" path="meltdown/meltdown_phase2_throw.wav" />
+	</sound>
+	<sound name="MDP2_ThrowStrain">
+		<sample weight="1" path="meltdown/meltdown_phase2_throwbomb_strain.wav" />
+	</sound>
+
+
+	<sound name="FartFrog1">
+		<sample weight="1" path="fartSmall.wav" />
+	</sound>
+	<sound name="FartFrog2">
+		<sample weight="1" path="fartMedium.wav" />
+	</sound>
+	<sound name="FartFrog3">
+		<sample weight="1" path="fartBig.wav" />
+	</sound>
+	<sound name="FartFrog4">
+		<sample weight="1" path="fartMega.wav" />
+	</sound>
+	<sound name="DichromaticGraze">
+		<sample weight="1" path="se_graze.wav" />
+	</sound>
+	<sound name="MarioWarp">
+		<sample weight="1" path="teleportnobass.wav" />
+	</sound>
+	<sound name="MeatBoyLaser">
+		<sample weight="1" path="meatboy_laser_loop.wav" />
+	</sound>
+	<sound name="SchwingDingALing">
+		<sample weight="1" path="SchwingDingALing.wav" />
+	</sound>
+	<sound name="HSTier1">
+		<sample weight="1" path="hsTierRare.wav" />
+	</sound>
+	<sound name="HSTier2">
+		<sample weight="1" path="hsTierEpic.wav" />
+	</sound>
+	<sound name="HSTier3">
+		<sample weight="1" path="hsTierLeg.wav" />
+	</sound>
+	<sound name="AGShoot">
+		<sample weight="1" path="aquagob/Shoot01.wav" />
+		<sample weight="1" path="aquagob/Shoot02.wav" />
+		<sample weight="1" path="aquagob/Shoot03.wav" />
+		<sample weight="1" path="aquagob/Shoot04.wav" />
+		<sample weight="1" path="aquagob/Shoot05.wav" />
+	</sound>
+	<sound name="AGOugh">
+		<sample weight="1" path="aquagob/Ough01.wav" />
+		<sample weight="1" path="aquagob/Ough02.wav" />
+		<sample weight="1" path="aquagob/Ough03.wav" />
+	</sound>
+	<sound name="AGJump">
+		<sample weight="1" path="aquagob/Jump01.wav" />
+		<sample weight="1" path="aquagob/Jump02.wav" />
+		<sample weight="1" path="aquagob/Jump03.wav" />
+	</sound>
+	<sound name="AGWheeze">
+		<sample weight="1" path="aquagob/Wheeze01.wav" />
+		<sample weight="1" path="aquagob/Wheeze02.wav" />
+		<sample weight="1" path="aquagob/Wheeze03.wav" />
+		<sample weight="1" path="aquagob/Wheeze04.wav" />
+	</sound>
+	<sound name="FlashMuffledRoar">
+		<sample weight="1" path="FlashMuffledRoar.wav" />
+	</sound>
+
+	<sound name="Dusk1">
+		<sample weight="1" path="dusk/Dusk1.wav" />
+	</sound>
+	<sound name="Dusk2">
+		<sample weight="1" path="dusk/Dusk2.wav" />
+	</sound>
+	<sound name="Dusk3">
+		<sample weight="1" path="dusk/Dusk3.wav" />
+	</sound>
+	<sound name="Dusk4">
+		<sample weight="1" path="dusk/Dusk4.wav" />
+	</sound>
+	<sound name="Dusk5">
+		<sample weight="1" path="dusk/Dusk5.wav" />
+	</sound>
+	<sound name="DuskDeath">
+		<sample weight="1" path="dusk/DuskDeath.wav" />
+	</sound>
+	<sound name="DuskScream">
+		<sample weight="1" path="dusk/DuskScream1.wav" />
+		<sample weight="1" path="dusk/DuskScream2.wav" />
+		<sample weight="1" path="dusk/DuskScream3.wav" />
+	</sound>
+	<sound name="DuskSpin1">
+		<sample weight="1" path="dusk/DuskSpin1.wav" />
+	</sound>
+	<sound name="DuskSpin2">
+		<sample weight="1" path="dusk/DuskSpin2.wav" />
+	</sound>
+	<sound name="DuskSpin3">
+		<sample weight="1" path="dusk/DuskSpin3.wav" />
+	</sound>
+	<sound name="DuskIntroScream">
+		<sample weight="1" path="dusk/IntroScreamDusk.wav" />
+	</sound>
+	<sound name="DuskShoot">
+		<sample weight="1" path="dusk/DuskShoot.wav" />
+	</sound>
+	<sound name="DuskDumbass">
+		<sample weight="1" path="dusk/DuskDumbass.wav" />
+	</sound>
+	<sound name="Kalu">
+		<sample weight="1" path="dusk/Kalu1.wav" />
+		<sample weight="1" path="dusk/Kalu2.wav" />
+	</sound>
+	<sound name="CrunchyEddy">
+		<sample weight="1" path="CrunchyEddy01.wav" />
+		<sample weight="1" path="CrunchyEddy02.wav" />
+	</sound>
+	<sound name="StatusProjectile1">
+		<sample weight="1" path="StatusProjectile1.wav" />
+	</sound>
+	<sound name="StatusProjectile2">
+		<sample weight="1" path="StatusProjectile2.wav" />
+	</sound>
+	<sound name="StatusProjectile3">
+		<sample weight="1" path="StatusProjectile3.wav" />
+	</sound>
+	<sound name="PunchBuildup">
+		<sample weight="1" path="punchBuildup.wav" />
+	</sound>
+	<sound name="CardDraw">
+		<sample weight="1" path="cardDraw.wav" />
+	</sound>
+	<sound name="CardFlip">
+		<sample weight="1" path="cardFlip.wav" />
+	</sound>
+	<sound name="CardMove">
+		<sample weight="1" path="cardMove.wav" />
+	</sound>
+	<sound name="ChipPull">
+		<sample weight="1" path="chipPull.wav" />
+	</sound>
+	<sound name="PokerBoyLaugh">
+		<sample weight="1" path="lunaticModLaugh.wav" />
+	</sound>
+	<sound name="PokerBoyYell">
+		<sample weight="1" path="ROULI2.wav" />
+	</sound>
+	<sound name="ClapSong">
+		<sample weight="1" path="clapsong.wav" />
+	</sound>
+	<sound name="ClapPickup">
+		<sample weight="1" path="clappickup.wav" />
+	</sound>
+	<sound name="DogmaScreamNoBaby">
+		<sample weight="1" path="screaming baby static babyless.wav" />
+	</sound>
+	<sound name="FemurBreaker">
+		<sample weight="1" path="femurbreaker.wav" />
+	</sound>
+	<sound name="GhostBoof">
+		<sample weight="1" path="ghostBoof.wav" />
+	</sound>
+	<sound name="MeatyBurst">
+		<sample weight="1" path="meatyBurst.wav" />
+		<sample weight="1" path="meatyBurst2.wav" />
+	</sound>
+	<sound name="MeatySquish">
+		<sample weight="1" path="meatSquish.wav" />
+	</sound>
+	<sound name="LightSwitch">
+		<sample weight="1" path="switch-10.wav"/>
+	</sound>
+	<sound name="SniperRifleFire">
+		<sample weight="1" path="sniper_shoot_large.wav"/>
+	</sound>
+	<sound name="GunDraw">
+		<sample weight="1" path="gunpickup2.wav"/>
+	</sound>
+	<sound name="CleaverThrow">
+		<sample weight="1" path="cleaver_throw.wav"/>
+	</sound>
+	<sound name="CleaverHit">
+		<sample weight="1" path="cleaver_hit_02.wav"/>
+		<sample weight="1" path="cleaver_hit_03.wav"/>
+		<sample weight="1" path="cleaver_hit_05.wav"/>
+		<sample weight="1" path="cleaver_hit_06.wav"/>
+		<sample weight="1" path="cleaver_hit_07.wav"/>
+	</sound>
+	<sound name="Anvil">
+		<sample weight="1" path="Anvil1.wav" />
+		<sample weight="1" path="Anvil2.wav" />
+	</sound>
+	<sound name="CleaverHitWorld">
+		<sample weight="1" path="cleaver_hit_world.wav"/>
+	</sound>
+	<sound name="GrappleGrab">
+		<sample weight="1" path="grapple_grab.wav"/>
+	</sound>
+	<sound name="FunnyHello">
+		<sample weight="1" path="browned_FunnyHello.wav"/>
+	</sound>
+	<sound name="BabyGasp">
+		<sample weight="1" path="browned_BabyGasp.wav"/>
+	</sound>
+	<sound name="CatSqueal">
+		<sample weight="1" path="browned_CatSqueal.wav"/>
+	</sound>
+	<sound name="MamaDoll">
+		<sample weight="1" path="browned_MamaDoll.wav"/>
+	</sound>
+	<sound name="MonkeyScream">
+		<sample weight="1" path="browned_MonkeyScream.wav"/>
+	</sound>
+	<sound name="Orangutan">
+		<sample weight="1" path="browned_Orangutan.wav"/>
+	</sound>
+	<sound name="Subaluwa">
+		<sample weight="1" path="browned_Subaluwa.wav"/>
+	</sound>
+	<sound name="EpicHorn">
+		<sample weight="1" path="browned_EpicHorn.wav"/>
+	</sound>
+	<sound name="WolfWhistle">
+		<sample weight="1" path="browned_WolfWhistle.wav"/>
+	</sound>
+	<sound name="YodelGoofy">
+		<sample weight="1" path="browned_YodelGoofy.wav"/>
+	</sound>
+
+	<sound name="Tsar">
+		<sample weight="1" path="tsar/Tsar1.wav" />
+		<sample weight="1" path="tsar/Tsar2.wav" />
+		<sample weight="1" path="tsar/Tsar3.wav" />
+		<sample weight="1" path="tsar/Tsar4.wav" />
+		<sample weight="1" path="tsar/Tsar5.wav" />
+	</sound>
+	<sound name="TsarBurp">
+		<sample weight="1" path="tsar/Burp.wav" />
+	</sound>
+	<sound name="TsarCough">
+		<sample weight="1" path="tsar/Cough1.wav" />
+		<sample weight="1" path="tsar/Cough2.wav" />
+	</sound>
+	<sound name="TsarEmerge">
+		<sample weight="1" path="tsar/Emerge.wav" />
+	</sound>
+	<sound name="TsarKalu">
+		<sample weight="1" path="tsar/Kalu.wav" />
+	</sound>
+	<sound name="TsarGrateEnter">
+		<sample weight="1" path="tsar/TsarGrateEnter1.wav" />
+		<sample weight="1" path="tsar/TsarGrateEnter2.wav" />
+		<sample weight="1" path="tsar/TsarGrateEnter3.wav" />
+	</sound>
+	<sound name="TsarYouOkayThereBuddyCanWeGetYouSomethingToDrink">
+		<sample weight="1" path="tsar/youokbuddywecangetyousomethingtodrinkwecangetsomeonetocleanupthefloortoodontworryaboutit.wav" />
+	</sound>
+	<sound name="TsarDie">
+		<sample weight="1" path="tsar/Die.wav" />
+	</sound>
+	<sound name="TsarJump">
+		<sample weight="1" path="tsar/Jump.wav" />
+	</sound>
+	<sound name="RipcordIdle">
+		<sample weight="1" path="ripcord_idle_1.wav"/>
+		<sample weight="0.5" path="ripcord_idle_2.wav"/>
+	</sound>
+	<sound name="RipcordReveal">
+		<sample weight="1" path="ripcord_reveal.wav"/>
+	</sound>
+	<sound name="RipcordShitting">
+		<sample weight="1" path="ripcord_shitting.wav"/>
+	</sound>
+	<sound name="RipcordPop">
+		<sample weight="1" path="ripcord_pop.wav"/>
+	</sound>
+	<sound name="SourceMeatSoft">
+		<sample weight="1" path="body_medium_impact_soft1.wav" />
+		<sample weight="1" path="body_medium_impact_soft2.wav" />
+		<sample weight="1" path="body_medium_impact_soft3.wav" />
+		<sample weight="1" path="body_medium_impact_soft4.wav" />
+		<sample weight="1" path="body_medium_impact_soft5.wav" />
+		<sample weight="1" path="body_medium_impact_soft6.wav" />
+		<sample weight="1" path="body_medium_impact_soft7.wav" />
+	</sound>
+	<sound name="MadnessDeath">
+		<sample weight="1" path="madnessDeath.wav" />
+	</sound>
+	<sound name="MadnessPunch">
+		<sample weight="1" path="madnessPunch01.wav" />
+		<sample weight="1" path="madnessPunch02.wav" />
+		<sample weight="1" path="madnessPunch03.wav" />
+		<sample weight="1" path="madnessPunch04.wav" />
+	</sound>
+	<sound name="MadnessSplash">
+		<sample weight="1" path="MadnessSplash01.wav" />
+		<sample weight="1" path="MadnessSplash02.wav" />
+		<sample weight="1" path="MadnessSplash03.wav" />
+		<sample weight="1" path="MadnessSplash04.wav" />
+	</sound>
+	<sound name="Crow">
+		<sample weight="1" path="crow.wav" />
+	</sound>
+	<sound name="Doomed Proc">
+		<sample weight="1" path="DOOMEDproc.wav" />
+	</sound>
+	<sound name="Piano1">
+		<sample weight="1" path="Piano1.wav" />
+	</sound>
+	<sound name="Piano2">
+		<sample weight="1" path="Piano2.wav" />
+	</sound>
+	<sound name="Piano3">
+		<sample weight="1" path="Piano3.wav" />
+	</sound>
+	<sound name="Berserk Tick custom">
+		<sample weight="1" path="berserktickcopy.wav" />
+	</sound>
+	<sound name="Fiend Heart Drop">
+		<sample weight="1" path="fiend_heart_drop.wav" />
+	</sound>
+	<sound name="Fiend Heart Pickup">
+		<sample weight="1" path="fiend_heart_pickup.wav" />
+	</sound>
+	<sound name="Fiend Heart Pickup Rare">
+		<sample weight="1" path="fiend_heart_pickup2.wav" />
+	</sound>
+	<sound name="ShiScream">
+		<sample weight="1" path="ShiScream.wav" />
+	</sound>
+	<sound name="MurasaWarp">
+		<sample weight="1" path="murasa/murasaWarp.wav" />
+	</sound>
+	<sound name="AnchorCrash">
+		<sample weight="1" path="murasa/anchorCrash.wav" />
+	</sound>
+	<sound name="AnchorSpawn">
+		<sample weight="1" path="murasa/anchorSpawn.wav" />
+	</sound>
+	<sound name="MurasaSparkle">
+		<sample weight="1" path="murasa/kira.wav" />
+	</sound>
+	<sound name="MurasaDamaged">
+		<sample weight="1" path="murasa/murasaDamaged.wav" />
+	</sound>
+	<sound name="MurasaDeath">
+		<sample weight="1" path="murasa/murasaDeath.wav" />
+	</sound>
+	<sound name="MurasaFire">
+		<sample weight="1" path="murasa/murasaFire.wav" />
+	</sound>
+	<sound name="MurasaSpell">
+		<sample weight="1" path="murasa/murasaSpell.wav" />
+	</sound>
+	<sound name="MurasaTimeout">
+		<sample weight="1" path="murasa/murasaTimeout.wav" />
+	</sound>	
+	<sound name="PunisherGroan">
+		<sample weight="1" path="punishergroan.wav"/>
+	</sound>
+	<sound name="ZealotLockOn">
+		<sample weight="1" path="ZealotLockOn.wav"/>
+	</sound>
+	<sound name="ZealotBoom">
+		<sample weight="1" path="BeamBoom.wav"/>
+	</sound>
+	<sound name="ZealotHum">
+		<sample weight="1" path="BeamHum.wav"/>
+	</sound>
+	<sound name="ZealotFade">
+		<sample weight="1" path="BeamFade.wav"/>
+	</sound>
+	<sound name="Blaargh">
+		<sample weight="1" path="Blaargh.wav"/>
+	</sound>
+	<sound name="CartoonGulp">
+		<sample weight="1" path="CartoonGulp.wav"/>
+	</sound>
+	<sound name="FlamethrowerLoop">
+		<sample weight="1" path="FlamethrowerLoop.wav"/>
+	</sound>
+	<sound name="PipeClunk1">
+		<sample weight="1" path="PipeClunk1.wav"/>
+	</sound>
+	<sound name="PipeClunk2">
+		<sample weight="1" path="PipeClunk2.wav"/>
+	</sound>
+	<sound name="PipeShift">
+		<sample weight="1" path="PipeShift.wav"/>
+	</sound>
+	<sound name="BucketClang">
+		<sample weight="1" path="BucketShort.wav"/>
+	</sound>
+	<sound name="BucketKick">
+		<sample weight="1" path="BucketKick.wav"/>
+	</sound>
+	<sound name="PeeLong1">
+		<sample weight="1" path="PeeLong1.wav"/>
+	</sound>
+	<sound name="PeeLong2">
+		<sample weight="1" path="PeeLong2.wav"/>
+	</sound>
+	<sound name="StolasScreech">
+		<sample weight="1" path="StolasScreech1.wav"/>
+		<sample weight="1" path="StolasScreech2.wav"/>
+		<sample weight="1" path="StolasScreech3.wav"/>
+	</sound>
+	<sound name="pvzBucket">
+		<sample weight="1" path="pvzBucket1.wav"/>
+		<sample weight="1" path="pvzBucket2.wav"/>
+	</sound>
+	<sound name="DrillStart">
+		<sample weight="1" path="DrillStart.wav"/>
+	</sound>
+	<sound name="DrillLoop">
+		<sample weight="1" path="DrillLoop.wav"/>
+	</sound>
+	<sound name="DrillStop">
+		<sample weight="1" path="DrillStop.wav"/>
+	</sound>
+	<sound name="DungeonMasterGrunt">
+		<sample weight="1" path="DungeonMaster1.wav"/>
+	</sound>
+	<sound name="DungeonMasterSwipe">
+		<sample weight="1" path="DungeonMaster2.wav"/>
+		<sample weight="1" path="DungeonMaster4.wav"/>
+	</sound>
+	<sound name="DungeonMasterDead">
+		<sample weight="1" path="DungeonMaster3.wav"/>
+	</sound>
+	<sound name="Caca1">
+		<sample weight="1" path="cacomancer/cacomancer1.wav"/>
+	</sound>
+	<sound name="Caca2">
+		<sample weight="1" path="cacomancer/cacomancer2.wav"/>
+	</sound>
+	<sound name="Caca3">
+		<sample weight="1" path="cacomancer/cacomancer3.wav"/>
+	</sound>
+	<sound name="Caca4">
+		<sample weight="1" path="cacomancer/cacomancer4.wav"/>
+	</sound>
+	<sound name="Caca5">
+		<sample weight="1" path="cacomancer/cacomancer5.wav"/>
+	</sound>
+	<sound name="Caca6">
+		<sample weight="1" path="cacomancer/cacomancer6.wav"/>
+	</sound>
+	<sound name="Caca7">
+		<sample weight="1" path="cacomancer/cacomancer7.wav"/>
+		<sample weight="1" path="cacomancer/charge1.wav"/>
+	</sound>
+	<sound name="CacaDeath">
+		<sample weight="1" path="cacomancer/cacomancerdeath.wav"/>
+	</sound>
+	<sound name="CacaIDKLOL">
+		<sample weight="1" path="cacomancer/idk_LOL.wav"/>
+	</sound>
+	<sound name="CrowdCheer">
+		<sample weight="1" path="crowdCheer.wav"/>
+	</sound>
+	<sound name="robotRock">
+		<sample weight="1" path="robotrock.wav"/>
+	</sound>
+	<sound name="DolphinLaugh">
+		<sample weight="1" path="DolphinLaugh.wav"/>
+	</sound>
+	<sound name="Melatonin">
+		<sample weight="1" path="melatonin.wav"/>
+	</sound>
+	<sound name="fossilObtain">
+		<sample weight="1" path="fossilObtain.wav"/>
+		<sample weight="1" path="fossilObtain2.wav"/>
+	</sound>
+	<sound name="focusCrystal">
+		<sample weight="1" path="proc_nearbyDamageBonus_1.wav"/>
+		<sample weight="1" path="proc_nearbyDamageBonus_2.wav"/>
+		<sample weight="1" path="proc_nearbyDamageBonus_3.wav"/>
+		<sample weight="1" path="proc_nearbyDamageBonus_4.wav"/>
+		<sample weight="1" path="proc_nearbyDamageBonus_5.wav"/>
+		<sample weight="1" path="proc_nearbyDamageBonus_6.wav"/>
+	</sound>
+	<sound name="SawAttach">
+		<sample weight="1" path="SawAttach.wav"/>
+	</sound>
+	<sound name="SawAmbient">
+		<sample weight="1" path="SawAmbient.wav"/>
+	</sound>
+	<sound name="SawImpact">
+		<sample weight="1" path="SawImpact1.wav"/>
+		<sample weight="1" path="SawImpact2.wav"/>
+	</sound>
+	<sound name="YgoCard">
+		<sample weight="1" path="ygocard.wav" />
+	</sound>
+	<sound name="CrocaIdle">
+		<sample weight="1" path="croca_idle_4.wav" />
+	</sound>
+	<sound name="CrocaCharge">
+		<sample weight="1" path="croca_charge_1.wav" />
+		<sample weight="1" path="croca_charge_3.wav" />
+	</sound>
+	<sound name="AceVenturaLaugh">
+		<sample weight="1" path="aceVenturaLaugh.wav"/>
+	</sound>
+	<sound name="AceVenturaLaughShort">
+		<sample weight="1" path="aceVenturaLaughShort.wav"/>
+	</sound>
+	<sound name="TBRing">
+		<sample weight="1" path="tb_phonering.wav"/>
+	</sound>
+	<sound name="TBPickup">
+		<sample weight="1" path="tb_pickup.wav"/>
+	</sound>
+	<sound name="TBBen">
+		<sample weight="1" path="tb_ben.wav"/>
+	</sound>
+	<sound name="TBYes">
+		<sample weight="1" path="tb_yes.wav"/>
+	</sound>
+	<sound name="TBNo">
+		<sample weight="1" path="tb_no.wav"/>
+	</sound>
+	<sound name="TBHeartyLaugh">
+		<sample weight="1" path="tb_heartylaugh.wav"/>
+	</sound>
+	<sound name="TBHeartyLaughShort">
+		<sample weight="1" path="tb_heartylaugh_short.wav"/>
+	</sound>
+	<sound name="TBEurgh">
+		<sample weight="1" path="tb_eurgh.wav"/>
+	</sound>
+	<sound name="TBHangup">
+		<sample weight="1" path="tb_hangup.wav"/>
+	</sound>
+	<sound name="DirePayout">
+		<sample weight="1" path="dire_payout.wav"/>
+	</sound>
+	<sound name="MinionSoundscape">
+		<sample weight="1" path="minion1.wav"/>
+		<sample weight="1" path="minion2.wav"/>
+		<sample weight="1" path="minion3.wav"/>
+	</sound>
+	<sound name="DeadEyeBurst">
+		<sample weight="1" path="cartoon_pop.wav"/>
+	</sound>
+	<sound name="BertranStep">
+		<sample weight="1" path="bertran_step.wav"/>
+	</sound>
+	<sound name="BertranSlap">
+		<sample weight="1" path="bertran_meatimpact.wav"/>
+		<sample weight="1" path="bertran_meatimpact2.wav"/>
+	</sound>
+	<sound name="PitchforkHit">
+		<sample weight="1" path="PitchforkHit1.wav"/>
+	</sound>
+	<sound name="GodheadTearsCopy">
+		<sample weight="1" path="godhead tears copy.wav"/>
+	</sound>
+	<sound name="FunnyFart">
+		<sample weight="1" path="funnyfart1.wav"/>
+		<sample weight="1" path="funnyfart2.wav"/>
+		<sample weight="1" path="funnyfart3.wav"/>
+		<sample weight="1" path="funnyfart4.wav"/>
+	</sound>
+	<sound name="SadBear">
+		<sample weight="1" path="sadbear.wav"/>
+	</sound>
+	<sound name="RMGasp">
+		<sample weight="1" path="RMGasp1.wav"/>
+		<sample weight="1" path="RMGasp2.wav"/>
+		<sample weight="1" path="RMGasp3.wav"/>
+	</sound>
+	<sound name="BookShut">
+		<sample weight="1" path="BookShut2.wav"/>
+	</sound>
+	<sound name="PageTurning">
+		<sample weight="1" path="PageTurning.wav"/>
+	</sound>
+	<sound name="PaperDeath">
+		<sample weight="1" path="PaperDeath.wav"/>
+	</sound>
+	<sound name="warpZonePortal">
+		<sample weight="1" path="warpZonePortal.wav"/>
+	</sound>
+	<sound name="warpZonePhase">
+		<sample weight="1" path="warpZonePhase.wav"/>
+	</sound>
+	<sound name="warpZoneMeatBoy">
+		<sample weight="1" path="warpZoneMeatBoy.wav"/>
+	</sound>
+	<sound name="footballPunt">
+		<sample weight="1" path="football_1.wav"/>
+		<sample weight="1" path="football_2.wav"/>
+		<sample weight="1" path="football_3.wav"/>
+	</sound>
+	<sound name="golemHurt">
+		<sample weight="1" path="golem/golemHurt01.wav"/>
+		<sample weight="1" path="golem/golemHurt02.wav"/>
+		<sample weight="1" path="golem/golemHurt03.wav"/>
+		<sample weight="1" path="golem/golemHurt04.wav"/>
+		<sample weight="1" path="golem/golemHurt05.wav"/>
+		<sample weight="1" path="golem/golemHurt06.wav"/>
+		<sample weight="1" path="golem/golemHurt07.wav"/>
+		<sample weight="1" path="golem/golemHurt08.wav"/>		
+	</sound>
+	<sound name="golemDeath">
+		<sample weight="1" path="golem/golemDeath.wav"/>
+	</sound>
+	<sound name="AmethystBreak">
+		<sample weight="1" path="amethyst_break.wav"/>
+	</sound>
+	<sound name="CameraFlash">
+		<sample weight="1" path="camera_flash.wav"/>
+	</sound>
+	<sound name="CameraPrime">
+		<sample weight="1" path="camera_prime.wav"/>
+	</sound>
+	<sound name="CameraMiss">
+		<sample weight="1" path="camera_miss.wav"/>
+	</sound>
+	<sound name="AxeThrow">
+		<sample weight="1" path="axe_throw.wav"/>
+	</sound>
+	<sound name="BrownHorn">
+		<sample weight="1" path="items/brownhorn1.wav"/>
+		<sample weight="1" path="items/brownhorn2.wav"/>
+		<sample weight="1" path="items/brownhorn3.wav"/>
+	</sound>
+	<sound name="BrownHornLong">
+		<sample weight="1" path="items/brownhornlong1.wav"/>
+		<sample weight="1" path="items/brownhornlong2.wav"/>
+		<sample weight="1" path="items/brownhornlong3.wav"/>
+	</sound>
+	<sound name="SizzleExtinguish">
+		<sample weight="1" path="Extinguish.wav"/>
+	</sound>
+	<sound name="FlowerCrown">
+		<sample weight="1" path="flower_crown.wav"/>
+	</sound>
+	<sound name="SussyOpen">
+		<sample weight="1" path="grate_creak.wav"/>
+	</sound>
+	<sound name="SussyClose">
+		<sample weight="1" path="grate_close.wav"/>
+	</sound>
+	<sound name="MetalStepLight">
+		<sample weight="1" path="MetalStepLight1.wav"/>
+		<sample weight="1" path="MetalStepLight2.wav"/>
+	</sound>
+	<sound name="MetalStepHeavy">
+		<sample weight="1" path="MetalStepHeavy1.wav"/>
+		<sample weight="1" path="MetalStepHeavy2.wav"/>
+	</sound>
+	<sound name="Dogrock">
+		<sample weight="1" path="Dogrock.wav"/>
+	</sound>
+	<sound name="TennisHit">
+		<sample weight="1" path="tennis1.wav"/>
+		<sample weight="1" path="tennis2.wav"/>
+	</sound>
+	<sound name="RubberRockBounce">
+		<sample weight="1" path="rubberrock_01.wav"/>
+		<sample weight="1" path="rubberrock_02.wav"/>
+		<sample weight="1" path="rubberrock_03.wav"/>
+	</sound>
+	<sound name="KirbyInhale">
+		<sample weight="1" path="KirbyInhale.wav"/>
+	</sound>
+	<sound name="RecordScratch">
+		<sample weight="1" path="RecordScratch.wav"/>
+	</sound>
+	<sound name="KettleWhistle">
+		<sample weight="1" path="KettleWhistle.wav"/>
+	</sound>
+	<sound name="LipSmack">
+		<sample weight="1" path="LipSmack1.wav"/>
+		<sample weight="1" path="LipSmack2.wav"/>
+		<sample weight="1" path="LipSmack3.wav"/>
+		<sample weight="1" path="LipSmack4.wav"/>
+	</sound>
+	<sound name="SqueakyRotate">
+		<sample weight="1" path="SqueakyRotate.wav"/>
+	</sound>
+	<sound name="DeepThump">
+		<sample weight="1" path="DeepThump1.wav"/>
+		<sample weight="1" path="DeepThump2.wav"/>
+	</sound>
+	<sound name="GasHissShort">
+		<sample weight="1" path="whaleGas.wav"/>
+	</sound>
+	<sound name="GolemDoorOpen">
+		<sample weight="1" path="golem_trapdoor_open0.wav"/>
+		<sample weight="1" path="golem_trapdoor_open1.wav"/>
+	</sound>
+	<sound name="GolemDoorClose">
+		<sample weight="1" path="golem_trapdoor_close0.wav"/>
+		<sample weight="1" path="golem_trapdoor_close1.wav"/>
+	</sound>
+	<sound name="GoldenSlotPolymorph">
+		<sample weight="1" path="goldenslot_polymorph.wav"/>
+	</sound>
+	<sound name="GoldenSlotBuzz">
+		<sample weight="1" path="goldenslot_buzz.wav"/>
+	</sound>
+	<sound name="GoldenSlotTele">
+		<sample weight="1" path="goldenslot_tele.wav"/>
+	</sound>
+	<sound name="GoldenSlotPayout">
+		<sample weight="1" path="goldenslot_payout.wav"/>
+	</sound>
+	<sound name="DevilDaggerGemTing">
+		<sample weight="1" path="DevilDaggerGemTing.wav"/>
+	</sound>
+	<sound name="DevilDaggerGemCollect">
+		<sample weight="1" path="DevilDaggerGemCollect01.wav"/>
+		<sample weight="1" path="DevilDaggerGemCollect02.wav"/>
+		<sample weight="1" path="DevilDaggerGemCollect03.wav"/>
+		<sample weight="1" path="DevilDaggerGemCollect04.wav"/>
+		<sample weight="1" path="DevilDaggerGemCollect05.wav"/>
+	</sound>
+	<sound name="DevilDaggerLevelUp1">
+		<sample weight="1" path="DevilDaggerLevelUp1.wav"/>
+	</sound>
+	<sound name="DevilDaggerLevelUp2">
+		<sample weight="1" path="DevilDaggerLevelUp2.wav"/>
+	</sound>
+	<sound name="DevilDaggerLevelUp3">
+		<sample weight="1" path="DevilDaggerLevelUp3.wav"/>
+	</sound>
+	<sound name="NitroActive">
+		<sample weight="1" path="NitroActive.wav"/>
+	</sound>
+	<sound name="NitroExpired">
+		<sample weight="1" path="NitroExpired01.wav"/>
+		<sample weight="1" path="NitroExpired02.wav"/>
+	</sound>
+	<sound name="DevilsAbacusCount">
+		<sample weight="1" path="DevilsAbacusCount.wav"/>
+	</sound>
+	<sound name="BiendHurt">
+		<sample weight="1" path="biiiiend/biend_hit1.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit2.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit3.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit4.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit5.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit6.wav"/>
+		<sample weight="1" path="biiiiend/biend_hit7.wav"/>
+	</sound>
+	<sound name="BiendFreakingDies">
+		<sample weight="1" path="biiiiend/biend_death.wav"/>
+	</sound>
+	<sound name="BlackMoonIntro">
+		<sample weight="1" path="BlackMoonIntro.wav"/>
+	</sound>
+	<sound name="BlackMoonLoop">
+		<sample weight="1" path="BlackMoonLoop.wav"/>
+	</sound>
+	<sound name="BlackMoonEnd">
+		<sample weight="1" path="BlackMoonEnd.wav"/>
+	</sound>
+	<sound name="InfinityVoltPlugin">
+		<sample weight="1" path="InfinityVoltPlugin1.wav"/>
+		<sample weight="1" path="InfinityVoltPlugin2.wav"/>
+		<sample weight="1" path="InfinityVoltPlugin3.wav"/>
+	</sound>
+	<sound name="InfinityVoltPlugout">
+		<sample weight="1" path="InfinityVoltPlugout1.wav"/>
+		<sample weight="1" path="InfinityVoltPlugout2.wav"/>
+	</sound>
+	<sound name="GrinnerGiggle">
+		<sample weight="1" path="GrinnerGiggle.wav"/>
+	</sound>
+	<sound name="DelinquentPee">
+		<sample weight="1" path="DelinquentPee.wav"/>
+	</sound>
+	<sound name="DelinquentPeeEnd">
+		<sample weight="1" path="DelinquentPeeEnd.wav"/>
+	</sound>
+	<sound name="AngelicHarpStrum">
+		<sample weight="1" path="AngelicHarpStrum01.wav"/>
+		<sample weight="1" path="AngelicHarpStrum02.wav"/>
+		<sample weight="1" path="AngelicHarpStrum03.wav"/>
+		<sample weight="1" path="AngelicHarpStrum04.wav"/>
+	</sound>
+	<sound name="EnergyPsychic">
+		<sample weight="1" path="EnergyPsychic.wav"/>
+	</sound>
+	<sound name="EnergyFairy">
+		<sample weight="1" path="EnergyFairy.wav"/>
+	</sound>
+	<sound name="D2Toss">
+		<sample weight="1" path="d2_toss1.wav"/>
+		<sample weight="1" path="d2_toss2.wav"/>
+		<sample weight="1" path="d2_toss3.wav"/>
+	</sound>
+	<sound name="D2Land">
+		<sample weight="1" path="d2_land1.wav"/>
+		<sample weight="1" path="d2_land2.wav"/>
+		<sample weight="1" path="d2_land3.wav"/>
+	</sound>
+	<sound name="ShootRifle">
+		<sample weight="1" path="shoot_rifle.wav"/>
+	</sound>
+	<sound name="DelinquentHuh">
+		<sample weight="1" path="delinquenthuh.wav"/>
+	</sound>
+	<sound name="DelinquentCry">
+		<sample weight="1" path="delinquentcry.wav"/>
+	</sound>
+	<sound name="DadsDipDeath">
+		<sample weight="1" path="dads_dip_death.wav"/>
+	</sound>
+	<sound name="MimeBlockRelocate">
+		<sample weight="1" path="mimeblock_relocate.wav"/>
+	</sound>
+	<sound name="SoulOfFiendVO">
+		<sample weight="1" path="fiiiiend/soul.wav"/>
+	</sound>
+	<sound name="SmashStrike">
+		<sample weight="1" path="SmashStrike.wav"/>
+	</sound>
+	<sound name="SmashHitWeak">
+		<sample weight="1" path="SmashHitWeak.wav"/>
+	</sound>
+	<sound name="SmashHitHeavy">
+		<sample weight="1" path="SmashHitHeavy.wav"/>
+	</sound>
+	<sound name="SmashHitShocking">
+		<sample weight="1" path="SmashHitShocking.wav"/>
+	</sound>
+	<sound name="SmashHitFatal">
+		<sample weight="1" path="SmashHitFatal.wav"/>
+	</sound>
+	<sound name="SmashHitAudience">
+		<sample weight="1" path="SmashHitAudience.wav"/>
+	</sound>
+	<sound name="TheShittiestGulpSoundEver">
+		<sample weight="1" path="theShittiestGulpSoundEver.wav"/>
+	</sound>
+	<sound name="OnlyfanBwop">
+		<sample weight="1" path="onlyfanBwop.wav"/>
+	</sound>
+
+	<sound name="LurkerIdle">
+		<sample weight="1" path="lurker/lurker_idle_1.wav" />
+		<sample weight="1" path="lurker/lurker_idle_2.wav" />
+	</sound>
+	<sound name="LurkerCharge">
+		<sample weight="1" path="lurker/lurker_spit_charge_1.wav" />
+		<sample weight="1" path="lurker/lurker_spit_charge_2.wav" />
+		<sample weight="1" path="lurker/lurker_spit_charge_3.wav" />
+	</sound>
+	<sound name="LurkerSpit">
+		<sample weight="1" path="lurker/lurker_spit_1.wav" />
+		<sample weight="1" path="lurker/lurker_spit_2.wav" />
+		<sample weight="1" path="lurker/lurker_spit_3.wav" />
+	</sound>
+	<sound name="LurkerDie">
+		<sample weight="1" path="lurker/lurker_die_1.wav" />
+		<sample weight="1" path="lurker/lurker_die_2.wav" />
+		<sample weight="1" path="lurker/lurker_die_3.wav" />
+	</sound>
+	<sound name="GoldenButtonPress">
+		<sample weight="1" path="gold_button.wav"/>
+	</sound>
+	<sound name="ExcelsiorShoot">
+		<sample weight="1" path="excelsiorwhistle.wav"/>
+	</sound>
+	<sound name="ExcelsiorBoom">
+		<sample weight="1" path="excelsiorboom.wav"/>
+	</sound>
+	<sound name="AngryBirdsPigDeath">
+		<sample weight="1" path="pigDead.wav"/>
+	</sound>
+	<sound name="AngryBirdsPigSound">
+		<sample weight="1" path="pigShoot1.wav"/>
+		<sample weight="1" path="pigShoot2.wav"/>
+	</sound>
+	<sound name="CopperBombSizzle">
+		<sample weight="1" path="SIZZLE.wav"/>
+	</sound>
+	<sound name="CopperBombSuccess">
+		<sample weight="1" path="copperbomb_success.wav"/>
+	</sound>
+	<sound name="CopperBombPickup">
+		<sample weight="1" path="copperbomb_pickup.wav"/>
+	</sound>
+	<sound name="BusterGhostCallEmissionsScream">
+		<sample weight="1" path="theghostbusterfolder/busterghost_callemissions_scream.wav"/>
+	</sound>
+	<sound name="BusterGhostCallEmissionsStart">
+		<sample weight="1" path="theghostbusterfolder/busterghost_callemissions_start.wav"/>
+	</sound>
+	<sound name="BusterGhostChaseStart">
+		<sample weight="1" path="theghostbusterfolder/busterghost_chase_start.wav"/>
+	</sound>
+	<sound name="BusterGhostDashBlink">
+		<sample weight="1" path="theghostbusterfolder/busterghost_dash_blink.wav"/>
+	</sound>
+	<sound name="BusterGhostDashStart">
+		<sample weight="1" path="theghostbusterfolder/busterghost_dash_start.wav"/>
+	</sound>
+	<sound name="BusterGhostDeath">
+		<sample weight="1" path="theghostbusterfolder/busterghost_deth.wav"/>
+	</sound>
+	<sound name="BusterGhostDriftPrep">
+		<sample weight="1" path="theghostbusterfolder/busterghost_drift_prep.wav"/>
+	</sound>
+	<sound name="BusterGhostDriftShoot">
+		<sample weight="1" path="theghostbusterfolder/busterghost_drift_shoot.wav"/>
+	</sound>
+	<sound name="BusterGhostDriftStart">
+		<sample weight="1" path="theghostbusterfolder/busterghost_drift_start.wav"/>
+	</sound>
+	<sound name="BusterGhostSuckEnd">
+		<sample weight="1" path="theghostbusterfolder/busterghost_suck_end.wav"/>
+	</sound>
+	<sound name="BusterGhostSuckLoop">
+		<sample weight="1" path="theghostbusterfolder/busterghost_suck_loop.wav"/>
+	</sound>
+	<sound name="BusterGhostSuckShoot">
+		<sample weight="1" path="theghostbusterfolder/busterghost_suck_shoot.wav"/>
+	</sound>
+	<sound name="BusterGhostSuckStart">
+		<sample weight="1" path="theghostbusterfolder/busterghost_suck_start.wav"/>
+	</sound>
+	<sound name="BusterGhostVictory">
+		<sample weight="1" path="theghostbusterfolder/busterghost_victory.wav"/>
+	</sound>
+	<sound name="BusterGhostSkid1">
+		<sample weight="1" path="theghostbusterfolder/busterghost_skid1.wav"/>
+	</sound>
+	<sound name="BusterGhostSkid2">
+		<sample weight="1" path="theghostbusterfolder/busterghost_skid2.wav"/>
+	</sound>
+	<sound name="BusterGhostSnicker1">
+		<sample weight="1" path="theghostbusterfolder/busterghost_snicker1.wav"/>
+	</sound>
+	<sound name="BusterGhostSnicker2">
+		<sample weight="1" path="theghostbusterfolder/busterghost_snicker2.wav"/>
+	</sound>
+	<sound name="WarpZoneBackground">
+		<sample weight="1" path="warpzooone/warpzone_background_loop.wav"/>
+	</sound>
+	<sound name="WarpZoneBarf">
+		<sample weight="1" path="warpzooone/warpzone_barf.wav"/>
+	</sound>
+	<sound name="WarpZoneChaosCardFall">
+		<sample weight="1" path="warpzooone/warpzone_chaoscard_fall.wav"/>
+	</sound>
+	<sound name="WarpZoneChaosCardUnfall">
+		<sample weight="1" path="warpzooone/warpzone_chaoscard_unfall.wav"/>
+	</sound>
+	<sound name="WarpZoneChew">
+		<sample weight="1" path="warpzooone/warpzone_chew1.wav"/>
+		<sample weight="1" path="warpzooone/warpzone_chew2.wav"/>
+		<sample weight="1" path="warpzooone/warpzone_chew3.wav"/>
+	</sound>
+	<sound name="WarpZoneDeath">
+		<sample weight="1" path="warpzooone/warpzone_death.wav"/>
+	</sound>
+	<sound name="WarpZoneGasp">
+		<sample weight="1" path="warpzooone/warpzone_gasp.wav"/>
+	</sound>
+	<sound name="WarpZoneGrunt">
+		<sample weight="1" path="warpzooone/warpzone_grunt.wav"/>
+	</sound>
+	<sound name="WarpZoneHurt">
+		<sample weight="1" path="warpzooone/warpzone_hurt1.wav"/>
+		<sample weight="1" path="warpzooone/warpzone_hurt2.wav"/>
+		<sample weight="1" path="warpzooone/warpzone_hurt3.wav"/>
+	</sound>
+	<sound name="WarpZoneLaugh">
+		<sample weight="1" path="warpzooone/warpzone_laugh.wav"/>
+	</sound>
+	<sound name="WarpZonePrepare">
+		<sample weight="1" path="warpzooone/warpzone_prepare.wav"/>
+	</sound>
+	<sound name="WarpZoneRoar">
+		<sample weight="1" path="warpzooone/warpzone_roar.wav"/>
+	</sound>
+	<sound name="WarpZoneSmile">
+		<sample weight="1" path="warpzooone/warpzone_smile.wav"/>
+	</sound>
+	<sound name="WarpZoneSpinEnd">
+		<sample weight="1" path="warpzooone/warpzone_spin_end.wav"/>
+	</sound>
+	<sound name="WarpZoneSpinStart">
+		<sample weight="1" path="warpzooone/warpzone_spin_start.wav"/>
+	</sound>
+	<sound name="WarpZoneSpinning">
+		<sample weight="1" path="warpzooone/warpzone_spinning.wav"/>
+	</sound>
+	<sound name="WarpZoneSpit">
+		<sample weight="1" path="warpzooone/warpzone_spit1.wav"/>
+		<sample weight="1" path="warpzooone/warpzone_spit2.wav"/>
+	</sound>
+	<sound name="CContusionYell">
+		<sample weight="1" path="warpzooone/corruptedbosses/contusion_monster yell b1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/contusion_monster yell b5.wav"/>
+	</sound>
+	<sound name="CContusionWakeUp">
+		<sample weight="1" path="warpzooone/corruptedbosses/contusion_wakeup 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/contusion_wakeup 2.wav"/>
+	</sound>
+	<sound name="CLarryBarf">
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_boss split blob barf 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_boss split blob barf 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_boss split blob barf 3.wav"/>
+	</sound>
+	<sound name="CLarryGulp">
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_gulp 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_gulp 2.wav"/>
+	</sound>
+	<sound name="CLarryCharge">
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_monster roar 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/larry_monster roar.wav"/>
+	</sound>
+	<sound name="CMonstroRoar">
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite roar 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite roar 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite roar 3.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite roar 4.wav"/>
+	</sound>
+	<sound name="CMonstroShoot">
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite sloppy roar 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite sloppy roar 3.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss lite sloppy roar.wav"/>
+	</sound>
+	<sound name="CMonstroBarf">
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss spit blob barf 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss spit blob barf 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_boss spit blob barf 3.wav"/>
+	</sound>
+	<sound name="CMonstroStomp">
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_forest boss stomp 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_forest boss stomp 3.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_forest boss stomp.wav"/>
+	</sound>
+	<sound name="CMonstroGrunt">
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_monster grunt 4 b.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/monstro_monster grunt 4a.wav"/>
+	</sound>
+	<sound name="CSutureShoot">
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_worm spit 1.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_worm spit 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_worm spit 3.wav"/>
+	</sound>
+	<sound name="CSutureGrunt">
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_cute grunt 2.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_cute grunt 3.wav"/>
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_cute grunt.wav"/>
+	</sound>
+	<sound name="CSutureTel">
+		<sample weight="1" path="warpzooone/corruptedbosses/suture_telekinesis.wav"/>
+	</sound>
+
+	<sound name="TreasureDisc">
+		<sample weight="1" path="discs/trialdisctreasure.wav"/>
+	</sound>
+	<sound name="ShopDisc">
+		<sample weight="1" path="discs/trialdiscshop.wav"/>
+	</sound>
+	<sound name="BossDisc">
+		<sample weight="1" path="discs/trialdiscboss.wav"/>
+	</sound>
+	<sound name="SecretDisc">
+		<sample weight="1" path="discs/trialdiscsecret.wav"/>
+	</sound>
+	<sound name="DevilDisc">
+		<sample weight="1" path="discs/trialdiscdevil.wav"/>
+	</sound>
+	<sound name="AngelDisc">
+		<sample weight="1" path="discs/trialdiscangel.wav"/>
+	</sound>
+	<sound name="PlanetariumDisc">
+		<sample weight="1" path="discs/trialdiscplanetarium.wav"/>
+	</sound>
+	<sound name="BrokenDisc">
+		<sample weight="1" path="discs/trialdiscbroken.wav"/>
+	</sound>
+	<sound name="TaintedTreasureDisc">
+		<sample weight="1" path="discs/trialdisctainted.wav"/>
+	</sound>
+
+	<sound name="GrazerShoot">
+		<sample weight="1" path="GrazerShoot.wav"/>
+	</sound>
+	<sound name="GrazerDie">
+		<sample weight="1" path="grazerdie.wav"/>
+	</sound>
+
+	<sound name="VenusToBlack">
+		<sample weight="1" path="cacophobia/VENUSTOBLACK.wav"/>
+	</sound>
+
+	<sound name="VenusBackToFight">
+		<sample weight="1" path="cacophobia/VENUSBACKTOFIGHT.wav"/>
+	</sound>
+	
+	<sound name="SuperShottieOpen">
+		<sample weight="1" path="shottiesuper_open.wav"/>
+	</sound>
+	<sound name="SuperShottieClose">
+		<sample weight="1" path="shottiesuper_close.wav"/>
+	</sound>
+	<sound name="SuperShottiePreBlast">
+		<sample weight="1" path="shottiesuper_shoot_prepare.wav"/>
+	</sound>
+	<sound name="SuperShottieBlast">
+		<sample weight="1" path="shottiesuper_shoot.wav"/>
+	</sound>
+	<sound name="SuperShottieReload">
+		<sample weight="1" path="shottiesuper_load.wav"/>
+	</sound>
+	<sound name="SuperShottieChainLoop">
+		<sample weight="1" path="shottiesuper_pull_loop.wav"/>
+	</sound>
+	<sound name="RefereeWhistle">
+		<sample weight="1" path="RefereeWhistle.wav"/>
+	</sound>
+	<sound name="RefereeWhistleQuick">
+		<sample weight="1" path="RefereeWhistleQuick.wav"/>
+	</sound>
+	<sound name="LegoStudPickup">
+		<sample weight="1" path="lego_stud_pickup.wav"/>
+	</sound>
+
+	<sound name="EdemaBounce">
+		<sample weight="1" path="medmeat1nopop.wav"/>
+		<sample weight="1" path="medmeat2nopop.wav"/>
+		<sample weight="1" path="medmeat3nopop.wav"/>
+		<sample weight="1" path="medmeat4nopop.wav"/>
+	</sound>
+	<sound name="IrisSpit">
+		<sample weight="1" path="irisSpit1.wav"/>
+		<sample weight="1" path="irisSpit2.wav"/>
+		<sample weight="1" path="irisSpit3.wav"/>
+		<sample weight="1" path="irisSpit4.wav"/>
+		<sample weight="1" path="irisSpit5.wav"/>
+		<sample weight="1" path="irisSpit6.wav"/>
+		<sample weight="1" path="irisSpit7.wav"/>
+	</sound>
+	<sound name="ChompDash">
+		<sample weight="1" path="chompdash1.wav"/>
+		<sample weight="1" path="chompdash2.wav"/>
+		<sample weight="1" path="chompdash3.wav"/>
+		<sample weight="1" path="chompdash4.wav"/>
+		<sample weight="1" path="chompdash5.wav"/>
+		<sample weight="1" path="chompdash6.wav"/>
+	</sound>
+	<sound name="WailerGrow">
+		<sample weight="1" path="WailerGrow.wav"/>
+	</sound>
+
+	<sound name="CraigJump">
+		<sample weight="1" path="CraigJump1.wav"/>
+		<sample weight="1" path="CraigJump2.wav"/>
+	</sound>
+	<sound name="CraigLaser">
+		<sample weight="1" path="CraigLaser1.wav"/>
+		<sample weight="1" path="CraigLaser2.wav"/>
+		<sample weight="1" path="CraigLaser3.wav"/>
+	</sound>
+	
+	<!-- IDPD -->
+	<sound name="IDPDPortal">
+		<sample weight="1" path="idpd/sndIDPDPortalSpawn.wav"/>
+	</sound>
+	<sound name="IDPDExplosion">
+		<sample weight="1" path="idpd/sndIDPDNadeExplo.wav"/>
+	</sound>
+	<sound name="IDPDGrenadePrime">
+		<sample weight="1" path="idpd/sndIDPDNadeLoad.wav"/>
+	</sound>
+	<sound name="IDPDGrenadeBeep">
+		<sample weight="1" path="idpd/sndIDPDNadeAlmost.wav"/>
+	</sound>
+	<sound name="IDPDGunFire">
+		<sample weight="1" path="idpd/Grunt/sndGruntFire.wav"/>
+	</sound>
+	<sound name="IDPDThrowGrenade">
+		<sample weight="1" path="idpd/Grunt/sndGruntThrowNadeF.wav"/>
+	</sound>
+	<sound name="IDPDShieldDeflect">
+		<sample weight="1" path="idpd/Shielder/sndShielderDeflect.wav"/>
+	</sound>
+
+	<sound name="IDPDGruntAppearMale">
+		<sample weight="1" path="idpd/Grunt/sndGruntEnterM.wav"/>
+	</sound>
+	<sound name="IDPDGruntHurtMale">
+		<sample weight="1" path="idpd/Grunt/sndGruntHurtM.wav"/>
+	</sound>
+	<sound name="IDPDGruntDeathMale">
+		<sample weight="1" path="idpd/Grunt/sndGruntDeadM.wav"/>
+	</sound>
+	<sound name="IDPDGruntAppearFemale">
+		<sample weight="1" path="idpd/Grunt/sndGruntEnterF.wav"/>
+	</sound>
+	<sound name="IDPDGruntHurtFemale">
+		<sample weight="1" path="idpd/Grunt/sndGruntHurtF.wav"/>
+	</sound>
+	<sound name="IDPDGruntDeathFemale">
+		<sample weight="1" path="idpd/Grunt/sndGruntDeadF.wav"/>
+	</sound>
+
+	<sound name="IDPDInspectorAppearMale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorEnterM.wav"/>
+	</sound>
+	<sound name="IDPDInspectorHurtMale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorHurtM.wav"/>
+	</sound>
+	<sound name="IDPDInspectorDeathMale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorDeadM.wav"/>
+	</sound>
+	<sound name="IDPDInspectorTeleStartMale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorStartM.wav"/>
+	</sound>
+	<sound name="IDPDInspectorTeleEndMale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorEndM.wav"/>
+	</sound>
+	<sound name="IDPDInspectorAppearFemale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorEnterF.wav"/>
+	</sound>
+	<sound name="IDPDInspectorHurtFemale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorHurtF.wav"/>
+	</sound>
+	<sound name="IDPDInspectorDeathFemale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorDeadF.wav"/>
+	</sound>
+	<sound name="IDPDInspectorTeleStartFemale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorStartF.wav"/>
+	</sound>
+	<sound name="IDPDInspectorTeleEndFemale">
+		<sample weight="1" path="idpd/Inspector/sndInspectorEndF.wav"/>
+	</sound>
+
+	<sound name="IDPDShielderAppearMale">
+		<sample weight="1" path="idpd/Shielder/sndShielderEnterM.wav"/>
+	</sound>
+	<sound name="IDPDShielderHurtMale">
+		<sample weight="1" path="idpd/Shielder/sndShielderHurtM.wav"/>
+	</sound>
+	<sound name="IDPDShielderDeathMale">
+		<sample weight="1" path="idpd/Shielder/sndShielderDeadM.wav"/>
+	</sound>
+	<sound name="IDPDShielderShieldMale">
+		<sample weight="1" path="idpd/Shielder/sndShielderShieldM.wav"/>
+	</sound>
+	<sound name="IDPDShielderAppearFemale">
+		<sample weight="1" path="idpd/Shielder/sndShielderEnterF.wav"/>
+	</sound>
+	<sound name="IDPDShielderHurtFemale">
+		<sample weight="1" path="idpd/Shielder/sndShielderHurtF.wav"/>
+	</sound>
+	<sound name="IDPDShielderDeathFemale">
+		<sample weight="1" path="idpd/Shielder/sndShielderDeadF.wav"/>
+	</sound>
+	<sound name="IDPDShielderShieldFemale">
+		<sample weight="1" path="idpd/Shielder/sndShielderShieldF.wav"/>
+	</sound>
+
+	<!-- Voiceover lines -->
+	<!-- Pills -->
+	<sound name="VAPillClairvoyance">
+		<sample weight="1" path="voiceover/pills/Clairvoyance.wav"/>
+	</sound>
+	<sound name="VAPillCyanide">
+		<sample weight="1" path="voiceover/pills/Cyanide 1.wav"/>
+		<sample weight="1" path="voiceover/pills/Cyanide 2.wav"/>
+		<sample weight="1" path="voiceover/pills/Cyanide 3.wav"/>
+	</sound>
+	<sound name="VAPillEpidermolysis">
+		<sample weight="1" path="voiceover/pills/Epidermolysis.wav"/>
+	</sound>
+	<sound name="VAPillFishOil">
+		<sample weight="1" path="voiceover/pills/Fish Oil.wav"/>
+	</sound>
+	<sound name="VAPillHaemorrhoids">
+		<sample weight="1" path="voiceover/pills/Haemorrhoids.wav"/>
+	</sound>
+	<sound name="VAPillHolyShit">
+		<sample weight="1" path="voiceover/pills/Holy Shit.wav"/>
+	</sound>
+	<sound name="VAPillLemonJuice">
+		<sample weight="1" path="voiceover/pills/Lemon Juice.wav"/>
+	</sound>
+	<sound name="VAPillMelatonin">
+		<sample weight="1" path="voiceover/pills/Melatonin.wav"/>
+	</sound>
+	<sound name="VAPillSpiderUnboxing">
+		<sample weight="1" path="voiceover/pills/Spider Unboxing.wav"/>
+	</sound>
+	<!-- Horse Pills -->
+	<sound name="VAPillHorseClairvoyance">
+		<sample weight="1" path="voiceover/pillshorse/Clairvoyance.wav"/>
+	</sound>
+	<sound name="VAPillHorseCyanide">
+		<sample weight="1" path="voiceover/pillshorse/Cyanide 1.wav"/>
+		<sample weight="1" path="voiceover/pillshorse/Cyanide 2.wav"/>
+		<sample weight="1" path="voiceover/pillshorse/Cyanide 3.wav"/>
+	</sound>
+	<sound name="VAPillHorseEpidermolysis">
+		<sample weight="1" path="voiceover/pillshorse/Epidermolysis.wav"/>
+	</sound>
+	<sound name="VAPillHorseFishOil">
+		<sample weight="1" path="voiceover/pillshorse/Fish Oil.wav"/>
+	</sound>
+	<sound name="VAPillHorseHaemorrhoids">
+		<sample weight="1" path="voiceover/pillshorse/Haemorrhoids.wav"/>
+	</sound>
+	<sound name="VAPillHorseHolyShit">
+		<sample weight="1" path="voiceover/pillshorse/Holy Shit.wav"/>
+	</sound>
+	<sound name="VAPillHorseLemonJuice">
+		<sample weight="1" path="voiceover/pillshorse/Lemon Juice.wav"/>
+	</sound>
+	<sound name="VAPillHorseMelatonin">
+		<sample weight="1" path="voiceover/pillshorse/Melatonin.wav"/>
+	</sound>
+	<sound name="VAPillHorseSpiderUnboxing">
+		<sample weight="1" path="voiceover/pillshorse/Spider Unboxing.wav"/>
+	</sound>
+	<!--Cards-->
+	<sound name="VACardThreeFireballs">
+		<sample weight="1" path="voiceover/cards/+3 Fireballs.wav"/>
+	</sound>
+	<sound name="VACardThreeFireballsBiend">
+		<sample weight="1" path="voiceover/cards/+3 Fireballs Question Mark.wav"/>
+	</sound>
+	<sound name="VACardCallingCard">
+		<sample weight="1" path="voiceover/cards/Calling Card.wav"/>
+	</sound>
+	<sound name="VACardDarkHole">
+		<sample weight="1" path="voiceover/cards/Dark Hole.wav"/>
+	</sound>
+	<sound name="VACardDefuse">
+		<sample weight="1" path="voiceover/cards/Defuse.wav"/>
+	</sound>
+	<sound name="VACardDownloadFailure">
+		<sample weight="1" path="voiceover/cards/Download Failure.wav"/>
+	</sound>
+	<sound name="VACardDownloadFailureRare">
+		<sample weight="1" path="voiceover/cards/Download Failure (Why Are All My Enemies Sliding Around).wav"/>
+	</sound>
+	<sound name="VACardGiftCard">
+		<sample weight="1" path="voiceover/cards/Gift Card.wav"/>
+	</sound>
+	<sound name="VACardGrottoBeast">
+		<sample weight="1" path="voiceover/cards/Grotto Beast.wav"/>
+	</sound>
+	<sound name="VACardImplosion">
+		<sample weight="1" path="voiceover/cards/Implosion.wav"/>
+	</sound>
+	<sound name="VACardPlagueofDecay">
+		<sample weight="1" path="voiceover/cards/Plague of Decay.wav"/>
+	</sound>
+	<sound name="VACardPotofGreed">
+		<sample weight="1" path="voiceover/cards/Pot of Greed.wav"/>
+	</sound>
+	<sound name="VACardPotofGreedRare">
+		<sample weight="1" path="voiceover/cards/Pot of Greed (What Does It Do).wav"/>
+	</sound>
+	<sound name="VACardSkipCard">
+		<sample weight="1" path="voiceover/cards/Skip Card.wav"/>
+	</sound>
+	<sound name="VACardSmallContraband">
+		<sample weight="1" path="voiceover/cards/Small Contraband.wav"/>
+	</sound>
+	
+	<!-- Playing cards -->
+	<sound name="VACardPlayingAceCups">
+		<sample weight="1" path="voiceover/cardsplaying/Ace of Cups.wav"/>
+	</sound>
+	<sound name="VACardPlayingAcePentacles">
+		<sample weight="1" path="voiceover/cardsplaying/Ace of Pentacles.wav"/>
+	</sound>
+	<sound name="VACardPlayingAceSwords">
+		<sample weight="1" path="voiceover/cardsplaying/Ace of Swords.wav"/>
+	</sound>
+	<sound name="VACardPlayingAceWands">
+		<sample weight="1" path="voiceover/cardsplaying/Ace of Wands.wav"/>
+	</sound>
+	<sound name="VACardPlayingJackClubs">
+		<sample weight="1" path="voiceover/cardsplaying/Jack of Clubs.wav"/>
+	</sound>
+	<sound name="VACardPlayingJackDiamonds">
+		<sample weight="1" path="voiceover/cardsplaying/Jack of Diamonds.wav"/>
+	</sound>
+	<sound name="VACardPlayingJackHearts">
+		<sample weight="1" path="voiceover/cardsplaying/Jack of Hearts.wav"/>
+	</sound>
+	<sound name="VACardPlayingJackSpades">
+		<sample weight="1" path="voiceover/cardsplaying/Jack of Spades.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingClubs">
+		<sample weight="1" path="voiceover/cardsplaying/King of Clubs.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingClubsReverse">
+		<sample weight="1" path="voiceover/cardsplaying/King of Clubs (Reverse).wav"/>
+	</sound>
+	<sound name="VACardPlayingKingCups">
+		<sample weight="1" path="voiceover/cardsplaying/King of Cups.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingDiamonds">
+		<sample weight="1" path="voiceover/cardsplaying/King of Diamonds.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingPentacles">
+		<sample weight="1" path="voiceover/cardsplaying/King of Pentacles.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingSpades">
+		<sample weight="1" path="voiceover/cardsplaying/King of Spades.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingSwords">
+		<sample weight="1" path="voiceover/cardsplaying/King of Swords.wav"/>
+	</sound>
+	<sound name="VACardPlayingKingWands">
+		<sample weight="1" path="voiceover/cardsplaying/King of Wands.wav"/>
+	</sound>
+	<sound name="VACardPlayingQueenClubs">
+		<sample weight="1" path="voiceover/cardsplaying/Queen of Clubs.wav"/>
+	</sound>
+	<sound name="VACardPlayingQueenDiamonds">
+		<sample weight="1" path="voiceover/cardsplaying/Queen of Diamonds.wav"/>
+	</sound>
+	<sound name="VACardPlayingQueenSpades">
+		<sample weight="1" path="voiceover/cardsplaying/Queen of Spades.wav"/>
+	</sound>
+	<sound name="VACardPlayingThirteenStars">
+		<sample weight="1" path="voiceover/cardsplaying/Thirteen of Stars.wav"/>
+	</sound>
+	<sound name="VACardPlayingThirteenStarsRare">
+		<sample weight="1" path="voiceover/cardsplaying/Thirteen of Stars (This is Stupid).wav"/>
+		<sample weight="1" path="voiceover/cardsplaying/Thirteen of Stars (This is Downright Silly).wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeClubs">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Clubs.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeCups">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Cups.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeDiamonds">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Diamonds.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeHearts">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Hearts.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreePentacles">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Pentacles.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeSpades">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Spades.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeSwords">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Swords.wav"/>
+	</sound>
+	<sound name="VACardPlayingThreeWands">
+		<sample weight="1" path="voiceover/cardsplaying/Three of Wands.wav"/>
+	</sound>
+	<sound name="VACardPlayingTwoCups">
+		<sample weight="1" path="voiceover/cardsplaying/Two of Cups.wav"/>
+	</sound>
+	<sound name="VACardPlayingTwoPentacles">
+		<sample weight="1" path="voiceover/cardsplaying/Two of Pentacles.wav"/>
+	</sound>
+	<sound name="VACardPlayingTwoSwords">
+		<sample weight="1" path="voiceover/cardsplaying/Two of Swords.wav"/>
+	</sound>
+	<sound name="VACardPlayingTwoWands">
+		<sample weight="1" path="voiceover/cardsplaying/Two of Wands.wav"/>
+	</sound>
+
+	<!-- Dead Sea Scrolls Menu -->
+	<sound name="deadseascrolls_pop">
+		<sample weight="1" path="deadseascrolls/pop.wav"/>
+	</sound>
+	<sound name="deadseascrolls_whoosh">
+		<sample weight="1" path="deadseascrolls/whoosh.wav"/>
+	</sound>
+	<!--Keep this one at the end u fools-->
+</sounds>

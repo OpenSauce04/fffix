@@ -1,0 +1,79 @@
+<AnimatedActor>
+	<Info CreatedBy="robot" CreatedOn="5/17/2021 8:00:49 PM" Version="116" Fps="45"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="monster_cursedgrimace.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="body" Id="0" SpritesheetId="0"/>
+			<Layer Name="beam" Id="1" SpritesheetId="0"/>
+			<Layer Name="circle" Id="2" SpritesheetId="0"/>
+			<Layer Name="pulse" Id="3" SpritesheetId="0"/>
+		</Layers>
+		<Nulls>
+			<Null Name="*0" Id="0" ShowRect="true"/>
+			<Null Name="*1" Id="1" ShowRect="false"/>
+		</Nulls>
+		<Events>
+			<Event Name="Fire" Id="0"/>
+		</Events>
+	</Content>
+	<Animations DefaultAnimation="bean">
+		<Animation Name="bean" FrameNum="36" Loop="false">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="3" Visible="true">
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="150" YScale="50" Delay="3" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="100" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="350" YScale="150" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="0" RedOffset="200" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="150" YScale="50" Delay="3" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="100" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="350" YScale="150" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="0" RedOffset="200" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="150" YScale="50" Delay="3" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="100" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="350" YScale="150" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="0" RedOffset="200" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="150" YScale="50" Delay="3" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="100" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="8" XCrop="192" YCrop="48" Width="16" Height="16" XScale="350" YScale="150" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="0" RedOffset="200" GreenOffset="100" BlueOffset="100" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="3" XPivot="8" YPivot="16" XCrop="192" YCrop="48" Width="16" Height="16" XScale="200" YScale="50" Delay="6" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="2" Visible="true">
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="200" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="130" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="150" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="130" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="150" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="130" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="150" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="130" YScale="100" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="200" YScale="100" Delay="6" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="6" XPivot="8" YPivot="16" XCrop="192" YCrop="64" Width="16" Height="16" XScale="-50" YScale="100" Delay="2" Visible="true" RedTint="0" GreenTint="0" BlueTint="0" AlphaTint="0" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="1" Visible="true">
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="200" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="130" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="150" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="130" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="150" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="130" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="150" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="130" YScale="10000" Delay="2" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="200" YScale="10000" Delay="6" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-1" XPivot="8" YPivot="16" XCrop="192" YCrop="80" Width="16" Height="16" XScale="-50" YScale="10000" Delay="2" Visible="true" RedTint="0" GreenTint="0" BlueTint="0" AlphaTint="0" RedOffset="50" GreenOffset="50" BlueOffset="50" Rotation="0" Interpolated="true"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="0" Visible="true"/>
+			</LayerAnimations>
+			<NullAnimations>
+				<NullAnimation NullId="0" Visible="true">
+					<Frame XPosition="1" YPosition="-264" XScale="130" YScale="520" Delay="16" Visible="true" RedTint="200" GreenTint="140" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="1" YPosition="-264" XScale="130" YScale="520" Delay="6" Visible="true" RedTint="200" GreenTint="140" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="1" YPosition="-264" XScale="60" YScale="520" Delay="1" Visible="false" RedTint="200" GreenTint="140" BlueTint="255" AlphaTint="0" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+				</NullAnimation>
+				<NullAnimation NullId="1" Visible="true">
+					<Frame XPosition="1" YPosition="-66" XScale="100" YScale="300" Delay="16" Visible="true" RedTint="210" GreenTint="140" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="1" YPosition="-66" XScale="100" YScale="300" Delay="6" Visible="true" RedTint="210" GreenTint="140" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-52" XScale="0" YScale="100" Delay="1" Visible="false" RedTint="210" GreenTint="140" BlueTint="255" AlphaTint="0" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+				</NullAnimation>
+			</NullAnimations>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>

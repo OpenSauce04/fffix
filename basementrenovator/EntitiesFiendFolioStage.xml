@@ -1,0 +1,2397 @@
+<data>
+
+<!-- Enemy groups -->
+
+<group Name="Waiting Spiders" >
+	<entity Name="Full Spider(Waiting)" />
+	<entity Name="lvl2 Spider (Waiting)" />
+	<entity Name="Ticking Spider (Waiting)" />
+	<entity Name="Baby Long Legs (Waiting)" />
+	<entity Name="Small Baby Long Legs (Waiting)" />
+	<entity Name="Crazy Long Legs (Waiting)" />
+	<entity Name="Small Crazy Long Legs (Waiting)" />
+</group>
+<group Name="Centipede" >
+	<entity Name="Centipede" />
+	<entity Name="Centipede Segment" />
+	<entity Name="Centipede (Pit)" />
+</group>
+<group Name="Ramblin' Evil Mushroom" >
+	<entity Name="Ramblin' Evil Mushroom" Subtype="0" Variant="840" />
+	<entity Name="Red Ramblepoint" />
+	<entity Name="Blue Ramblepoint" />
+</group>
+<group Name="Pipes" >
+    <entity Name="Septic Pipe"/>
+    <entity Name="Sewer Pipe"/>
+    <entity Name="Sludge Pipe"/>
+    <entity Name="Split Pipe"/>
+</group>
+<group Name="Sphincters" >
+    <entity Name="Sphincter"/>
+</group>
+<group Name="Blood Cells" >
+    <entity Name="Artery (Mobile)" />
+    <entity Name="Artery (Spinning)" />
+    <entity Name="Vein" />
+    <entity Name="Mobile Blood Cell" />
+    <entity Name="Spinning Blood Cell" />
+</group>
+
+<!--Hi rev-->
+<group Name="FF Ice Hazards" >
+	<entity Name="Ice Hazard (Morsel)" />
+	<entity Name="Ice Hazard (Slammer)" />
+</group>
+<group Name="(Rev) Glacier Ice Hazards" Label="Ice Hazards">
+	<group Name="FF Ice Hazards" />
+</group>
+
+	<group Name="Debug thing"> <!-- Don't remove or it  breaks the custom icons -->
+		<entity ID="970" Image="icons/FF/0 - Ash Disabler.png" Name="Ash/Lava Disabler" Subtype="20" Variant="1"/>
+		<entity Name="Pushable Poop" ID="245" Subtype="0" Variant="0" Image="icons/FF/pushable_poop.png"/>
+	</group>
+
+<!-- FF Bosses -->
+	<group Name="FF Basement Bosses">
+		<entity Name="Buck" />
+	</group>
+	<group Name="FF Cellar Bosses">
+		<entity Name="Buck" />
+		<entity Name="Honeydrop" />
+		<entity Name="The Whispers" />
+		<entity Name="Whispers Marker" />
+	</group>
+	<group Name="FF Burning Basement Bosses">
+		<entity Name="Griddle Horn" />
+		<entity Name="Buster" />
+		<entity Name="Meltdown" />
+	</group>
+	<group Name="FF Downpour Bosses">
+		<entity Name="Ghostbuster" />
+	</group>
+	<group Name="FF Dross Bosses">
+		<entity Name="Cacamancer" />
+	</group>
+	<group Name="FF Caves Bosses">
+		<entity Name="Battie" />
+		<entity Name="Kingpin" />
+	</group>
+	<group Name="FF Catacombs Bosses">
+		<entity Name="Slinger" />
+	</group>
+	<group Name="FF Flooded Caves Bosses">
+		<entity Name="Monsoon" />
+		<entity Name="Aquagob" />
+	</group>
+	<group Name="FF Mines Bosses">
+	</group>
+	<group Name="FF Ashpit Bosses">
+	</group>
+	<group Name="FF Depths Bosses">
+		<entity Name="Gutso" />
+		<entity Name="Chaser (The Organization)" />
+		<entity Name="Bashful (The Organization)" />
+		<entity Name="Speedy (The Organization)" />
+		<entity Name="Pokey (The Organization)" />
+	</group>
+	<group Name="FF Necropolis Bosses">
+		<entity Name="Gutso" />
+		<entity Name="Luncheon" />
+	</group>
+	<group Name="FF Dank Depths Bosses">
+		<entity Name="Tsar" />
+		<entity Name="Big Grate" />
+		<entity Name="Big Pipe" />
+		<entity Name="Pollution" />
+		<entity Name="Pollution" ID="180" Image="icons/FF/pollution2.png" Variant="111" />
+		<entity Name="Punk" />
+		<entity Name="Junkstrap" />
+	</group>
+	<group Name="FF Mausoleum Bosses">
+		<entity Name="Dusk" />
+		<entity Name="Warp Zone" />
+		<entity Name="Corrupted Monstro" />
+		<entity Name="Corrupted Larry" />
+		<entity Name="Corrupted Contusion" />
+		<entity Name="Corrupted Suture" />
+		<entity Name="Pale Gusher" />
+	</group>
+	<group Name="FF Gehenna Bosses">
+	</group>
+	<group Name="FF Womb Bosses">
+		<entity Name="Basco" />
+	</group>
+	<group Name="FF Utero Bosses">
+		<entity Name="Peeping" />
+		<entity Name="Peepstalk" />
+		<entity Name="The Sun" ID="180" /> 	
+	</group>
+	<group Name="FF Scarred Womb Bosses">
+		<entity Name="Cacophobia Spawner"/>
+		<entity Name="Cacophobia Venus"/>
+		<entity Name="Cacophobia Player Spawn Point"/>
+		<entity Name="Cacophobia Eye (Radial)"/>
+		<entity Name="Cacophobia Eye (Directional)"/>
+		<entity Name="Cacophobia Eye (Targeted)"/>
+		<entity Name="Cacophobia Target"/>
+		<entity Name="Cacophobia Eye (Weird)"/>
+		<entity Name="Cacophobia Global Fast-Forward"/>
+		<entity Name="Cacophobia Eye Modifier"/>
+	</group>
+	<group Name="FF Corpse Bosses">
+		<entity Name="Mr. Dead" />
+	</group>
+	<group Name="FF Special Bosses" Label="Chapter 5 Minibosses">
+		<entity Name="Gravedigger" />
+		<entity Name="Psion" />
+	</group>
+
+<!-- Categories + FF Stages tab -->
+<tab Name="Floors (FF-only)">
+  <group Name="FF Ch 1 Alt Shared" Label="Ch 1 Alt Shared">
+	<group Name="FF Ch 1 Alt Shared Obstacles">
+		<entity Name="Flipped Bucket" />
+		<entity Name="Shampoo" />
+	</group>
+	<group Name="FF Ch 1 Alt Shared Enemies">
+	    <entity Name="Buckethead" />
+		<entity Name="Mayfly" />
+		<entity Name="Mightfly" />
+		<entity Name="Archer" />
+		<entity Name="Tube Worm (Waiting)" />
+		<entity Name="Morsel" />
+		<entity Name="Slim" />
+		<entity Name="Limb" />
+		<entity Name="Drop" />
+	    <entity Name="Dribble" />
+	</group>
+  </group>
+  <group Name="FF Downpour" Label="Downpour">
+  	<group Name="FF Downpour Events">
+		<entity Name="Shirk Spot" />
+	</group>
+	<group Name="FF Downpour Obstacles">
+	    <entity Name="Glass Eye" ID="130" />
+		<entity Name="Aleya Fire Place" />
+	</group>
+	<group Name="FF Downpour Enemies">
+		<entity Name="Mini-Min" />
+		<entity Name="Dewdrop" />
+		<entity Name="Cuffs" />
+	    <entity Name="Cushion" />
+		<entity Name="Tango" />
+	    <entity Name="Skipper" />
+		<entity Name="Deathany"/>
+	    <entity Name="Bellow" />
+		<entity Name="Bubby" />
+		<entity Name="Rift Walker" />
+		<entity Name="Ignis" />
+		<entity Name="Tricko" />
+		<entity Name="Ring Leader" />
+		<entity Name="Aleya" />
+		<entity Name="Floaty" />
+		<entity Name="Onlyfan" />
+		<entity Name="Polty (Waiting)" />
+		<entity Name="Drink Worm" />
+		<entity Name="Drink Worm (Waiting)" />
+		<entity Name="Yawner" />
+		<entity Name="Shirk" />
+		<entity Name="Mutant Horf" />
+		<entity Name="Offal" />
+	    <entity Name="Offal (Waiting)" />
+		<entity Name="Lightning Fly" />
+	    <entity Name="Nimbus" />
+		<entity Name="Aquabab" />
+		<entity Name="Menace" />
+		<entity Name="Mistmonger" />
+		<entity Name="Spoop" />
+		<entity Name="Drumstick" />
+	</group>
+  </group>
+  <group Name="FF Dross" Label="Dross">
+    <group Name="FF Dross Events">
+		<entity Name="Peepee Backdrop" />
+	</group>
+	<group Name="FF Dross Obstacles">
+		<entity Name="Fish"/>
+		<entity Name="Sewer Pipe"/>
+		<entity Name="Rubber Rock"/>
+		<entity Name="Buttery Compost Bin" />
+		<entity Name="Unstable Compost Bin" />
+		<entity Name="Gassy Compost Bin" />
+		<entity Name="Scented Compost Bin" />
+		<entity Name="Poison Poop"/>
+	</group>
+	<group Name="FF Dross Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Moter" />
+		<entity Name="Spit" />
+		<!-- FF Entities -->
+		<entity Name="Residuum" />
+		<entity Name="Shitty Horf" />
+		<entity Name="Trashbagger" />
+		<entity Name="Stomy" />
+		<entity Name="Dollop" />
+		<entity Name="Connipshit" />
+		<entity Name="Pipeneck" />
+		<entity Name="Shottie" />
+		<entity Name="Fishy" />
+		<entity Name="Catfish" />
+		<entity Name="Cathy" />
+		<entity Name="Peepisser" />
+		<entity Name="Unshornz" />
+		<entity Name="Croca" />
+		<entity Name="Delinquent" />
+		<entity Name="Coloscope" />
+
+		<entity Name="Dung" />
+		<entity Name="Tall Boi" />
+		<entity Name="Shitling" />
+		<entity Name="Shot Fly" />
+		<entity Name="Shoter" />
+		<entity Name="Poobottle" />
+		<entity Name="Drainfly" />
+        <entity Name="Square Fly" />
+		<entity Name="Butt Fly" />
+		<entity Name="Fathead" />
+		<entity Name="Matte" />
+		<entity Name="Spitum" />
+		<entity Name="Litter Bug" />
+		<entity Name="Toxic Litter Bug" />
+	</group>
+	<!--	<entity Name="Pester" />	<entity Name="Matte" /> -->
+  </group>
+  <group Name="FF Ch 2 Alt Shared" Label="Ch 2 Alt Shared">
+	<group Name="FF Ch 2 Alt Shared Obstacles">
+		<!-- Unused Base Game Poops (for Minecarts) -->
+		<entity Name="Pushable Poop"/>
+		<entity Name="Pushable Golden Poop" ID="245" Subtype="0" Variant="1" Image="icons/FF/pushable_golden_poop.png"/>
+		<!-- FF Entities -->
+		<entity Name="Petrified Poop" ID="183" Variant="1028"/>
+		<entity Name="Super Grimace" />
+		<entity Name="Super TNT" />
+	</group>
+	<group Name="FF Ch 2 Alt Shared Enemies">
+		<entity Name="Cappin" />
+		<entity Name="Blastcore" />
+		<entity Name="Crucible" />
+		<entity Name="Crucible (Ignited)" />
+		<entity Name="Coalby" />
+		<entity Name="Coupile" />
+		<entity Name="Cairn" />
+
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+	  	<entity Name="Spitroast" />
+		<entity Name="Mr. Bones" />
+		<entity Name="Flamin" />
+		<entity Name="Migraine" />
+	</group>
+	<group Name="FF Ch 2 Alt Shared Events">
+		<entity ID="825" Image="icons/FF/0 - Lava Enabler.png" Name="Ash/Lava Enabler" Subtype="0" Variant="1000"/>
+	</group>
+  </group>
+  <group Name="FF Mines" Label="Mines">
+	<group Name="FF Mines Events">
+	  	<entity Name="Blacksmith" />
+	</group>
+	<group Name="FF Mines Obstacles">
+		<entity Name="Bulb Rock" />
+		<entity Name="Soot Tag" />
+		<entity Name="Frowny" />
+		<entity Name="Rock Ball (Mines)" />
+		<entity Name="Rock Ball (Mines Lava)" />
+		<entity Name="Rock Ball (Gold)" />
+	</group>
+	<group Name="FF Mines Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Mole (Waiting)" />
+		<entity Name="Fire Worm (Waiting)" />
+		<entity Name="Maggot" />
+		<entity Name="Chubber" />
+		<entity Name="Vis" />
+		<entity Name="One Tooth" />
+		<entity Name="Fat Bat" />
+		<entity Name="Host" />
+		<entity Name="Red Host" />
+		<entity Name="Grilled Clotty" />
+		<!-- FF Entities -->
+		<entity Name="Technician" />
+		<entity Name="Shock Collar" />
+		<entity Name="Grazer" />
+		<entity Name="Glob" />
+		<entity Name="Sizzle" />
+		<entity Name="Roasty" />
+		<entity Name="Pit With Fuego Spawner" />
+		<entity Name="Rufus" />
+		<entity Name="Drillbit" />
+		<entity Name="Thumper" />
+		<entity Name="Nubert" />
+		<entity Name="Anti Golem" />
+		<entity Name="Stalagnaught" />
+		<entity Name="Speleo" />
+		<entity Name="Quaker" />
+		<entity Name="Spanky" />
+		<entity Name="Craig" />
+
+		<entity Name="Meatwad (Vertical)" />
+		<entity Name="Meatwad (Horizontal)" />
+		<entity Name="Grilled Meatwad (Vertical)" />
+		<entity Name="Grilled Meatwad (Horizontal)" />
+		<entity Name="Chunky" />
+		<entity Name="Grilled Chunky" />
+		<entity Name="Hooligan" />
+		<entity Name="Snagger" />
+	  	<entity Name="Woodburner" />
+		<entity Name="Fried" />
+		<entity Name="Mr. Flare" />
+		<entity Name="Mr. Crisply" />
+	  	<entity Name="Mullikaboom" />
+		<entity Name="Creepy Maggot" />
+		<entity Name="Milk Tooth" />
+		<entity Name="Foamy" />
+		<entity Name="Eyesore" />
+		<entity Name="Fathead" />
+		<entity Name="Fossilized Boom Fly" />
+		<entity Name="Pale Slim" />
+		<entity Name="Jim" />
+		<entity Name="Pale Limb" />
+		<entity Name="Slick" />
+		<entity Name="Stump" />
+		<entity Name="Smidgen" />
+		<entity Name="Red Smidgen" />
+		<entity Name="Hoster" />
+		<entity Name="Dr. Shambles" />
+		<entity Name="Sniffle" />
+		<entity Name="Scope Creep" />
+		<entity Name="Stoney Slammer" />
+	    <entity Name="Centipede" />
+		<entity Name="Centipede Segment" />
+		<entity Name="Centipede (Pit)" />
+		<entity Name="Bunker Worm" />
+		<entity Name="Bunker Worm (Waiting)" />
+		<entity Name="Dweller" />
+	</group>
+
+	<!--
+	<entity Name="Blot" /> (because of Ink)
+	<entity Name="Dweller (Euthanasia)" /> (do NOT set free)
+	<entity Name="Spitum" />
+	-->
+  </group>
+  <group Name="FF Ashpit" Label="Ashpit">
+	<!--<group Name="FF Ashpit Events">
+	</group> -->
+	<group Name="FF Ashpit Enemies">
+		<entity Name="Pasty (Waiting)" />
+		<entity Name="Dust (Waiting)" />
+		<entity Name="Phoenix" />
+		<entity Name="Pyroclasm" />
+		<entity Name="Clickety Clash" />
+		<entity Name="Bombmuncher" />
+		<entity Name="Flesh Sistren" />
+		<entity Name="Fishfreak" />
+		<entity Name="Fishfreak (pile)" />
+		<entity Name="Marlin" />
+		<entity Name="Krass Blaster" />
+		<entity Name="Dried Offal" />
+		<entity Name="Prick" />
+		<entity Name="Ashtray" />
+		<entity Name="Blasted" />
+		<entity Name="Blasted (Waiting)" />
+		<entity Name="Blasted Mine" />
+		<entity Name="Gritty" />
+		<entity Name="Ztewie" />
+		<entity Name="Briar" />
+		<entity Name="Beebee" />
+		<entity Name="Shellmet" />
+		<entity Name="Hangman" />
+		<entity Name="Fireswirl" />
+		<entity Name="Flinty" />
+		<entity Name="Spiroll" />
+
+		<entity Name="Ossularry" />
+		<entity Name="Dry Wheeze" />
+		<entity Name="Bone Worm" />
+		<entity Name="Bone Worm (Waiting)" />
+		<entity Name="Sternum" />
+		<entity Name="Crepitus" />
+		<entity Name="Cracker" />
+	</group>
+	<group Name="FF Ashpit Obstacles">
+		<entity Name="Singe Ball" />
+		<entity Name="Rock Ball (Ashpit)" />
+		<entity Name="Rock Ball (Ashpit Lava)" />
+		<entity Name="Rock Ball (Gold)" />
+		<entity Name="Rock Ball (Tumbleweed)" />
+		<entity Name="Casted" />
+	</group>
+  </group>
+  <group Name="FF Ch 3 Alt Shared" Label="Ch 3 Alt Shared">
+	<group Name="FF Shared Obstacles">
+	    <entity Name="Eye of Shaggoth" />
+	</group>
+	<group Name="FF Ch 3 Alt Shared Enemies">
+		<entity Name="Fat Sack" />
+		<entity Name="Fat Sack (Waiting)" />
+		<entity Name="Blubber" />
+		<entity Name="Half Sack" />
+		<entity Name="Mr. Maw" />
+		<entity Name="Mr. Red Maw" />
+		<entity Name="Rancor" />
+		<entity Name="Skulltist" />
+		<entity Name="Acolyte" />
+		<entity Name="Scythe Rider" />
+		<entity Name="Banshee" />
+		<entity Name="Patzer" />
+		<entity Name="Smasher" />
+		<entity Name="Pale Slim" />
+		<entity Name="Jim" />
+		<entity Name="Pale Limb" />
+		<entity Name="Slick" />
+		<entity Name="Stump" />
+		<entity Name="Spinny" />
+		<entity Name="Balor" />
+		<entity Name="Mr. Bones" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+	</group>
+  </group>
+  <group Name="FF Mausoleum" Label="Mausoleum">
+	<group Name="FF Mausoleum Events">
+		<entity Name="Mausoleum Alt Backdrop"/>
+	</group>
+	<group Name="FF Mausoleum Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Kineti (Waiting)" />
+		<entity Name="Ragling" />
+		<entity Name="Knight" />
+		<entity Name="Floating Knight" />
+		<entity Name="Psychic Horf" />
+		<entity Name="Psychic Maw" />
+		<entity Name="Big Bony" />
+		<entity Name="Wizoob" />
+		<entity Name="Wizoob (Waiting)" />
+		<entity Name="Lil' Haunt" />
+		<!-- <entity Name="Clickety Clack" /> only enable when Magiclack is done -->
+		<!-- FF Entities -->
+		<entity Name="Sixth" />
+		<entity Name="Looksee" />
+		<entity Name="Arcane Creep" />
+		<entity Name="Clergy" />
+		<entity Name="Morvid" />
+		<entity Name="Morvid (Perched)" />
+		<entity Name="Stolas" />
+		<entity Name="Empath" />
+		<entity Name="Psycho Fly" />
+		<entity Name="Shi" />
+		<entity Name="Psystalk" />
+		<entity Name="Zealot" />
+		<entity Name="Madhat" />
+		<entity Name="Zissuru" />
+		<entity Name="Psyclopia" />
+		<entity Name="Alderman" />
+		<entity Name="Nihilist" />
+		<entity Name="Grimoire" />
+		<entity Name="Shaker" />
+		<entity Name="Psychoknight" />
+		<entity Name="Lunksack" />
+		<entity Name="Primemind" />
+		<entity Name="Wick" />
+		<entity Name="Congression" />
+		<entity Name="Temper" />
+		<entity Name="Spook" />
+		<entity Name="Wailer" />
+		<entity Name="Flanks" />
+		<entity Name="Ragurge" />
+		<entity Name="Cracker" />
+		<entity Name="Lil' Jon" />
+		<entity Name="Sternum" />
+		<entity Name="Ribbone" />
+		<entity Name="Jawbone" />
+		<entity Name="Jawbone Corpse" />
+		<entity Name="Hollow Knight" />
+		<entity Name="Squire" />
+		<entity Name="King" />
+		<entity Name="Pawn" />
+		<entity Name="Tado Kid" />
+		<entity Name="Tot" />
+		<entity Name="Shrunken Head" />
+		<entity Name="Tombit" />
+		<entity Name="Gravin" />
+		<group Name="FF Mausoleum Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Steven" />
+			<entity Name="Steven Baby" />
+			<entity Name="Rag Man" />
+		</group>
+	</group>
+	<group Name="FF Mausoleum Obstacles">
+		<entity Name="Cursed Poop" />
+		<entity Name="Cauldron" />
+		<entity Name="Glass Eye" ID="130" />
+		<entity Name="Grievance" />
+	</group>
+  </group>
+  <group Name="FF Gehenna" Label="Gehenna">
+	 <group Name="FF Gehenna Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Black Bony" />
+		<entity Name="Nulls" />
+		<entity Name="Begotten" />
+		<entity Name="Red Ghost" />
+		<entity Name="Red Ghost (Waiting)" />
+		<!-- FF Entities -->
+	    <entity Name="Gutter" />
+		<entity Name="Bull" />
+		<entity Name="Tagbag" />
+		<entity Name="Manic Fly" />
+		<entity Name="Aper" />
+		<entity Name="Discy" /> 
+		<entity Name="Nobody" />
+		<entity Name="Scowl Creep" />
+		<entity Name="Maze Runner" />
+		<entity Name="Gabber" />
+		<entity Name="Super Shottie" />
+		<entity Name="Ripcord" />
+		<entity Name="Bead Fly" />
+		<entity Name="Pitchfork Hitcher" />
+		<entity Name="Kukodemon" />
+		<entity Name="Haemo" />
+		<entity Name="Lurch" />
+		<entity Name="Punisher" />
+		<entity Name="Apega" />
+		<entity Name="Gamper" />
+		<entity Name="Gamper Peg" />
+		<entity Name="Ms. Dominator" />
+		<entity Name="Dominated" />
+		<entity Name="Possessed" ID="227" Subtype="0" Variant="750" />
+		<entity Name="Moaner" />
+		<entity Name="Possessed" ID="750" Subtype="0" Variant="10" />
+		<entity Name="Thousand Eyes" />
+		<entity Name="Thousand Eyes (Waiting)" />
+		<entity Name="Dread Weaver" />
+		<entity Name="Dread Maw" />
+		<entity Name="Striker" />
+		<entity Name="Pale Loafer" />
+		<entity Name="Striker Ball" />
+		<entity Name="Splodum" />
+		<entity Name="Thrall" />
+		<group Name="FF Gehenna Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Little Horn" />
+		</group>
+	</group>
+	<group Name="FF Gehenna Obstacles">
+		<entity Name="Sensory Grimace" />
+		<entity Name="Dangerous Disc" /> 
+		<entity Name="Brimstone Head (Left)" />
+		<entity Name="Brimstone Head (Up)" />
+		<entity Name="Brimstone Head (Right)" />
+		<entity Name="Brimstone Head (Down)" />
+		<entity Name="Evil Poop" />
+		<entity Name="Grievance" />
+		<entity Name="Thwammy" />
+	</group>
+  </group>
+  <group Name="FF Corpse" Label="Corpse">
+	<group Name="FF Corpse Events">
+		<entity Name="Morbus Backdrop"/>
+		<entity Name="Water Disabler"/>
+		<entity Name="Poison Cloud"/>
+	</group>
+	<group Name="FF Corpse Obstacles">
+		<entity Name="Poison Poop"/>
+		<entity Name="Miscarriage" />
+		<entity Name="Immural" />
+	<group Name="FF Morbus Backdrop Obstacles" Label="Morbus Obstacles">
+		<entity Name="Spider Nest" />
+		<entity Name="Cobweb" />
+		</group>
+	</group>
+	<group Name="FF Corpse Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Adult Leech (Waiting)" />
+		<entity Name="Spitty" />
+		<entity Name="Conjoined Spitty" />
+		<entity Name="Bloodfly" />
+		<entity Name="Flagellant" />
+		<!-- FF Entities -->
+	    <entity Name="Fingore" />
+		<entity Name="Rotspin (1)" />
+		<entity Name="Rotspin (2)" />
+		<entity Name="Rotspin (3)" />
+	    <entity Name="Rotspin (4)" />
+		<entity Name="Spoilie" />
+		<entity Name="Rotdrink" />
+		<entity Name="Rotskull" />
+		<entity Name="Gut Knight" />
+		<entity Name="Marzlammer" />
+		<entity Name="Droolie" />
+		<entity Name="Torment" />
+		<entity Name="Cancer Boy" />
+		<entity Name="Weeper" />
+		<entity Name="Wheezer" />
+		<entity Name="Coconut" />
+		<entity Name="Whale" />
+		<entity Name="Whale Guts" />
+		<entity Name="Putrefatty" />
+		<entity Name="Limb" />
+		<entity Name="Myiasis" />
+		<entity Name="Empty Myiasis" />
+		<entity Name="Calzone" />
+		<entity Name="Creepy Maggot" />
+		<entity Name="Mama Pooter" />
+		<entity Name="Gary" />
+		<entity Name="Brooter" />
+		<entity Name="Head Honcho" />
+		<entity Name="Globwad" />
+		<entity Name="Glorf" />
+		<entity Name="Globscraper (4)" />
+		<entity Name="Globscraper (3)" />
+		<entity Name="Globscraper (2)" />
+		<entity Name="Chummer" />
+		<entity Name="Tittle" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+	<group Name="FF Corpse Degraded Bosses" Label="Corpse Degraded Bosses">
+		<entity Name="Fistula Small" />
+		<entity Name="Fistula Medium" />
+		<entity Name="Fistula Big" />
+		<entity Name="Chub" />
+		<entity Name="Pestilence" />
+		</group>
+	<group Name="FF Morbus Backdrop Enemies" Label="Morbus Enemies">
+		<entity Name="Bub" />
+		<entity Name="Conglobberate (Small)" />
+		<entity Name="Conglobberate (Medium)" />
+		<entity Name="Conglobberate (Large)" />
+		<entity Name="Molly" />
+		<entity Name="Toma Chunk" />
+		<entity Name="Foetus" />
+		<entity Name="Foetu" />
+		<entity Name="Oralopede" />
+		<entity Name="Oralid" />
+		<entity Name="Molargan" />
+		<entity Name="Quitter" />
+		<entity Name="Tommy" />
+		<entity Name="Benny" />
+		<entity Name="Steralis" />
+		<entity Name="Nematode" />
+		<entity Name="Knot" />
+		<entity Name="Musk" />
+		<entity Name="Cancer Boy" />
+		<entity Name="Weeper" />
+		<entity Name="Twitchy" />
+		<entity Name="Wrinkly Baby" />
+		<entity Name="Floast" />
+		<entity Name="Mom's Dead Hand" />
+		<entity Name="Leech" />
+		<entity Name="Adult Leech" />
+		<entity Name="Adult Leech (Waiting)" />
+		<entity Name="Para-Bite" />
+		<entity Name="Parabite (Waiting)" />
+		<entity Name="Retch" />
+		<entity Name="Carrier" />
+		<entity Name="Spider" />
+		<entity Name="Big Spider" />
+		<entity Name="Skuzz" />
+		<entity Name="Army Skuzz" />
+		<entity Name="Ring Skuzz" />
+		<entity Name="Skuzzball" />
+		<entity Name="Skuzzball (Small)" />
+		<entity Name="Sackboy" />
+		<entity Name="Full Spider" />
+		<entity Name="Full Spider(Waiting)" />
+		<entity Name="Level 2 Spider" />
+		<entity Name="lvl2 Spider (Waiting)" />
+		<entity Name="Globwad" />
+		<entity Name="Glorf" />
+		<entity Name="Globscraper (4)" />
+		<entity Name="Globscraper (3)" />
+		<entity Name="Globscraper (2)" />
+		<entity Name="Cohort" />
+		<entity Name="Chummer" />
+		<entity Name="Pale Limb" />
+
+	<group Name="Ff Morbus Backdrop Lurker Pieces" Label="Morbus - Lurker">
+		<entity Name="Lurker 1" />
+		<entity Name="Lurker 2" />
+		<entity Name="Lurker 3" />
+		<entity Name="Lurker 4" />
+		<entity Name="Lurker Bridge 1" />
+		<entity Name="Lurker Bridge 2" />
+		<entity Name="Lurker Bridge 3" />
+		<entity Name="Lurker Bridge 4" />
+		<entity Name="Lurker Core 1" />
+		<entity Name="Lurker Core 2" />
+		<entity Name="Lurker Core 3" />
+		<entity Name="Lurker Core 4" />
+		<entity Name="Lurker Tooth 1" />
+		<entity Name="Lurker Tooth 2" />
+		<entity Name="Lurker Tooth 3" />
+		<entity Name="Lurker Tooth 4" />
+		<entity Name="Lurker Tooth Bridge 1" />
+		<entity Name="Lurker Tooth Bridge 2" />
+		<entity Name="Lurker Tooth Bridge 3" />
+		<entity Name="Lurker Tooth Bridge 4" />
+		<entity Name="Lurker Stoma 1" />
+		<entity Name="Lurker Stoma 2" />
+		<entity Name="Lurker Stoma 3" />
+		<entity Name="Lurker Stoma 4" />
+		<entity Name="Lurker Stretch 1" />
+		<entity Name="Lurker Stretch 2" />
+		<entity Name="Lurker Stretch 3" />
+		<entity Name="Lurker Stretch 4" />
+
+
+	<group Name="FF Morbus Backdrop Degraded Bosses" Label="Morbus Degraded Bosses">
+		<entity Name="Teratoma Small" />
+		<entity Name="Teratoma Medium" />
+		<entity Name="Teratoma Big" />
+		<entity Name="The Husk" />
+		<entity Name="Slinger" />
+		</group>
+		</group>
+		</group>
+	</group>
+
+  </group>
+  <group Name="FF Ascent" Label="Ascent">
+	<group Name="FF Ascent Enemies">
+		<entity Name="Doomer" />
+		<entity Name="Reaper" />
+		<entity Name="Dizzy" />
+		<entity Name="Missing Link" />
+		<entity Name="Mag Gaper" />
+		<entity Name="Accursed" />
+		<entity Name="Murmur" />
+		<entity Name="Buckshot" />
+		<entity Name="Really Tall Boi" />
+<!--	<entity Name="Peat" /> 	why are you datamining the entity list >:( -->
+
+	</group>
+  </group>
+  <group Name="FF Ch 1 Shared" Label="Ch 1 Shared">
+	<group Name="FF Ch 1 Shared Enemies">
+		<entity Name="Slammer" />
+		<entity Name="Wimpy" />
+		<entity Name="Morsel" />
+		<entity Name="Bowler" />
+		<entity Name="Loafer" />
+		<entity Name="Bowler Ball" />
+		<entity Name="Slim" />
+		<entity Name="Limb" />
+		<entity Name="Mr. Horf" />
+		<entity Name="Pester" />
+		<entity Name="Weaver" />
+		<entity Name="Weaver (Waiting)" />
+		<entity Name="Round Worm (Waiting)" />
+		<entity Name="Ulcer (Waiting)" />
+		<entity Name="Roundy (Waiting)" />
+		<entity Name="Dung" />
+		<entity Name="Tall Boi" />
+		<entity Name="Shitling" />
+		<entity Name="Drumstick" />
+		<entity Name="Tap" />
+	</group>
+  </group>
+  <group Name="FF Basement" Label="Basement">
+	<group Name="FF Basement Enemies">
+		<entity Name="Drink Worm" />
+		<entity Name="Drink Worm (Waiting)" />
+		<entity Name="Mr. Red Horf" />
+		<entity Name="Red Horf" />
+		<entity Name="Mutant Horf" />
+		<entity Name="Benign" />
+		<entity Name="Shot Fly" />
+		<entity Name="Shoter" />
+		<entity Name="Poobottle" />
+		<entity Name="Potluck" />
+		<entity Name="Bumbler" />
+		<entity Name="Square Fly" />
+		<entity Name="Butt Fly" />
+		<entity Name="Slobber" />
+		<entity Name="Bleeder" />
+		<entity Name="Casualty" />
+		<entity Name="Ticking Fly" />
+	</group>
+  </group>
+  <group Name="FF Cellar" Label="Cellar">
+	<group Name="FF Cellar Events">
+		<entity Name="Honeyed Backdrop" />
+		<entity Name="Shirk Spot" />
+	</group>
+	<group Name="FF Cellar Enemies">
+		<entity Name="Spooter" />
+		<entity Name="Super Spooter" />
+		<entity Name="Skuzz" />
+		<entity Name="Army Skuzz" />
+		<entity Name="Ring Skuzz" />
+		<entity Name="Baby Spider" />
+		<entity Name="Sticky Sack" />
+		<entity Name="Walking Sticky Sack" />
+		<entity Name="Ransacked" />
+		<entity Name="Coby" />
+		<entity Name="Nanny Long Legs" />
+		<entity Name="Full Spider" />
+		<group Name="Waiting Spiders" />
+		<entity Name="Beeter" />
+		<entity Name="Zingling" />
+		<entity Name="Homer" />
+		<entity Name="Hover" />
+		<entity Name="Stingler" />
+		<entity Name="Honey Eye" />
+		<entity Name="Honeydrip" />
+		<entity Name="Marge" />
+		<entity Name="Haunted" />
+		<entity Name="Yawner" />
+		<entity Name="Crotchety" />
+		<entity Name="Dim" />
+		<entity Name="Shirk" />
+		<entity Name="Spoop" />
+		<entity Name="Brood" />
+	</group>
+	<group Name="FF Cellar Obstacles">
+		<entity Name="Beehive" />
+		<entity Name="Spider Nest" />
+		<entity Name="Cobweb" />
+	</group>
+  </group>
+  <group Name="FF Burning Basement" Label="Burning Basement">
+	<group Name="FF Burning Basement Events">
+		<entity Name="Smoky Backdrop" />
+	</group>
+	<group Name="FF Burning Basement Obstacles">
+		<entity Name="Water TNT" />
+		<entity Name="Super TNT" />
+		<entity Name="Soot Tag" />
+	</group>
+	<group Name="FF Burning Basement Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Migraine" />
+		<!-- FF enemies -->
+		<entity Name="S'More" />
+		<entity Name="Spitroast" />
+		<entity Name="Commission" />
+		<entity Name="Fried" />
+		<entity Name="Woodburner" />
+		<entity Name="Wick" />
+		<entity Name="Powderkeg" />
+		<entity Name="Mullikaboom" />
+		<entity Name="Mr. Flare" />
+		<entity Name="Mr. Crisply" />
+		<entity Name="Flamin" />
+		<entity Name="Spark" />
+		<entity Name="Smokin" />
+		<entity Name="Fumegeist" />
+		<entity Name="Mote" />
+		<entity Name="Charlie" />
+		<entity Name="Sooty" />
+		<entity Name="Big Smoke" />
+		<entity Name="Smogger" />
+		<entity Name="Brisket" />
+		<entity Name="Trailblazer" />
+		<entity Name="Ticking Fly" />
+		<entity Name="Ticking Spider (Waiting)" />
+	</group>
+  </group>
+  <group Name="FF Ch 2 Shared" Label="Ch 2 Shared">
+  	<group Name="FF Ch 2 Shared Obstacles">
+		<entity Name="Super Grimace" />
+		<entity Name="Frowny" />
+	</group>
+	<group Name="FF Ch 2 Shared Enemies">
+		<entity Name="Smidgen" />
+		<entity Name="Red Smidgen" />
+		<entity Name="Hoster" />
+		<entity Name="Weaver Sr." />
+		<entity Name="Weaver Sr.(Waiting)" />
+		<entity Name="Round Worm (Waiting)" />
+		<entity Name="Nightcrawler (Waiting)" />
+		<entity Name="Roundy (Waiting)" />
+		<entity Name="Ulcer (Waiting)" />
+		<entity Name="Meatwad (Vertical)" />
+		<entity Name="Meatwad (Horizontal)" />
+		<entity Name="Chunky" />
+		<entity Name="Fathead" />
+		<entity Name="Wobbles" />
+		<entity Name="Splattercap" />
+		<entity Name="Cordy" />
+		<entity Name="Shiitake" />
+        <group Name="Ramblin' Evil Mushroom" />
+		<entity Name="Infected Mushroom" />
+		<entity Name="Mobile Mushroom" />
+		<entity Name="Bunker Worm" />
+		<entity Name="Bunker Worm (Waiting)" />
+		<entity Name="Globlet" />
+		<entity Name="Edema" />
+		<entity Name="Square Fly" />
+		<entity Name="Drink Worm" />
+		<entity Name="Drink Worm (Waiting)" />
+		<entity Name="Weaver" />
+		<entity Name="Weaver (Waiting)" />
+		<entity Name="Poobottle" />
+	</group>
+  </group>
+  <group Name="FF Caves" Label="Caves">
+	<group Name="FF Caves Events">
+		<entity Name="Primordial Backdrop" />
+	</group>
+	<group Name="FF Caves Obstacles">
+		<entity Name="Petrified Poop" ID="183" Variant="1028"/>
+	</group>
+	<group Name="FF Caves Enemies">
+		<entity Name="Needle (Waiting)" />
+		<entity Name="Dweller" />
+		<entity Name="Resident" />
+		<entity Name="Fishaac" />
+		<entity Name="Poople" />
+		<entity Name="Scoop" />
+		<entity Name="Roly Poly" />
+		<entity Name="Snagger" />
+		<entity Name="Hooligan" />
+		<entity Name="Eyesore" />
+		<entity Name="Balor" />
+		<entity Name="Pale Slim" />
+		<entity Name="Jim" />
+		<entity Name="Pale Limb" />
+		<entity Name="Slick" />
+		<entity Name="Stump" />
+		<entity Name="Milk Tooth" />
+		<entity Name="Foamy" />
+		<entity Name="Fossilized Boom Fly" />
+		<group Name="Centipede" />
+		<entity Name="Cordify" />
+		<entity Name="Pale Bleeder" />
+		<entity Name="Dung" />
+		<entity Name="Tall Boi" />
+		<entity Name="Shitling" />
+		<entity Name="Slammer" />
+		<entity Name="Wimpy" />
+		<entity Name="Shot Fly" />
+		<entity Name="Shoter" />
+		<entity Name="Benign" />
+	</group>
+  </group>
+  <group Name="FF Catacombs" Label="Catacombs">
+	<group Name="FF Catacombs Enemies">
+		<entity Name="Sniffle" />
+		<entity Name="Scope Creep" />
+		<entity Name="Tado Kid" />
+		<entity Name="Tot" />
+		<entity Name="Spinneretch" />
+		<entity Name="Spider Egg" />
+		<entity Name="Spitum" />
+		<entity Name="Warhead" />
+		<entity Name="Mama Pooter" />
+		<entity Name="Creepy Maggot" />
+		<entity Name="Sackboy" />
+		<entity Name="Colonel" />
+		<entity Name="Sourpatch" />
+		<entity Name="Sourpatch Head" />
+		<entity Name="Sourpatch Body" />
+		<entity Name="Ragurge" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Ogre Creep" />
+		<entity Name="Menace" />
+		<entity Name="Dr. Shambles" />
+		<entity Name="Bunch" />
+		<entity Name="Grape" />
+		<entity Name="Drunk Worm" />
+		<entity Name="Drunk Worm (Waiting)" />
+		<entity Name="Matte" />
+		<entity Name="Mothman" />
+		<entity Name="Shrunken Head" />
+		<entity Name="Carrot" />
+		<entity Name="Balor" />
+		<entity Name="Pale Slim" />
+		<entity Name="Jim" />
+		<entity Name="Pale Limb" />
+		<entity Name="Slick" />
+		<entity Name="Stump" />
+		<entity Name="Roly Poly" />
+		<group Name="Centipede" />
+		<entity Name="Spooter" />
+		<entity Name="Super Spooter" />
+		<entity Name="Skuzz" />
+		<entity Name="Army Skuzz" />
+		<entity Name="Ring Skuzz" />
+		<entity Name="Baby Spider" />
+		<entity Name="Sticky Sack" />
+		<entity Name="Walking Sticky Sack" />
+		<entity Name="Ransacked" />
+		<entity Name="Coby" />
+		<entity Name="Nanny Long Legs" />
+		<entity Name="Full Spider" />
+		<group Name="Waiting Spiders" />
+		<entity Name="Beeter" />
+		<entity Name="Zingling" />
+		<entity Name="Homer" />
+		<entity Name="Hover" />
+		<entity Name="Stingler" />
+		<entity Name="Honey Eye" />
+		<entity Name="Honeydrip" />
+		<entity Name="Marge" />
+		<entity Name="Haunted" />
+		<entity Name="Yawner" />
+	</group>
+	<group Name="FF Catacombs Obstacles">
+		<entity Name="Beehive" />
+		<entity Name="Spider Nest" />
+		<entity Name="Cobweb" />
+	</group>
+  </group>
+  <group Name="FF Flooded Caves" Label="Flooded Caves">
+	<group Name="FF Flooded Caves Obstacles">
+		<entity Name="Shampoo" />
+		<entity Name="Lily Pad" />
+		<entity Name="Bubble (Tiny)" Subtype="0" Variant="1" />
+		<entity Name="Bubble (Small)" Subtype="1" Variant="1" />
+		<entity Name="Bubble (Medium)" Subtype="2" Variant="1" />
+		<entity Name="Bubble (Large)" Subtype="3" Variant="1" />
+		<entity Name="Bubble (Small Watery)" Subtype="7" Variant="1" />
+		<entity Name="Bubble (Medium Watery)" Subtype="8" Variant="1" />
+		<entity Name="Bubble (Large Watery)" Subtype="9" Variant="1" />
+		<entity Name="Bubble (Fly)" Subtype="4" Variant="1" />
+		<entity Name="Bubble (Spider)" Subtype="5" Variant="1" />
+		<entity Name="Bubble (Isopoly)" Subtype="10" Variant="1" />
+		<entity Name="Bubble (Explosive)" Subtype="6" Variant="1" />
+  		<entity Name="Wetstone" />
+	</group>
+	<group Name="FF Flooded Caves Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Needle (Waiting)" />
+		<entity Name="Fissure Spawner" />
+		<entity Name="Tube Worm (Waiting)" />
+		<entity Name="Mr. Mine (Waiting)" />
+		<!-- FF Entities -->
+  		<entity Name="Bubble Bat" />
+  		<entity Name="Cistern" />
+  		<entity Name="Gutbuster" />
+  		<entity Name="Empty Gutbuster" />
+  		<entity Name="Offal" />
+  		<entity Name="Offal (Waiting)" />
+  		<entity Name="Tubby" />
+  		<entity Name="Frog" />
+  		<entity Name="Warty" />
+  		<entity Name="Drop" />
+  		<entity Name="Dribble" />
+  		<entity Name="Lightning Fly" />
+  		<entity Name="Nimbus" />
+  		<entity Name="Fishface" />
+  		<entity Name="Fishface (Waiting)" />
+  		<entity Name="Bubble Blowing Double Baby" />
+  		<entity Name="Madclaw" />
+  		<entity Name="Madclaw (Waiting)" />
+  		<entity Name="Globulon" />
+  		<entity Name="Zapbladder" />
+  		<entity Name="Wire" />
+		<entity Name="Eroded Host" Subtype="0" Variant="730" />
+		<entity Name="Eroded Host" Subtype="1" Variant="730" />
+		<entity Name="Eroded Host" Subtype="2" Variant="730" />
+		<entity Name="Eroded Smidgen" Subtype="0" Variant="862" />
+		<entity Name="Eroded Smidgen" Subtype="1" Variant="862" />
+  		<entity Name="Panini" />
+  		<entity Name="Drainfly" />
+  		<entity Name="Isopoly" />
+  		<entity Name="Aquabab" />
+  		<entity Name="Geyser" />
+		<entity Name="Floodface (Random)" />
+		<entity Name="Floodface (Chasing)" />
+		<entity Name="Anemone" />
+		<entity Name="Squid" />
+		<entity Name="Puffer" />
+		<entity Name="Dolphin" />
+		<entity Name="Sea Cucumber" />
+		<entity Name="Clam" />
+		<entity Name="Sponge" />
+		<entity Name="Mayfly" />
+  		<entity Name="Drunk Worm" />
+		<entity Name="Drunk Worm (Waiting)" />
+  		<entity Name="Flickerspirit" />
+  		<entity Name="Menace" />
+  		<entity Name="Ragurge" />
+	</group>
+  </group>
+  <group Name="FF Ch 3 Shared" Label="Ch 3 Shared">
+  	<group Name="FF Ch 3 Shared Obstacles">
+		<entity Name="Super Grimace" />
+		<entity Name="Frowny" />
+	</group>
+	<group Name="FF Ch 3 Shared Enemies">
+		<entity Name="Leaper (Waiting)" />
+		<entity Name="Fat Sack (Waiting)" />
+		<entity Name="Wizoob (Waiting)" />
+		<entity Name="Temper" />
+		<entity Name="Hollow Knight" />
+		<entity Name="Toxic Knight" />
+		<entity Name="Patzer" />
+		<entity Name="Squire" />
+		<entity Name="King" />
+		<entity Name="Pawn" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+		<entity Name="Flamin" />
+		<entity Name="Dweller" />
+		<entity Name="Edema" />
+	</group>
+  </group>
+  <group Name="FF Depths" Label="Depths">
+  	<group Name="FF Depths Events">
+		<entity Name="Dungeon Locker" />
+	  	<entity Name="Gray Lock" />
+		<entity Name="Gray Chain Lock" />
+		<entity Name="Red Lock" />
+		<entity Name="Green Lock" />
+		<entity Name="Blue Lock" />
+		<entity Name="Red Chain Lock" />
+		<entity Name="Green Chain Lock" />
+		<entity Name="Blue Chain Lock" />
+		<entity Name="Red Puzzle Key" />
+		<entity Name="Green Puzzle Key" />
+		<entity Name="Blue Puzzle Key" />
+		<entity Name="Shirk Spot" />
+	</group>
+	<group Name="FF Depths Enemies">
+		<entity Name="Needle (Waiting)" />
+		<entity Name="Cuffs" />
+		<entity Name="Scoop" />
+		<entity Name="Sundae" />
+		<entity Name="Soft Serve" />
+		<entity Name="Load" />
+		<entity Name="Corn Load" />
+		<entity Name="Stoney Slammer" />
+		<entity Name="Smasher" />
+		<entity Name="Ghostse" />
+		<entity Name="Gnawful" />
+		<entity Name="Banshee" />
+		<entity Name="Mistmonger" />
+		<entity Name="Spook" />
+		<entity Name="Wailer" />
+		<entity Name="Scythe Rider" />
+		<entity Name="Thousand Eyes" />
+		<entity Name="Thousand Eyes (Waiting)" />
+		<entity Name="Peek-a-boo" />
+		<entity Name="Striker" />
+		<entity Name="Pale Loafer" />
+		<entity Name="Striker Ball" />
+		<entity Name="Flanks" />
+		<entity Name="Blare" />
+		<entity Name="Sleeper" />
+		<entity Name="Dungeon Master" />
+		<entity Name="G. Host" />
+		<entity Name="Pale Bleeder" />
+		<entity Name="Dung" />
+		<entity Name="Tall Boi" />
+		<entity Name="Shitling" />
+		<entity Name="Haunted" />
+		<entity Name="Yawner" />
+		<entity Name="Shirk" />
+		<entity Name="Spoop" />
+		<entity Name="Menace" />
+		<entity Name="Balor" />
+		<entity Name="Pale Slim" />
+		<entity Name="Jim" />
+		<entity Name="Pale Limb" />
+		<entity Name="Slick" />
+		<entity Name="Stump" />
+		<entity Name="Bunker Worm" />
+		<entity Name="Bunker Worm (Waiting)" />
+	</group>
+  </group>
+  <group Name="FF Necropolis" Label="Necropolis">
+	<group Name="FF Necropolis Obstacles">
+		<entity Name="Spider Nest" />
+	</group>
+	<group Name="FF Necropolis Enemies">
+		<entity Name="Ossularry" />
+		<entity Name="Bone Worm" />
+		<entity Name="Bone Worm (Waiting)" />
+		<entity Name="Baro" />
+		<entity Name="Spinny" />
+		<entity Name="Doom Fly" />
+		<entity Name="Sternum" />
+		<entity Name="Splodum" />
+		<entity Name="Ribeye" />
+		<entity Name="Lil' Jon" />
+		<entity Name="Molar System" />
+		<entity Name="Ribbone" />
+		<entity Name="Jawbone" />
+		<entity Name="Jawbone Corpse" />
+		<entity Name="Dry Wheeze" />
+		<entity Name="Possessed" ID="227" Subtype="0" Variant="750" />
+		<entity Name="Moaner" />
+		<entity Name="Possessed" ID="750" Subtype="0" Variant="10" />
+		<entity Name="Unpawtunate" />
+		<entity Name="Unpawtunate Skull" />
+		<entity Name="Crepitus" />
+		<entity Name="Cracker" />
+		<entity Name="Creepterum" />
+		<entity Name="Tombit" />
+		<entity Name="Gravin" />
+		<entity Name="Calzone" />
+		<entity Name="Dangler" />
+		<entity Name="Gary" />
+		<entity Name="Ring of Ring Flies" />
+		<entity Name="Mr. Bones" />
+		<entity Name="Carrier" />
+		<entity Name="Fracture" />
+		<entity Name="Spooter" />
+		<entity Name="Super Spooter" />
+		<entity Name="Sniffle" />
+		<entity Name="Scope Creep" />
+		<entity Name="Mama Pooter" />
+		<entity Name="Full Spider" />
+		<group Name="Waiting Spiders" />
+	</group>
+  </group>
+  <group Name="FF Dank Depths" Label="Dank Depths">
+	<group Name="FF Dank Depths Events">
+		<entity Name="Danker Depths Backdrop" />
+		<entity Name="Pipes Backdrop" />
+		<entity Name="Trash Dank Depths Backdrop" />
+	</group>
+	<group Name="FF Dank Depths Obstacles">
+  		<entity Name="Furnace" />
+		<group Name="Pipes" />
+		<entity Name="Grate" />
+		<entity Name="Clogmo Pipe"/>
+		<entity Name="Clogmo Tunnel (Horizontal)"/>
+		<entity Name="Clogmo Tunnel (Vertical)"/>
+		<entity Name="Rubber Rock"/>
+		<entity Name="Buttery Compost Bin" />
+		<entity Name="Unstable Compost Bin" />
+		<entity Name="Gassy Compost Bin" />
+		<entity Name="Scented Compost Bin" />
+	</group>
+	<group Name="FF Dank Depths Enemies">
+		<entity Name="Tar Boy (Waiting)" />
+		<entity Name="Sticky Leaper (Waiting)" />
+		<entity Name="Tar Bubble" />
+		<entity Name="Squidge" />
+		<entity Name="Slag (Vertical)" />
+		<entity Name="Slag (Horizontal)" />
+		<entity Name="Gunk" />
+		<entity Name="Gorger" />
+		<entity Name="Blot" />
+		<entity Name="Melty" />
+		<entity Name="Pitcher" />
+		<entity Name="Trashbagger (Trash Depths)" />
+		<entity Name="Bunkter" />
+		<entity Name="Skuzzball" />
+		<entity Name="Skuzzball (Small)" />
+		<entity Name="Gobhopper" />
+		<entity Name="Litter Bug" />
+		<entity Name="Toxic Litter Bug" />
+		<entity Name="Gis" />
+		<entity Name="Sludge Host" />
+		<entity Name="Grater" />
+		<entity Name="Clogmo" />
+		<entity Name="Piper" />
+		<entity Name="Guflush" />
+		<entity Name="Boiler" />
+		<entity Name="Gob" />
+		<entity Name="Mr. Gob" />
+		<entity Name="Dope's Head" />
+		<entity Name="Slimer" />
+		<entity Name="Spooter" />
+		<entity Name="Super Spooter" />
+		<entity Name="Skuzz" />
+		<entity Name="Army Skuzz" />
+		<entity Name="Ring Skuzz" />
+		<entity Name="Drainfly" />
+		<entity Name="Splodum" />
+		<group Name="FF Dank Depths Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Griddle Horn" />
+		</group>
+	</group>
+  </group>
+  <group Name="FF Ch 4 Shared" Label="Ch 4 Shared">
+  	<group Name="FF Ch 4 Shared Obstacles">
+		<entity Name="Super Grimace" />
+		<entity Name="Frowny" />
+		<entity Name="Immural" />
+	</group>
+	<group Name="FF Ch 4 Shared Enemies">
+		<entity Name="Needle (Waiting)" />
+		<entity Name="Benign" />
+		<entity Name="Meatwad (Vertical)" />
+		<entity Name="Meatwad (Horizontal)" />
+		<entity Name="Chunky" />
+		<entity Name="Pale Limb" />
+		<entity Name="Bumbler" />
+		<entity Name="Parabite (Waiting)" />
+		<entity Name="Lump (Waiting)" />
+		<entity Name="Fred (Waiting)" />
+		<entity Name="Harletwin" />
+		<entity Name="Globscraper (4)" />
+		<entity Name="Globscraper (3)" />
+		<entity Name="Globscraper (2)" />
+		<entity Name="Globwad" />
+		<entity Name="Glorf" />
+		<entity Name="Globlet" />
+		<entity Name="Redema" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+		<entity Name="Flamin" />
+	</group>
+  </group>
+  <group Name="FF Womb" Label="Womb">
+	<group Name="FF Womb Obstacles">
+		<entity Name="Womb Pillar" />
+		<entity Name="Amniotic Sac" />
+	</group>
+	<group Name="FF Womb Enemies">
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Cohort" />
+		<!-- FF Entities -->
+		<entity Name="Craterface" />
+		<entity Name="Drooler" />
+		<entity Name="Motor Neuron" />
+		<entity Name="Berry" />
+		<entity Name="Spicy Dip" />
+		<entity Name="C Word" />
+		<entity Name="Neonate" />
+		<entity Name="Nuchal" />
+		<entity Name="Nuchal (Detached)" />
+		<entity Name="Nuchal (Cord)" />
+		<entity Name="Punted" />
+		<entity Name="Punted (grounded)" />
+		<entity Name="Foe" />
+		<entity Name="Quack" />
+		<entity Name="Thread" />
+		<entity Name="Mutant Horf" />
+		<entity Name="Warble" />
+		<entity Name="Strobila" />
+		<entity Name="Chops" />
+		<entity Name="Toothache" />
+		<entity Name="Chummer" />
+		<entity Name="Plexus" />
+		<entity Name="Nervie Point" />
+	</group>
+  </group>
+  <group Name="FF Utero" Label="Utero">
+	<group Name="FF Utero Events">
+		<entity Name="Eyeball Backdrop" />
+	</group>
+	<group Name="FF Utero Obstacles">
+		<group Name="Sphincters" />
+		<entity Name="Utero Pillar" />
+		<entity Name="Onlooker" />
+		<entity Name="Cordend" />
+		<group Name="Blood Cells" />
+	</group>
+	<group Name="FF Utero Enemies">
+		<entity Name="Peepling" />
+		<entity Name="Sagging Sucker" />
+		<entity Name="Valvo" />
+		<entity Name="Jammed" />
+		<entity Name="Red Jammed" />
+		<entity Name="Organelle" />
+		<entity Name="Bola" />
+		<entity Name="Tittle" />
+		<entity Name="Trickle (Flying)" />
+		<entity Name="Trickle (Skittering)" />
+		<entity Name="Magleech" />
+		<entity Name="Retch" />
+		<entity Name="Astroskull" />
+		<entity Name="Minimoon" />
+		<entity Name="Bladder" />
+		<entity Name="Heartbeat" />
+		<entity Name="Peepee" />
+		<entity Name="Chops" />
+		<entity Name="Toothache" />
+		<entity Name="Chummer" />
+		<entity Name="Spooter" />
+		<entity Name="Super Spooter" />
+		<entity Name="Full Spider" />
+		<group Name="Waiting Spiders" />
+		<entity Name="Bone Worm" />
+		<entity Name="Bone Worm (Waiting)" />
+		<entity Name="Carrier" />
+		<entity Name="Doom Fly" />
+		<entity Name="Molar System" />
+		<entity Name="Mr. Bones" />
+		<entity Name="Dry Wheeze" />
+		<entity Name="Sniffle" />
+		<entity Name="Scope Creep" />
+		<entity Name="Peek-a-boo" />
+		<entity Name="Spinny" />
+	</group>
+  </group>
+  <group Name="FF Scarred Womb" Label="Scarred Womb">
+	<group Name="FF Scarred Womb Enemies">
+		<entity Name="Pox (Vertical)" />
+		<entity Name="Pox (Horizontal)" />
+		<entity Name="Facade" />
+		<entity Name="Gleek" />
+		<entity Name="Mouthful" />
+		<entity Name="Incisor" />
+		<entity Name="Starving" />
+		<entity Name="Head Honcho" />
+		<entity Name="Dogmeat" />
+		<entity Name="Brooter" />
+		<entity Name="Curdle" />
+		<entity Name="Curdle (Naked)" />
+		<entity Name="Myiasis" />
+		<entity Name="Empty Myiasis" />
+		<entity Name="Lipoma" />
+		<entity Name="Cellulitis" />
+		<entity Name="Flailer" />
+		<entity Name="Morsel" />
+		<entity Name="Limb" />
+		<entity Name="Calzone" />
+		<entity Name="Scarred Parabite (Waiting)" />
+		<entity Name="Craterface" />
+		<entity Name="Drooler" />
+		<group Name="FF Scarred Womb Degraded Bosses" Label="Degraded Bosses">
+		<entity Name="Monsoon" />
+		</group>
+	</group>
+  </group>
+  <group Name="FF Ch 5 Shared" Label="Ch 5 Shared">
+  	<group Name="FF Ch 5 Shared Obstacles">
+		<entity Name="Super Grimace" />
+	</group>
+	<group Name="FF Ch 5 Shared Enemies">
+		<entity Name="Wizoob (Waiting)" />
+		<entity Name="Red Ghost (Waiting)" />
+		<entity Name="Flickerspirit" />
+		<entity Name="Eternal Flickerspirit" />
+		<entity Name="Viscerspirit" />
+		<entity Name="Flamin" />
+		<entity Name="Doom Fly" />
+		<entity Name="Lil' Jon" />
+		<entity Name="Ribeye" />
+		<entity Name="Bone Worm" />
+		<entity Name="Bone Worm (Waiting)" />
+	</group>
+  </group>
+  <group Name="FF Sheol" Label="Sheol">
+    <group Name="FF Sheol Events">
+		<entity Name="Psionic Backdrop" />
+	</group>
+	<group Name="FF Sheol Obstacles">
+		<entity Name="Cauldron" />
+		<entity Name="Psyeg" />
+		<entity Name="Eclipse" />
+		<entity Name="Cursed Poop" />
+		<entity Name="Evil Poop" />
+	</group>
+	<group Name="FF Sheol Enemies">
+		<group Name="FF Sheol Minibosses" Label="Sheol Minibosses">
+			<entity Name="Psion" />
+		</group>
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Wrinkly Baby" /> <!-- remove it when it's in the official BR list -->
+		<!-- FF Entities -->
+		<entity Name="Blazer" />
+		<entity Name="Crosseye" />
+		<entity Name="Psionic Knight" />
+		<entity Name="Foreseer" />
+		<entity Name="Psleech" />
+		<entity Name="Outlier (Vertical)" />
+		<entity Name="Outlier (Horizontal)" />
+		<entity Name="Observer" />
+		<entity Name="Psiling" />
+		<entity Name="Ms. Dominator" />
+		<entity Name="Dominated" />
+		<entity Name="Sombra" />
+		<entity Name="Umbra" />
+		<entity Name="Blistered Umbra" Subtype="1" Variant="950" />
+		<entity Name="Blistered Umbra" Subtype="2" Variant="950" />
+		<entity Name="Psi Hunter" />
+		<entity Name="Dread Weaver" />
+		<entity Name="Doomer" />
+		<entity Name="Thrall" />
+		<entity Name="Dread Maw" />
+		<entity Name="Scythe Rider" />
+		<entity Name="Thousand Eyes" />
+		<entity Name="Thousand Eyes (Waiting)" />
+		<entity Name="Possessed" />
+		<entity Name="Moaner" />
+		<group Name="FF Sheol Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Pollution" />
+		</group>
+	</group>
+  </group>
+  <group Name="FF Cathedral" Label="Cathedral">
+    <group Name="FF Cathedral Events">
+		<entity Name="Dungeon Locker" />
+		<entity Name="Gray Lock" />
+		<entity Name="Gray Chain Lock" />
+		<entity Name="Red Lock" />
+		<entity Name="Green Lock" />
+		<entity Name="Blue Lock" />
+		<entity Name="Red Chain Lock" />
+		<entity Name="Green Chain Lock" />
+		<entity Name="Blue Chain Lock" />
+		<entity Name="Red Puzzle Key" />
+		<entity Name="Green Puzzle Key" />
+		<entity Name="Blue Puzzle Key" />
+		<entity Name="Shirk Spot" />
+	</group>
+	<group Name="FF Cathedral Obstacles">
+		<entity Name="Glass Eye" ID="130" />
+		<entity Name="Frowny" />
+	</group>
+	<group Name="FF Cathedral Enemies">
+		<group Name="FF Cathedral Minibosses" Label="Cathedral Minibosses">
+			<entity Name="Gravedigger" />
+		</group>
+		<!-- Base Game Entities added to floor by FF -->
+		<entity Name="Polty" /> <!-- remove it when it's in the official BR list -->
+		<entity Name="Polty (Waiting)" />
+		<!-- FF Entities -->
+		<entity Name="Chorister" />
+		<entity Name="Primemind" />
+		<entity Name="Deadfly" />
+		<entity Name="Effigy" />
+		<entity Name="Seeker" />
+		<entity Name="Watcher" />
+		<entity Name="Watcher Eye" />
+		<entity Name="Armoured Looker" />
+		<entity Name="Looker" />
+		<entity Name="Dogrock" />
+		<entity Name="Warden" />
+		<entity Name="Cherub" />
+		<entity Name="Inner Eye" />
+		<entity Name="Enlightened" />
+		<entity Name="Unenlightened" />
+		<entity Name="Congression" />
+		<entity Name="Cherubskull" />
+		<entity Name="Specturn" />
+		<entity Name="Holy Wobbles" />
+		<entity Name="Cuffs" />
+		<entity Name="Zealot" />
+		<entity Name="Haunted" />
+		<entity Name="Yawner" />
+		<entity Name="Crotchety" />
+		<entity Name="Dim" />
+		<entity Name="Shirk" />
+		<entity Name="Wick" />
+		<entity Name="Temper" />
+		<entity Name="Ghostse" />
+		<entity Name="Gnawful" />
+		<entity Name="Mistmonger" />
+		<entity Name="Spook" />
+		<entity Name="Wailer" />
+		<entity Name="Dungeon Master" />
+		<entity Name="Baro" />
+		<entity Name="Mr. Bones" />
+		<entity Name="Sternum" />
+		<entity Name="Crepitus" />
+		<entity Name="Dangler" />
+		<group Name="FF Cathedral Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Chaser (The Organization)" />
+			<entity Name="Bashful (The Organization)" />
+			<entity Name="Speedy (The Organization)" />
+			<entity Name="Pokey (The Organization)" />
+		</group>
+	</group>
+  </group>
+ <group Name="FF Chapter 6 (Main Path)" Label="Chapter 6 (Main Path)">
+	<group Name="FF Chapter 6 (Main Path) Obstacles">
+		<entity Name="Beehive" />
+		<entity Name="Shampoo" />
+		<entity Name="Super Grimace" />
+		<entity Name="Frowny" />
+		<entity Name="Furnace" />
+		<entity Name="Immural" />
+		<entity Name="Wetstone" />
+		<entity Name="Bubble (Tiny)" />
+		<entity Name="Bubble (Small)" />
+		<entity Name="Bubble (Medium)" />
+		<entity Name="Bubble (Large)" />
+		<entity Name="Bubble (Small Watery)" />
+		<entity Name="Bubble (Medium Watery)" />
+		<entity Name="Bubble (Large Watery)" />
+		<entity Name="Bubble (Fly)" />
+		<entity Name="Bubble (Spider)" />
+		<entity Name="Bubble (Isopoly)" />
+		<entity Name="Bubble (Explosive)" />
+		<entity Name="Sewer Pipe" />
+		<entity Name="Septic Pipe" />
+		<entity Name="Sludge Pipe" />
+		<entity Name="Split Pipe" />
+		<entity Name="Sphincter" />
+		<entity Name="Grate" />
+		<entity Name="Amniotic Sac" />
+		<entity Name="Spider Nest" />
+		<entity Name="Womb Pillar" />
+		<entity Name="Utero Pillar" />
+		<entity Name="Onlooker" />
+		<entity Name="Artery (Mobile)" />
+		<entity Name="Artery (Spinning)" />
+		<entity Name="Vein" />
+		<entity Name="Lily Pad" />
+	</group>
+	<group Name="FF Chapter 6 (Main Path) Enemies">
+			<entity Name="Punk" />
+		<group Name="FF Chapter 6 (Main Path) Degraded Bosses" Label="Degraded Bosses">
+			<entity Name="Buck" />
+			<entity Name="Honeydrop" />
+			<entity Name="Griddle Horn" />
+			<entity Name="Buster" />
+			<entity Name="Meltdown" />
+			<entity Name="Meltdown" ID="180" Image="icons/FF/meltdown2.png" Variant="121" />
+			<entity Name="Battie" />
+			<entity Name="Kingpin" />
+			<entity Name="Slinger" />
+			<entity Name="Monsoon" />
+			<entity Name="Aquagob" />
+			<entity Name="Chaser (The Organization)" />
+			<entity Name="Bashful (The Organization)" />
+			<entity Name="Speedy (The Organization)" />
+			<entity Name="Pokey (The Organization)" />
+			<entity Name="Gutso" />
+			<entity Name="Luncheon" />
+			<entity Name="Tsar" />
+			<entity Name="Big Grate" />
+			<entity Name="Big Pipe" />
+			<entity Name="Pollution" />
+			<entity Name="Pollution" ID="180" Image="icons/FF/pollution2.png" Variant="111" />
+			<entity Name="The Sun" ID="180" />
+			<entity Name="Peeping" />
+			<entity Name="Peepstalk" />
+			<entity Name="Pin (Waiting)" />
+			<entity Name="Frail (Waiting)" />
+			<entity Name="Scolex (Waiting)" />
+		</group>
+	</group>
+  </group>
+ <group Name="FF Dark Room" Label="Dark Room">
+	<group Name="FF Dark Room Obstacles">
+		<entity Name="Cursed Poop" />
+		<entity Name="Cauldron" />
+		<entity Name="Psyeg" />
+		<entity Name="Eclipse" />
+	</group>
+	<group Name="FF Dark Room Enemies">
+		<entity Name="Slim Shady" />
+		<entity Name="Red Hand" />
+	</group>
+  </group>
+ <group Name="FF Special" Label="FF Special">
+	<group Name="FF Crawlspace Events" Label="Crawlspace Events">
+		<entity Name="Luscious Crawlspace Backdrop" />
+		<entity Name="Ossuary Crawlspace Backdrop" />
+		<entity Name="Pipes Crawlspace Backdrop" />
+		<entity Name="Creature Crawlspace Backdrop" />
+		<entity Name="Fortress Crawlspace Backdrop" />
+		<entity Name="Insulation Crawlspace Backdrop" />
+	</group>
+	<group Name="FF Crawlspace Enemies" Label="Crawlspace Enemies">
+		<entity Name="Fossil" />
+		<entity Name="Sentry" />
+		<entity Name="Sentry Shell" />
+		<entity Name="Haunch" />
+		<entity Name="Mold" />
+		<entity Name="Lonely Knight" />
+	</group>
+  </group>
+</tab>
+
+  <group Name="FF Global">
+	<group Name="FF Metal Blocks">
+		<entity Name="Fire Pot" />
+	</group>
+	<group Name="FF Buttons">
+		<entity Name="Golden Reward Plate" />
+	</group>
+	<group Name="FF TNT">
+		<entity Name="Super TNT" />
+		<entity Name="Water TNT" />
+		<entity Name="Buttery Compost Bin" />
+		<entity Name="Unstable Compost Bin" />
+		<entity Name="Gassy Compost Bin" />
+		<entity Name="Scented Compost Bin" />
+	</group>
+	<group Name="FF Events">
+		<entity Name="Member Card Relocator"/>
+		<entity Name="Red Lock" />
+		<entity Name="Green Lock" />
+		<entity Name="Blue Lock" />
+		<entity Name="Gray Lock" />
+		<entity Name="Red Chain Lock" />
+		<entity Name="Green Chain Lock" />
+		<entity Name="Blue Chain Lock" />
+		<entity Name="Gray Chain Lock" />
+		<entity Name="Red Puzzle Key" />
+		<entity Name="Green Puzzle Key" />
+		<entity Name="Blue Puzzle Key" />
+		<entity Name="Event Trigger - Enemy (Group 0)" />
+		<entity Name="Event Trigger - Enemy (Group 1)" />
+		<entity Name="Event Trigger - Enemy (Group 2)" />
+		<entity Name="Event Trigger - Enemy (Group 3)" />
+		<entity Name="Event Trigger - Enemy (All 0)" />
+		<entity Name="Event Trigger - Enemy (All 1)" />
+		<entity Name="Event Trigger - Enemy (All 2)" />
+		<entity Name="Event Trigger - Enemy (All 3)" />
+		<!-- <entity Name="Water Forcer" ID="970" Image="icons/FF/0 - Water Forcer.png" Subtype="11" Variant="1" NoBlockDoors="1"/> thanks Dead for adding it to BR with my icon :D-->
+	</group>
+	<group Name="FF Bums">
+		<entity Name="Cell Game" />
+		<entity Name="Blacksmith" />
+		<entity Name="Evil Beggar" />
+		<entity Name="Zodiac Beggar" />
+		<entity Name="Opened Shop Chest" />
+		<entity Name="Hug Beggar" />
+		<entity Name="Bismuth Trader"/>
+		<entity Name="Sourpuss"/>
+	</group>
+	<group Name="FF Machines">
+		<entity Name="Grid Restock Machine" />
+		<entity Name="Poker Table" />
+		<entity Name="Robot Teller" />
+		<entity Name="Mining Machine" />
+	</group>
+  </group>
+
+  <group Name="FF Pickups">
+	<group Name="FF Hearts">
+		<entity Name="Half Black Heart (Fiend Folio)" />
+		<entity Name="Blended Black Heart (Fiend Folio)" />
+		<entity Name="Half Immoral Heart" />
+		<entity Name="Immoral Heart" />
+		<entity Name="Blended Immoral Heart" />
+		<entity Name="Morbid Heart" />
+		<entity Name="Two-Thirds Morbid Heart" />
+		<entity Name="Third Morbid Heart" />
+    </group>
+	<group Name="FF Coins">
+		<entity Name="Cursed Penny" ID="5" Subtype="213" Variant="20" />
+		<entity Name="Golden Cursed Penny" />
+		<entity Name="Haunted Penny" />
+		<entity Name="Honey Penny" />
+    </group>
+	<group Name="FF Keys">
+		<entity Name="Spicy Key (Perm)" />
+		<entity Name="Super Spicy Key (Perm)" />
+		<entity Name="Charged Spicy Key (Perm)" />
+		<entity Name="Red Puzzle Key" />
+		<entity Name="Green Puzzle Key" />
+		<entity Name="Blue Puzzle Key" />
+    </group>
+	<group Name="FF Bombs">
+		<entity Name="Copper Bomb" />
+    </group>
+	<group Name="FF Sacks">
+		<entity Name="Blood Sack" />
+		<entity Name="Trash Bag" />
+		<entity Name="52 Deck" />
+    </group>
+	<group Name="Global Grimaces, etc." Label="Global Grimaces, etc.">
+		<entity Name="Frowny" />
+		<entity Name="Stone Grimace" />
+		<entity Name="Vomit Grimace" />
+		<entity Name="Triple Grimace" />
+		<entity Name="Super Grimace" />
+		<entity Name="Constant Stone Shooter (Down)" />
+		<entity Name="Constant Stone Shooter (Up)" />
+		<entity Name="Constant Stone Shooter (Left)" />
+		<entity Name="Constant Stone Shooter (Right)" />
+		<entity Name="Cross Stone Shooter" />
+		<entity Name="Cross Stone Shooter (×)" />
+		<entity Name="Cross Stone Shooter (Always On)" />
+		<entity Name="Cross Stone Shooter (×) (Always On)" />
+		<entity Name="Gaping Maw" />
+		<entity Name="Broken Gaping Maw" />
+		<entity Name="Stoney" />
+		<entity Name="Poky" />
+		<entity Name="Slide" />
+    </group>
+	<group Name="FF Chests">
+<!--	<entity Name="Reheated Chest" /> don't let anyone open this chest -->
+		<entity Name="Dire Chest" />
+		<entity Name="Shop Chest" />
+		<entity Name="Opened Shop Chest" />
+		<entity Name="Glass Chest" />
+    </group>
+	<group Name="FF Cards">
+		<group Name="Misc. FF Cards">
+			<entity Name="+3 Fireballs" />
+			<entity Name="+3 Fireballs?" />
+			<entity Name="Imp-losion" />
+			<entity Name="Calling Card" />
+			<entity Name="Grotto Beast" />
+			<entity Name="Download Failure" />
+			<entity Name="Plague of Decay" />
+			<entity Name="Defuse" />
+			<entity Name="Skip Card" />
+			<entity Name="Pot of Greed" />
+			<entity Name="Soccer" />
+			<entity Name="Flooring Upgrade" />
+			<entity Name="AC 3000" />
+			<entity Name="Gift Card" />
+			<entity Name="52 Deck" />
+		</group>
+		<group Name="FF Energy Cards" Label="Energy Cards">
+			<entity Name="Random Energy" />
+			<entity Name="Grass Energy" />
+			<entity Name="Fire Energy" />
+			<entity Name="Water Energy" />
+			<entity Name="Lightning Energy" />
+			<entity Name="Fighting Energy" />
+			<entity Name="Psychic Energy" />
+			<entity Name="Colorless Energy" />
+			<entity Name="Darkness Energy" />
+			<entity Name="Metal Energy" />
+			<entity Name="Dragon Energy" />
+			<entity Name="Fairy Energy" />
+		</group>
+		<group Name="FF Playing Cards">
+			<entity Name="Jack of Diamonds" />
+			<entity Name="Jack of Clubs" />
+			<entity Name="Jack of Hearts" />
+			<entity Name="Queen of Diamonds" />
+			<entity Name="Queen of Clubs" />
+			<entity Name="Queen of Spades" />
+			<entity Name="King of Clubs" />
+			<entity Name="3 of Diamonds" />
+			<entity Name="3 of Clubs" />
+			<entity Name="3 of Hearts" />
+			<entity Name="3 of Spades" />
+			<entity Name="Misprinted Joker" />
+			<entity Name="Misprinted Jack of Clubs" />
+			<entity Name="13 of Stars" />
+			<entity Name="Ace of Wands" />
+			<entity Name="Ace of Pentacles" />
+			<entity Name="Ace of Swords" />
+			<entity Name="Ace of Cups" />
+			<entity Name="2 of Wands" />
+			<entity Name="2 of Pentacles" />
+			<entity Name="2 of Swords" />
+			<entity Name="3 of Pentacles" />
+			<entity Name="3 of Swords" />
+			<entity Name="3 of Cups" />
+			<entity Name="King of Pentacles" />
+			<entity Name="King of Cups" />
+			<entity Name="King of Wands" />
+		</group>
+		<group Name="FF Runes">
+			<entity Name="Soul of Fiend" />
+			<entity Name="Soul of Golem" />
+			<entity Name="Soul of Random" />
+		</group>
+		<group Name="FF Objects" Label="Objects">
+			<entity Name="Random Object" />
+			<entity Name="Puzzle Piece" />
+			<entity Name="Green House" />
+			<entity Name="Brick Seperator" />
+			<entity Name="Blank Letter Tile" />
+			<entity Name="Top Hat" />
+		</group>
+		<group Name="FF Glass Dice" Label="Glass Dice">
+			<entity Name="Random Glass Die" />
+			<entity Name="Glass D2" />
+			<entity Name="Glass D4" />
+			<entity Name="Glass D6" />
+			<entity Name="Glass D8" />
+			<entity Name="Glass D10" />
+			<entity Name="Glass D12" />
+			<entity Name="Glass D20" />
+			<entity Name="Glass D100" />
+			<entity Name="Glass Spindown" />
+			<entity Name="Glass Azurite" />
+		</group>
+		<group Name="FF Discs" Label="Trial Discs">
+			<entity Name="Random Disc" />
+			<entity Name="Treasure Disc" />
+			<entity Name="Shop Disc" />
+			<entity Name="Boss Disc" />
+			<entity Name="Secret Disc" />
+			<entity Name="Devil Disc" />
+			<entity Name="Angel Disc" />
+			<entity Name="Planetarium Disc" />
+			<entity Name="Chaos Disc" />
+			<entity Name="Broken Disc" />
+		</group>
+    </group>
+  </group>
+
+
+<!-- Add FF enemies to Floors tab groups -->
+<group Name="Chapter 1 (Alt Path) Enemies">
+	<group Name="FF Ch 1 Alt Shared Enemies"/>
+</group>
+
+<group Name="Chapter 1 (Alt Path) Obstacles">
+	<group Name="FF Ch 1 Alt Shared Obstacles"/>
+</group>
+
+<group Name="Downpour Events">
+	<group Name="FF Downpour Events"/>
+</group>
+
+<group Name="Downpour Obstacles">
+	<group Name="FF Downpour Obstacles"/>
+</group>
+
+<group Name="Downpour Enemies">
+	<group Name="FF Downpour Enemies"/>
+</group>
+
+<group Name="Dross Events">
+	<group Name="FF Dross Events"/>
+</group>
+
+<group Name="Dross Obstacles">
+	<group Name="FF Dross Obstacles"/>
+</group>
+
+<group Name="Dross Enemies">
+	<group Name="FF Dross Enemies"/>
+</group>
+
+<group Name="Chapter 2 (Alt Path) Enemies">
+	<group Name="FF Ch 2 Alt Shared Enemies"/>
+</group>
+
+<group Name="Chapter 2 (Alt Path) Obstacles">
+	<group Name="FF Ch 2 Alt Shared Obstacles"/>
+</group>
+
+<group Name="Chapter 2 (Alt Path) Events">
+	<group Name="FF Ch 2 Alt Shared Events"/>
+</group>
+
+<group Name="Mines Events">
+	<group Name="FF Mines Events"/>
+</group>
+
+<group Name="Mines Obstacles">
+	<group Name="FF Mines Obstacles"/>
+</group>
+
+<group Name="Mines Enemies">
+	<group Name="FF Mines Enemies"/>
+</group>
+
+<group Name="Ashpit Events">
+	<group Name="FF Ashpit Events"/>
+</group>
+
+<group Name="Ashpit Enemies">
+	<group Name="FF Ashpit Enemies"/>
+</group>
+
+<group Name="Ashpit Obstacles">
+	<group Name="FF Ashpit Obstacles"/>
+</group>
+
+
+<group Name="Chapter 3 (Alt Path) Enemies">
+	<group Name="FF Ch 3 Alt Shared Enemies"/>
+</group>
+
+<group Name="Chapter 3 (Alt Path) Obstacles">
+	<group Name="FF Shared Obstacles"/>
+</group>
+
+<group Name="Mausoleum Events">
+	<group Name="FF Mausoleum Events"/>
+</group>
+
+<group Name="Mausoleum Enemies">
+	<group Name="FF Mausoleum Enemies"/>
+</group>
+
+<group Name="Mausoleum Obstacles">
+	<group Name="FF Mausoleum Obstacles"/>
+</group>
+
+<group Name="Gehenna Enemies">
+	<group Name="FF Gehenna Enemies"/>
+</group>
+
+<group Name="Gehenna Obstacles">
+	<group Name="FF Gehenna Obstacles"/>
+</group>
+
+<group Name="Corpse Events">
+	<group Name="FF Corpse Events"/>
+</group>
+
+<group Name="Corpse Obstacles">
+	<group Name="FF Corpse Obstacles"/>
+</group>
+
+<group Name="Corpse Enemies">
+	<group Name="FF Corpse Enemies"/>
+</group>
+
+<group Name="Ascent Enemies">
+	<group Name="FF Ascent Enemies"/>
+</group>
+
+<group Name="Chapter 1 (Main Path) Enemies">
+	<group Name="FF Ch 1 Shared Enemies"/>
+</group>
+
+<group Name="Basement Enemies">
+	<group Name="FF Basement Enemies"/>
+</group>
+
+<group Name="Cellar Events">
+	<group Name="FF Cellar Events"/>
+</group>
+
+<group Name="Cellar Obstacles">
+	<group Name="FF Cellar Obstacles"/>
+</group>
+
+<group Name="Cellar Enemies">
+	<group Name="FF Cellar Enemies"/>
+</group>
+
+<group Name="Burning Basement Events">
+	<group Name="FF Burning Basement Events"/>
+</group>
+
+<group Name="Burning Basement Obstacles">
+	<group Name="FF Burning Basement Obstacles"/>
+</group>
+
+<group Name="Burning Basement Enemies">
+	<group Name="FF Burning Basement Enemies"/>
+</group>
+
+<group Name="Chapter 2 (Main Path) Obstacles">
+	<group Name="FF Ch 2 Shared Obstacles"/>
+</group>
+
+<group Name="Chapter 2 (Main Path) Enemies">
+	<group Name="FF Ch 2 Shared Enemies"/>
+</group>
+
+<group Name="Caves Obstacles">
+	<group Name="FF Caves Obstacles"/>
+</group>
+
+<group Name="Caves Events">
+	<group Name="FF Caves Events"/>
+</group>
+
+<group Name="Caves Enemies">
+	<group Name="FF Caves Enemies"/>
+</group>
+
+<group Name="Catacombs Enemies">
+	<group Name="FF Catacombs Enemies"/>
+</group>
+
+<group Name="Catacombs Obstacles">
+	<group Name="FF Catacombs Obstacles"/>
+</group>
+<group Name="Flooded Caves Enemies">
+	<group Name="FF Flooded Caves Enemies"/>
+</group>
+
+<group Name="Flooded Caves Obstacles">
+	<group Name="FF Flooded Caves Obstacles"/>
+</group>
+
+<group Name="Chapter 3 (Main Path) Obstacles">
+	<group Name="FF Ch 3 Shared Obstacles"/>
+</group>
+
+<group Name="Chapter 3 (Main Path) Enemies">
+	<group Name="FF Ch 3 Shared Enemies"/>
+</group>
+
+<group Name="Depths Events">
+	<group Name="FF Depths Events"/>
+</group>
+
+<group Name="Depths Obstacles">
+	<group Name="FF Depths Obstacles"/>
+</group>
+
+<group Name="Depths Enemies">
+	<group Name="FF Depths Enemies"/>
+</group>
+
+<group Name="Necropolis Obstacles">
+	<group Name="FF Necropolis Obstacles"/>
+</group>
+
+<group Name="Necropolis Enemies">
+	<group Name="FF Necropolis Enemies"/>
+</group>
+
+<group Name="Dank Depths Events">
+	<group Name="FF Dank Depths Events"/>
+</group>
+
+<group Name="Dank Depths Obstacles">
+	<group Name="FF Dank Depths Obstacles"/>
+</group>
+
+<group Name="Dank Depths Enemies">
+	<group Name="FF Dank Depths Enemies"/>
+</group>
+
+<group Name="Chapter 4 (Main Path) Obstacles">
+	<group Name="FF Ch 4 Shared Obstacles"/>
+</group>
+
+<group Name="Chapter 4 (Main Path) Enemies">
+	<group Name="FF Ch 4 Shared Enemies"/>
+</group>
+
+<group Name="Womb Obstacles">
+	<group Name="FF Womb Obstacles"/>
+</group>
+
+<group Name="Womb Enemies">
+	<group Name="FF Womb Enemies"/>
+</group>
+
+<group Name="Utero Events">
+	<group Name="FF Utero Events"/>
+</group>
+
+<group Name="Utero Obstacles">
+	<group Name="FF Utero Obstacles"/>
+</group>
+
+<group Name="Utero Enemies">
+	<group Name="FF Utero Enemies"/>
+</group>
+
+<group Name="Scarred Womb Enemies">
+	<group Name="FF Scarred Womb Enemies"/>
+</group>
+
+<group Name="Chapter 5 (Main Path) Obstacles">
+	<group Name="FF Ch 5 Shared Obstacles"/>
+</group>
+
+<group Name="Chapter 5 (Main Path) Enemies">
+	<group Name="FF Ch 5 Shared Enemies"/>
+</group>
+
+<group Name="Sheol Events">
+	<group Name="FF Sheol Events"/>
+</group>
+
+<group Name="Sheol Obstacles">
+	<group Name="FF Sheol Obstacles"/>
+</group>
+
+<group Name="Sheol Enemies">
+	<group Name="FF Sheol Enemies"/>
+</group>
+
+<group Name="Cathedral Events">
+	<group Name="FF Cathedral Events"/>
+</group>
+
+<group Name="Cathedral Obstacles">
+	<group Name="FF Cathedral Obstacles"/>
+</group>
+
+<group Name="Cathedral Enemies">
+	<group Name="FF Cathedral Enemies"/>
+</group>
+
+<group Name="Chapter 6 (Main Path) Obstacles">
+	<group Name="FF Chapter 6 (Main Path) Obstacles"/>
+</group>
+
+<group Name="Chapter 6 (Main Path) Enemies">
+	<group Name="FF Chapter 6 (Main Path) Enemies"/>
+</group>
+
+<group Name="Dark Room Obstacles">
+	<group Name="FF Dark Room Obstacles"/>
+</group>
+
+<group Name="Dark Room Enemies">
+	<group Name="FF Dark Room Enemies"/>
+</group>
+
+<group Label="Special Enemies">
+	<group Name="FF Crawlspace Events"/>
+	<group Name="FF Crawlspace Enemies"/>
+</group>
+
+<group Label="Wall Huggers">
+	<group Name="Global Grimaces, etc."/>
+</group>
+<group Name="TNT">
+	<group Name="FF TNT"/>
+</group>
+
+<group Name="Alt Rocks">
+	<entity Name="Rubber Rock"/>
+</group>
+
+<group Name="Poops">
+	<!-- Unused Base Game Poops (for Minecarts) -->
+	<entity Name="Pushable Poop" />
+	<entity Name="Pushable Golden Poop" />
+	<!-- FF Entities -->
+	<entity Name="Petrified Poop" ID="183" Variant="1028"/>
+	<entity Name="Cursed Poop"/>
+	<entity Name="Platinum Poop"/>
+</group>
+
+<group Name="Metal Blocks">
+	<group Name="FF Metal Blocks"/>
+</group>
+
+<group Name="Events">
+	<group Name="FF Events"/>
+</group>
+
+<group Name="Pressure Plates">
+	<group Name="FF Buttons"/>
+</group>
+
+<group Label="Batteries">
+	<entity Name="Storage Battery (0 Charge)" />
+	<entity Name="Storage Battery (1 Charge)" />
+	<entity Name="Storage Battery (2 Charge)" />
+	<entity Name="Storage Battery (3 Charge)" />
+</group>
+
+<group Label="Cards">
+	<group Name="FF Playing Cards"/>
+	<group Name="Misc. FF Cards"/>
+	<group Name="FF Energy Cards" Label="Energy Cards"/>
+	<group Name="FF Objects" Label="Objects"/>
+	<group Name="FF Glass Dice" Label="Glass Dice"/>
+	<group Name="FF Discs" Label="Trial Discs"/>
+</group>
+
+<group Label="Runes">
+	<group Name="FF Runes"/>
+</group>
+
+<group Name="(Pickups) Random">
+	<entity Name="Random Energy" />
+	<entity Name="Random Glass Die" />
+	<entity Name="Random Object" />
+	<entity Name="Random Disc" />
+</group>
+
+<group Label="Keys">
+	<group Name="FF Keys"/>
+</group>
+
+<group Label="Hearts">
+	<group Name="FF Hearts"/>
+</group>
+
+<group Label="Coins">
+	<group Name="FF Coins"/>
+</group>
+
+<group Label="Bombs">
+	<group Name="FF Bombs"/>
+</group>
+
+<group Label="Chests">
+	<group Name="FF Chests"/>
+</group>
+
+<group Name="Grab Bags">
+	<group Name="FF Sacks"/>
+</group>
+
+<group Label="Bums">
+	<group Name="FF Bums"/>
+</group>
+
+<group Label="Machines">
+	<group Name="FF Machines"/>
+</group>
+
+<group Name="Basement Bosses">
+	<group Name="FF Basement Bosses"/>
+</group>
+
+<group Name="Cellar Bosses">
+	<group Name="FF Cellar Bosses"/>
+</group>
+
+<group Name="Burning Basement Bosses">
+	<group Name="FF Burning Basement Bosses"/>
+</group>
+
+<group Name="Downpour Bosses">
+	<group Name="FF Downpour Bosses"/>
+</group>
+
+<group Name="Dross Bosses">
+	<group Name="FF Dross Bosses"/>
+</group>
+
+<group Name="Caves Bosses">
+	<group Name="FF Caves Bosses"/>
+</group>
+
+<group Name="Catacombs Bosses">
+	<group Name="FF Catacombs Bosses"/>
+</group>
+
+<group Name="Flooded Caves Bosses">
+	<group Name="FF Flooded Caves Bosses"/>
+</group>
+
+<group Name="Mines Bosses">
+	<group Name="FF Mines Bosses"/>
+</group>
+
+<group Name="Ashpit Bosses">
+	<group Name="FF Ashpit Bosses"/>
+</group>
+
+<group Name="Depths Bosses">
+	<group Name="FF Depths Bosses"/>
+</group>
+
+<group Name="Necropolis Bosses">
+	<group Name="FF Necropolis Bosses"/>
+</group>
+
+<group Name="Dank Depths Bosses">
+	<group Name="FF Dank Depths Bosses"/>
+</group>
+
+<group Name="Mausoleum Bosses">
+	<group Name="FF Mausoleum Bosses"/>
+</group>
+
+<group Name="Gehenna Bosses">
+	<group Name="FF Gehenna Bosses"/>
+</group>
+
+<group Name="Womb Bosses">
+	<group Name="FF Womb Bosses"/>
+</group>
+
+<group Name="Utero Bosses">
+	<group Name="FF Utero Bosses"/>
+</group>
+
+<group Name="Scarred Womb Bosses">
+	<group Name="FF Scarred Womb Bosses"/>
+</group>
+
+<group Name="Corpse Bosses">
+	<group Name="FF Corpse Bosses"/>
+</group>
+
+<group Name="Special Bosses">
+	<group Name="FF Special Bosses" />
+</group>
+
+</data>

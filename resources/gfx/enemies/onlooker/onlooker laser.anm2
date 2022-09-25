@@ -1,0 +1,78 @@
+<AnimatedActor>
+	<Info CreatedBy="Unknown" CreatedOn="2021-01-29 11:56:45 AM" Version="42" Fps="30"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="onlooker laser.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="Laser" Id="0" SpritesheetId="0"/>
+			<Layer Name="Endpoint" Id="1" SpritesheetId="0"/>
+			<Layer Name="Impact" Id="2" SpritesheetId="0"/>
+		</Layers>
+		<Nulls/>
+		<Events/>
+	</Content>
+	<Animations DefaultAnimation="Idle">
+		<Animation Name="Idle" FrameNum="1" Loop="true">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="1" Visible="true"/>
+				<LayerAnimation LayerId="0" Visible="true"/>
+				<LayerAnimation LayerId="2" Visible="true"/>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+		<Animation Name="Security" FrameNum="1" Loop="true">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="1" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="39" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="3" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="2" Visible="true"/>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+		<Animation Name="Fire" FrameNum="6" Loop="true">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="1" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="48" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="66" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="57" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="48" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="66" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="57" YCrop="-737" Width="3" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="12" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="30" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="21" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="12" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="30" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="1" YPivot="0" XCrop="21" YCrop="3" Width="3" Height="10" XScale="100" YScale="7500" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</LayerAnimation>
+				<LayerAnimation LayerId="2" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="73" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="75" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="73" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="600" BlueTint="500" AlphaTint="255" RedOffset="70" GreenOffset="30" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="95" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="600" BlueTint="255" AlphaTint="255" RedOffset="75" GreenOffset="40" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="95" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="75" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="84" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="600" BlueTint="500" AlphaTint="255" RedOffset="70" GreenOffset="30" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="0" XPivot="4" YPivot="0" XCrop="84" YCrop="-743" Width="9" Height="757" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="600" GreenTint="600" BlueTint="255" AlphaTint="255" RedOffset="75" GreenOffset="40" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</LayerAnimation>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>

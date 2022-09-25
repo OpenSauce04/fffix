@@ -1,0 +1,2640 @@
+<data>
+
+<!--Rev-->
+    <entity ID="481" Image="icons/FF/rev/hazardMorsel.png" Name="Ice Hazard (Morsel)" Subtype="0" Variant="160" >
+        <bitfield Key="Subtype">
+            <dropdown Length="3">
+                <choice Value="0">Random 2-4</choice>
+                <choice Value="2">2 Morsels</choice>
+                <choice Value="3">3 Morsels</choice>
+                <choice Value="4">4 Morsels</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity ID="481" Image="icons/FF/rev/hazardSlammer.png" Name="Ice Hazard (Slammer)" Subtype="0" Variant="161" />
+
+<!-- Testing/Other -->
+    <entity Metadata="1" Group="Testing" ID="150" Image="icons/FF/backdropHive.png" Kind="FF" Name="Hive Backdrop" Subtype="0" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Hive Backdrop" />
+    </entity>
+    <entity Group="Testing" ID="160" Image="icons/FF/TEST.png" Kind="FF" Name="MERN" Subtype="0" Variant="1712" />
+
+    <entity Kind="FF" Group="Z - Jokes" ID="160" Image="icons/FF/semi sacred geomatry.png" Name="Mother Orb" Subtype="0" Variant="1000" />
+    <entity Kind="FF" Group="Z - Jokes" ID="25"  Image="icons/FF/golden_boomfly.png" Name="Golden Boom Fly" Subtype="0" Variant="961" />
+    <entity Kind="FF" Group="Z - Jokes" ID="160" Variant="1001" Image="icons/FF/jokes/jackson.png" Name="Jackson" Subtype="0" />
+    <entity Kind="FF" Group="Z - Jokes" ID="160" Variant="1002" Image="icons/FF/jokes/freezer.png" Name="The Freezer" Subtype="0" />
+    <entity Kind="FF" Group="Z - Jokes" ID="160" Variant="1003" Image="icons/FF/jokes/peat.png" Name="Peat" Subtype="0" />
+    <entity Group="Z - Jokes" ID="160" Variant="1713" Image="icons/FF/jokes/freezer.png" Name="Spider (Nicalis)" Subtype="0" />
+    <entity ID="160" Variant="1717" Image="icons/FF/crudemate.png" Name="Crudemate" Subtype="0" />
+	<entity Kind="FF" Group="Z - Jokes" ID="114" Variant="1000" Image="icons/FF/jokes/mouse.png" Name="Mouse" Subtype="0" />
+	<entity Kind="FF" Group="Z - Jokes" ID="114" Variant="1001" Image="icons/FF/jokes/murasa.png" Name="Minamitsu Murasa" Subtype="0" />
+	<entity Kind="FF" ID="114" Variant="1003" Image="icons/FF/jokes/k3devaheart.png" Name="Hold, Release; Rakshasa and Carcasses" Subtype="0" />
+	<entity Kind="FF" Group="Z - Jokes" ID="124" Variant="1000" Image="icons/FF/jokes/master atom.png" Name="Master Atom" Subtype="0" />
+	<entity Kind="FF" Group="Z - Jokes" ID="18" Variant="114" Image="icons/FF/jokes/moterHell.png" Name="Custom Moter" Subtype="0">
+		<bitfield Key="Subtype">
+            <bitmap Name="Moter Shape" Length="16" Width="4"/>
+            <!--
+			<spinner Name="Row 1" Length="4" Offset="0" >
+				<tooltip>Subtypes are in binary, 0 is empty.</tooltip>
+			</spinner>
+			<spinner Name="Row 2" Length="4" Offset="4" >
+				<tooltip>Not all sprites are supported (yet).</tooltip>
+			</spinner>
+			<spinner Name="Row 3" Length="4" Offset="8" >
+				<tooltip>Weird layouts probably shouldn't work.</tooltip>
+			</spinner>
+			<spinner Name="Row 4" Length="4" Offset="12" >
+				<tooltip>You asked for this.</tooltip>
+			</spinner>-->
+		</bitfield>
+	</entity>
+    <entity Kind="FF" Group="Z - Jokes" ID="12" Variant="333" Image="icons/FF/jokes/trihorf.png" Name="Trihorf" Subtype="0"/>
+    <entity Kind="FF" Group="Z - Jokes" ID="13" Variant="333" Image="icons/FF/jokes/thumbsupfly.png" Name="Thumbs Up Fly" Subtype="0"/>
+	<entity Group="Z - Jokes" ID="85" Image="icons/FF/litterbugcharmed.png" Kind="FF" Name="Charmed Litter Bug" Subtype="0" Variant="966" />
+    <entity ID="183" Metadata="1" Image="icons/FF/dog_doo.png" Kind="FF" Name="Dog Doo" Subtype="0" Variant="1036" />
+    <entity ID="114" Variant="1009" Image="icons/FF/jokes/mawmr.png" Name="Maw Mr." Subtype="0" />
+    <entity ID="5" Variant="370" Subtype="114" Image="icons/FF/fiendcake.png" Name="Fiendish Cake" />
+
+   <entity Kind="FF" Group="Z - Reheated" ID="160" Variant="1711" Image="icons/FF/jokes/reheated.png" Name="The Binding of Isaac: Reheated" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="5" Variant="710" Image="icons/FF/jokes/reheatedchest.png" Name="Reheated Chest" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="160" Variant="1710" Image="icons/FF/jokes/beserker.png" Name="Beserker" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="214" Variant="710" Image="icons/FF/jokes/RFly01.png" Name="Icky Fly" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="214" Variant="711" Image="icons/FF/jokes/RFly02.png" Name="Bobby Fly" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="214" Variant="712" Image="icons/FF/jokes/RFly03.png" Name="Reheated Fly" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="214" Variant="713" Image="icons/FF/jokes/RFly04.png" Name="Reheated Sacky Fly" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="214" Variant="714" Image="icons/FF/jokes/RFly05.png" Name="Reheated Chompy Fly" Subtype="0" />
+
+   <entity Kind="FF" Group="Z - Reheated" ID="215" Variant="711" Image="icons/FF/jokes/RSpider02.png" Name="Bobby Spider" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="215" Variant="712" Image="icons/FF/jokes/RSpider03.png" Name="Reheated Spider" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="215" Variant="713" Image="icons/FF/jokes/RSpider04.png" Name="Reheated Sacky Spider" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="215" Variant="714" Image="icons/FF/jokes/RSpider05.png" Name="Icky Spider" Subtype="0" />
+   <entity Kind="FF" Group="Z - Reheated" ID="215" Variant="715" Image="icons/FF/jokes/RSpider06.png" Name="Reheated Chompy Spider" Subtype="0" />
+
+   <entity Kind="FF" Group="Ch 1/2 - Sorry" ID="215" Variant="710" Image="icons/FF/jokes/RSpider01.png" Name="Full Spider" Subtype="0" />
+   <entity Kind="FF" Group="Ch 1/2 - Sorry" ID="214" Variant="715" Image="icons/FF/jokes/RFly02Real.png" Name="Ticking Fly" Subtype="0" />
+
+	<entity Kind="FF" Group="Z - Septic" ID="21" Variant="960" Image="icons/FF/compat/Spoly.png" Name="Septic Poly" Subtype="1" />
+	<entity Kind="FF" Group="Z - Septic" ID="160" Variant="272" Image="icons/FF/compat/Sghoste.png" Name="Septic Ghostse" Subtype="0" />
+	<entity Kind="FF" Group="Z - Septic" ID="151" Variant="6" Image="icons/FF/compat/Sslammer.png" Name="S'Eptic" Subtype="0">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Kind="FF" Group="Z - Septic" ID="160" Variant="769" Image="icons/FF/compat/Sbowler.png" Name="Septic Bowler" Subtype="0" />
+	<entity Kind="FF" Group="Z - Septic" ID="160" Variant="769" Image="icons/FF/compat/Sloafer.png" Name="Septic Loafer" Subtype="1" />
+	<entity Kind="FF" Group="Z - Septic" ID="160" Variant="769" Image="icons/FF/compat/Shead.png" Name="Septic Bowler Ball" Subtype="2" />
+	<entity Group="Z - Septic" ID="160"  Image="icons/FF/compat/Ssourpatch.png" Kind="FF" Name="Limepatch" Subtype="1" Variant="360" />
+	<entity Group="Z - Septic" ID="29"  Image="icons/FF/compat/Ssourpatchhead.png" Kind="FF" Name="Limepatch Head" Subtype="1" Variant="962" />
+	<entity Group="Z - Septic" ID="160" Image="icons/FF/compat/Ssourpatchbody.png" Kind="FF" Name="Limepatch Body" Subtype="1" Variant="361" />
+	<entity Group="Z - Septic" ID="21" Image="icons/FF/compat/snimbus.png" Kind="FF" Name="Septic Nimbus" Subtype="1" Variant="666" />
+
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspaceLuscious.png" Kind="FF" Name="Luscious Crawlspace Backdrop" Subtype="50" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Luscious Crawlspace Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspaceOssuary.png" Kind="FF" Name="Ossuary Crawlspace Backdrop" Subtype="51" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Ossuary Crawlspace Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspacePipes.png" Kind="FF" Name="Pipes Crawlspace Backdrop" Subtype="52" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Pipes Crawlspace Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspaceCreature.png" Kind="FF" Name="Creature Crawlspace Backdrop" Subtype="53" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Creature Crawlspace Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspaceFortress.png" Kind="FF" Name="Fortress Crawlspace Backdrop" Subtype="54" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Fortress Crawlspace Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Crawlspace" ID="150" Image="icons/FF/backdropCrawlspaceInsulation.png" Kind="FF" Name="Insulation Crawlspace Backdrop" Subtype="55" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Insulation Crawlspace Backdrop" />
+    </entity>
+    <entity Group="Crawlspace" ID="160" Image="icons/FF/Fossil.png" Kind="FF" Name="Fossil" Subtype="0" Variant="160" />
+    <entity Group="Crawlspace" ID="160" Image="icons/FF/sentry.png" Kind="FF" Name="Sentry" Subtype="0" Variant="161" />
+    <entity Group="Crawlspace" ID="160" Image="icons/FF/sentry2.png" Kind="FF" Name="Sentry Shell" Subtype="1" Variant="161" />
+    <entity Group="Crawlspace" ID="160" Image="icons/FF/haunch.png" Kind="FF" Name="Haunch" Subtype="0" Variant="33" />
+    <entity Group="Crawlspace" ID="160" Image="icons/FF/mold.png" Kind="FF" Name="Mold" Subtype="0" Variant="162" />
+    <entity Group="Crawlspace" ID="750" Image="icons/FF/lonelyknight.png" Kind="FF" Name="Lonely Knight" Subtype="0" Variant="190" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2" Offset="0">
+                <choice>Random</choice>
+                <choice>Left Facing</choice>
+                <choice>Right Facing</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+    <entity Group="Bosses" ID="180" Image="icons/FF/buck.png" Kind="FF" Name="Buck" Subtype="0" Variant="0" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/whispers.png" Kind="FF" Name="The Whispers" Subtype="0" Variant="250" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/whispers_marker.png" Kind="FF" Name="Whispers Marker" Subtype="13824" Variant="252">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Shoot Point</choice>
+                <choice>Sweep Point</choice>
+            </dropdown>
+            <spinner Length="4" Name="Group">
+                <tooltip>Boss will pick random group to use for next set of attacks
+If there are multiple whispers in a room, they will always pick separate groups</tooltip>
+            </spinner>
+            <spinner Length="4" Name="Sweep Index">
+                <tooltip>Boss will move between Sweep Points in order of Sweep Index (low to high or high to low)</tooltip>
+            </spinner>
+            <spinner Length="3" Name="X Offset" Unit="Grids" ValueOffset="-3">
+                <tooltip>Position will be moved N grids in the X direction
+Negative is left, positive is right</tooltip>
+            </spinner>
+            <spinner Length="3" Name="Y Offset" Unit="Grids" ValueOffset="-3">
+                <tooltip>Position will be moved N grids in the Y direction
+Negative is up, positive is down</tooltip>
+            </spinner>
+            <checkbox Length="1" Name="Loop">
+                <tooltip>If set, Sweep attack will loop around indices rather than reversing direction</tooltip>
+            </checkbox>
+        </bitfield>
+    </entity>
+	<entity Group="Bosses" ID="666" Image="icons/FF/chubbydrop.png" Kind="FF" Name="Honeydrop" Subtype="0" Variant="160" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Four Eyes</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Bosses" ID="666" Image="icons/FF/heiress.png" Kind="FF" Name="Heiress" Subtype="0" Variant="190" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/griddle.png" Kind="FF" Name="Griddle Horn" Subtype="0" Variant="30" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/battie.png" Kind="FF" Name="Battie" Subtype="0" Variant="10">
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Normal</choice>
+                <choice>Foamy</choice>
+                <choice>Purple</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" ID="180" Image="icons/FF/moistro.png" Kind="FF" Name="Monsoon" Subtype="0" Variant="40" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/buster.png" Kind="FF" Name="Buster" Subtype="0" Variant="20" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/Sun.png" Kind="FF" Name="The Sun" Subtype="0" Variant="50" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/organization_chaser.png" Kind="FF" Name="Chaser (The Organization)" Subtype="0" Variant="60" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/organization_bashful.png" Kind="FF" Name="Bashful (The Organization)" Subtype="0" Variant="61" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/organization_speedy.png" Kind="FF" Name="Speedy (The Organization)" Subtype="0" Variant="62" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/organization_pokey.png" Kind="FF" Name="Pokey (The Organization)" Subtype="0" Variant="63" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/Basco.png" Kind="FF" Name="Basco" Subtype="0" Variant="70" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/unforgettable.png" Kind="FF" Name="Luncheon" Subtype="0" Variant="100" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/peeping.png" Kind="FF" Name="Peeping" Subtype="0" Variant="90" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/peepeeSpawnPoint.png" Kind="FF" Name="Peepstalk" Subtype="0" Variant="92" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/pollution.png" Kind="FF" Name="Pollution" Subtype="0" Variant="110" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/pollution2.png" Kind="FF" Name="Pollution" Subtype="0" Variant="111" />
+	<entity Group="Bosses" ID="160" Image="icons/FF/reddit.png" Kind="FF" Name="Punk" Subtype="0" Variant="101" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/meltdown.png" Kind="FF" Name="Meltdown" Subtype="0" Variant="120" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/meltdown2.png" Kind="FF" Name="Meltdown" Subtype="0" Variant="121" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/aquagob.png" Kind="FF" Name="Aquagob" Subtype="0" Variant="160" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/dusk.png" Kind="FF" Name="Dusk" Subtype="0" Variant="170" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/cacamancer.png" Kind="FF" Name="Cacamancer" Subtype="0" Variant="190" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/gutso.png" Kind="FF" Name="Gutso" Subtype="0" Variant="200" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/junkstrap.png" Kind="FF" Name="Junkstrap" Subtype="0" Variant="280" />
+    <entity Group="Bosses" ID="180" Image="icons/FF/tsar.png" Kind="FF" Name="Tsar" Subtype="0" Variant="180" >
+        <bitfield Key="Subtype">
+            <checkbox Name="Spawn With Grate">
+                <tooltip>Spawn a grate under Tsar on init.</tooltip>
+            </checkbox>
+            <dropdown Name="Material" Length="3" ValueOffset="1">
+                <choice>Dank</choice>
+                <choice>Septic</choice>
+                <choice>Piss</choice>
+                <choice>Poop</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" ID="44" Image="icons/FF/big_grate.png" Kind="FF" Name="Big Grate" Subtype="0" Variant="1820" />
+    <entity Group="Bosses" ID="44" Image="icons/FF/big_pipe_dank.png" Kind="FF" Name="Big Pipe" SubType="0" Variant="1810" >
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal Align">
+                <tooltip>Horizontal Align</tooltip>
+            </checkbox>
+            <dropdown Name="Material" Length="3" ValueOffset="1">
+                <choice>Septic</choice>
+                <choice>Piss</choice>
+                <choice>Poop</choice>
+                <choice>Dank</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+    <entity Group="Bosses" ID="180" Image="icons/FF/kingpin.png" Kind="FF" Name="Kingpin" Subtype="5" Variant="80">
+        <bitfield Key="Subtype">
+            <spinner Length="8" Minimum="3" Name="Segments"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Bosses" ID="180" Image="icons/FF/slinger.png" Kind="FF" Name="Slinger" Subtype="0" Variant="210">
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Normal</choice>
+                <choice>Skuzzy</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" ID="180" Image="icons/FF/mrdead.png" Kind="FF" Name="Mr. Dead" Subtype="0" Variant="220">
+        <bitfield Key="Subtype">
+            <checkbox Name="Shift 20 Units Right">
+                <tooltip>Aligns to grid edge rather than centre.</tooltip>
+            </checkbox>
+            <checkbox Name="Shift 20 Units Down" ValueOffset="1">
+                <tooltip>Aligns to grid edge rather than centre.</tooltip>
+            </checkbox>
+        </bitfield>
+    </entity>
+
+	<entity Group="Bosses" ID="180" Image="icons/FF/megaportal.png" Kind="FF" Name="Warp Zone" Subtype="0" Variant="230" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/corruptedmonstro.png" Kind="FF" Name="Corrupted Monstro" Subtype="0" Variant="231" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/corruptedlarry.png" Kind="FF" Name="Corrupted Larry" Subtype="0" Variant="232" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/corruptedcontusion.png" Kind="FF" Name="Corrupted Contusion" Subtype="0" Variant="233" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/corruptedsuture.png" Kind="FF" Name="Corrupted Suture" Subtype="0" Variant="234" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/palegusher.png" Kind="FF" Name="Pale Gusher" Subtype="0" Variant="235" />
+	<entity Group="Bosses" ID="180" Image="icons/FF/ghostbuster.png" Kind="FF" Name="Ghostbuster" Subtype="0" Variant="240" />
+
+    <entity Group="Bosses" ID="180" Image="icons/FF/cacophobia_spawner.png" Kind="FF" Name="Cacophobia Spawner" Variant="260" Subtype="0"/>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12000" Image="icons/FF/cacophobia_venus.png" Kind="FF" Name="Cacophobia Venus" Variant="0" Subtype="0">
+        <bitfield Key="Variant">
+            <spinner Length="12" ValueOffset = "-1" Name="Next Room Subtype"/>
+            <spinner Length="4" Name="Repeat Subtype" Unit="Times"/>
+        </bitfield>
+        <bitfield Key="Subtype">
+            <spinner Length="8" Unit="1/10th Seconds" Name="Layout Switch Delay"/>
+            <spinner Length="8" Unit="1/10th Seconds" Name="Black Screen Length"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12001" Image="icons/FF/cacophobia_spawn_point.png" Kind="FF" Name="Cacophobia Player Spawn Point" Variant="0" Subtype="0"/>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12002" Image="icons/FF/cacophobia_eye_radial.png" Kind="FF" Name="Cacophobia Eye (Radial)" Variant="127" Subtype="0">
+        <bitfield Key="Variant">
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-127" Name="Initial Delay">
+                <tooltip>Negative initial delay means it will spawn projectiles as if it fired BEFORE the layout was loaded</tooltip>
+            </spinner>
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-1" Name="Loop Delay">
+                <tooltip>If set above -1, repeats its attack every 0.X seconds.</tooltip>
+            </spinner>
+        </bitfield>
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>No Aim</choice>
+                <choice>Aim at Player</choice>
+                <choice>Aim Randomly</choice>
+                <choice>Aim at Spawn</choice>
+            </dropdown>
+            <dropdown Length="2">
+                <choice>Slowest</choice>
+                <choice>Slow</choice>
+                <choice>Standard</choice>
+                <choice>Fast</choice>
+            </dropdown>
+            <spinner Length="4" Name="Num Projectiles" ValueOffset="1"/>
+            <dial Length="4" Name="Angle" Unit="Degrees" ValueOffset="12">
+				<tooltip>Spawn angle of the projectiles</tooltip>
+			</dial>
+            <spinner Length="4" Name="Num Gaps"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12003" Image="icons/FF/cacophobia_eye_directional.png" Kind="FF" Name="Cacophobia Eye (Directional)" Variant="127" Subtype="0">
+        <bitfield Key="Variant">
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-127" Name="Initial Delay">
+                <tooltip>Negative initial delay means it will spawn projectiles as if it fired BEFORE the layout was loaded</tooltip>
+            </spinner>
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-1" Name="Loop Delay">
+                <tooltip>If set above -1, repeats its attack every 0.X seconds.</tooltip>
+            </spinner>
+        </bitfield>
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>No Aim</choice>
+                <choice>Aim at Player</choice>
+                <choice>Aim Randomly</choice>
+                <choice>Aim at Spawn</choice>
+            </dropdown>
+            <dropdown Length="2">
+                <choice>Slowest</choice>
+                <choice>Slow</choice>
+                <choice>Standard</choice>
+                <choice>Fast</choice>
+            </dropdown>
+            <spinner Length="4" Name="Num Projectiles"/>
+            <dial Length="4" Name="Angle" Unit="Degrees" ValueOffset="12">
+				<tooltip>Spawn angle of the projectiles</tooltip>
+			</dial>
+            <spinner Length="4" Name="Spread" Unit="* 10 Degrees"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12004" Image="icons/FF/cacophobia_eye_targeted.png" Kind="FF" Name="Cacophobia Eye (Targeted)" Variant="127" Subtype="0">
+        <bitfield Key="Variant">
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-127" Name="Initial Delay">
+                <tooltip>Negative initial delay means it will spawn projectiles as if it fired BEFORE the layout was loaded</tooltip>
+            </spinner>
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-1" Name="Loop Delay">
+                <tooltip>If set above -1, repeats its attack every 0.X seconds.</tooltip>
+            </spinner>
+        </bitfield>
+        <bitfield Key="Subtype">
+            <spinner Length="6" Name="Target Group"/>
+            <dropdown Length="2">
+                <choice>Slowest</choice>
+                <choice>Slow</choice>
+                <choice>Standard</choice>
+                <choice>Fast</choice>
+            </dropdown>
+            <spinner Length="4" Name="Num Projectiles"/>
+            <spinner Length="4" Name="Spread" Unit="* 10 Degrees"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12005" Image="icons/FF/cacophobia_target.png" Kind="FF" Name="Cacophobia Target" Variant="1" Subtype="0">
+        <bitfield Key="Subtype">
+            <spinner Length="6" Name="Group ID"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12006" Image="icons/FF/cacophobia_eye_weird.png" Kind="FF" Name="Cacophobia Eye (Weird)" Variant="0" Subtype="0">
+        <bitfield Key="Subtype">
+            <dropdown Length="4">
+                <choice>Look At Player</choice>
+                <choice>Closed</choice>
+                <choice>Look Away From Player</choice>
+                <choice>Look Away From Venus</choice>
+                <choice>Look At Venus</choice>
+                <choice>Look At You</choice>
+                <choice>Look At Target</choice>
+            </dropdown>
+            <checkbox Length="1" Name="Shaking Pupil"/>
+            <checkbox Length="1" Name="Never Blinks"/>
+            <spinner Length="6" Name="Target Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12007" Image="icons/FF/cacophobia_global_fastforward.png" Kind="FF" Name="Cacophobia Global Fast-Forward" Variant="0" Subtype="127">
+        <bitfield Key="Subtype">
+            <spinner Length="8" Unit="1/10th Seconds" ValueOffset="-127" Name="Initial Delay">
+                <tooltip>Negative initial delay means it will spawn projectiles as if it fired BEFORE the layout was loaded</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Bosses" IsGrid="1" Metadata="1" ID="12008" Image="icons/FF/cacophobia_eye_modifier.png" Kind="FF" Name="Cacophobia Eye Modifier" Variant="1" Subtype="0">
+        <bitfield Key="Subtype">
+            <dial Length="4" Name="Angle Offset By" Unit="Degrees" ValueOffset="12">
+				<tooltip>Angle fired projectiles are offset by each time this eye fires</tooltip>
+			</dial>
+            <dropdown Length="2">
+                <choice>No Cycle Target</choice>
+                <choice>Sweep Target Back and Forth</choice>
+                <choice>Loop Target</choice>
+            </dropdown>
+            <spinner Length="5" Name="Start Target Group"/>
+            <spinner Length="5" Name="End Target Group"/>
+        </bitfield>
+    </entity>
+
+    <!-- Stage / grid -->
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/keyblockred.png" Kind="FF" Name="Red Lock" Subtype="0" Variant="1015" />
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/keyblockgreen.png" Kind="FF" Name="Green Lock" Subtype="0" Variant="1014" />
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/keyblockblue.png" Kind="FF" Name="Blue Lock" Subtype="0" Variant="1013" />
+
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/redchainlock.png" Kind="FF" Name="Red Chain Lock" Subtype="5" Variant="1019">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Frame Delay"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/greenchainlock.png" Kind="FF" Name="Green Chain Lock" Subtype="5" Variant="1018">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Frame Delay"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/bluechainlock.png" Kind="FF" Name="Blue Chain Lock" Subtype="5" Variant="1017">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Frame Delay"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/rubber_rock.png" Kind="FF" Name="Rubber Rock" Subtype="0" Variant="1025"/>
+	<entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/bulb_rock.png" Kind="FF" Name="Bulb Rock" Subtype="0" Variant="1029" />
+	<entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/golden_reward_plate.png" Kind="FF" Name="Golden Reward Plate" Subtype="0" Variant="1030" />
+	<entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/soot_tag.png" Kind="FF" Name="Soot Tag" Subtype="0" Variant="1031" />
+    <entity Group="Stage" ID="150" Image="icons/FF/member_card_relocator.png" Kind="FF" Name="Member Card Relocator" Subtype="0" Variant="37" />
+
+
+	<entity Metadata="1" Group="Stage" ID="150" Image="icons/FF/backdropChallenge.png" Kind="FF" Name="Challenge Backdrop" Subtype="7" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Challenge Backdrop" />
+
+	</entity>
+	<entity Group="Stage" ID="184" Metadata="1" Image="icons/FF/beehive.png" Kind="FF" Name="Beehive" Subtype="0" Variant="1031" />
+    <entity Group="Stage" ID="184" Metadata="1" Image="icons/FF/spidernest.png" Kind="FF" Name="Spider Nest" Subtype="0" Variant="1032" />
+    <entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/cursed_poop.png" Kind="FF" Name="Cursed Poop" Subtype="0" Variant="1026" />
+    <entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/platinum_poop.png" Kind="FF" Name="Platinum Poop" Subtype="0" Variant="1027" />
+    <entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/petrified_poop.png" Kind="FF" Name="Petrified Poop" Subtype="0" Variant="1028" />
+    <entity Group="Stage" ID="183" Metadata="1" Image="icons/FF/poison_poop.png" Kind="FF" Name="Poison Poop" Subtype="0" Variant="1033" />
+    <entity Group="Stage" ID="184" Metadata="1" Image="icons/FF/evilpoop.png" Kind="FF" Name="Evil Poop" Subtype="40" Variant="1037" >
+    	<bitfield Key="Subtype">
+			<spinner Name="Aura Size" Length="15">
+				<tooltip>Size of the darkness aura. 40 is roughly a 3*3 area, 100 roughly covers the height of a single normal room.</tooltip>
+			</spinner>
+		</bitfield>
+	</entity>
+    <entity Group="Pickups" Metadata="1" ID="5" Image="icons/FF/Pickups/keyred.png" Kind="FF" Name="Red Puzzle Key" Subtype="2" Variant="752" />
+    <entity Group="Pickups" Metadata="1" ID="5" Image="icons/FF/Pickups/keygreen.png" Kind="FF" Name="Green Puzzle Key" Subtype="1" Variant="752" />
+    <entity Group="Pickups" Metadata="1" ID="5" Image="icons/FF/Pickups/keyblue.png" Kind="FF" Name="Blue Puzzle Key" Subtype="0" Variant="752" />
+
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/halfblack.png" Kind="FF" Name="Half Black Heart (Fiend Folio)" Subtype="0" Variant="1022" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/blendedblack.png" Kind="FF" Name="Blended Black Heart (Fiend Folio)" Subtype="0" Variant="1023" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/immoral.png" Kind="FF" Name="Immoral Heart" Subtype="0" Variant="1024" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/halfimmoral.png" Kind="FF" Name="Half Immoral Heart" Subtype="0" Variant="1025" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/blendedimmoral.png" Kind="FF" Name="Blended Immoral Heart" Subtype="0" Variant="1026" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/morbid.png" Kind="FF" Name="Morbid Heart" Subtype="0" Variant="1028" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/twothirdmorbid.png" Kind="FF" Name="Two-Thirds Morbid Heart" Subtype="0" Variant="1029" />
+    <entity Group="Pickups" ID="5" Image="icons/FF/Pickups/thirdmorbid.png" Kind="FF" Name="Third Morbid Heart" Subtype="0" Variant="1030" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/bloodsack.png" Kind="FF" Name="Blood Sack" Subtype="0" Variant="666" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/tresh.png" Kind="FF" Name="Trash Bag" Subtype="10" Variant="666" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/52deck.png" Kind="FF" Name="52 Deck" Subtype="11" Variant="666" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/cursedpenny.png" Kind="FF" Name="Cursed Penny" Subtype="213" Variant="20" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/goldencursed.png" Kind="FF" Name="Golden Cursed Penny" Subtype="216" Variant="20" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/hauntedpenny.png" Kind="FF" Name="Haunted Penny" Subtype="214" Variant="20" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/honeypenny.png" Kind="FF" Name="Honey Penny" Subtype="215" Variant="20" />
+
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/spkey1.png" Kind="FF" Name="Spicy Key (Perm)" Variant="30" Subtype="185" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/spkey3.png" Kind="FF" Name="Super Spicy Key (Perm)" Variant="30" Subtype="186" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/spkey2.png" Kind="FF" Name="Charged Spicy Key (Perm)" Variant="30" Subtype="187" />
+	
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/copperbomb.png" Kind="FF" Name="Copper Bomb" Variant="40" Subtype="923" />
+
+    <entity Metadata="1" Group="Pickups" ID="5" Image="icons/FF/Pickups/RandomObject.png" Kind="FF" Name="Random Object" Subtype="0" Variant="302" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/RandomGlassDie.png" Kind="FF" Name="Random Glass Die" Subtype="0" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD2.png"   Kind="FF" Name="Glass D2"   Subtype="9" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD4.png"   Kind="FF" Name="Glass D4"   Subtype="1" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD6.png"   Kind="FF" Name="Glass D6"   Subtype="2" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD8.png"   Kind="FF" Name="Glass D8"   Subtype="3" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD10.png"  Kind="FF" Name="Glass D10"  Subtype="4" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD12.png"  Kind="FF" Name="Glass D12"  Subtype="5" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD20.png"  Kind="FF" Name="Glass D20"  Subtype="6" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassD100.png" Kind="FF" Name="Glass D100" Subtype="7" Variant="119" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassSpindown.png" Kind="FF" Name="Glass Spindown" Subtype="8" Variant="119" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GlassAzurite.png" Kind="FF" Name="Glass Azurite" Subtype="10" Variant="119" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/PlusThreeFireballs.png" Kind="FF" Name="+3 Fireballs" Subtype="8" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/PlusThreeFireballs2.png" Kind="FF" Name="+3 Fireballs?" Subtype="81" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/implosion.png" Kind="FF" Name="Imp-losion" Subtype="9" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/callingcard.png" Kind="FF" Name="Calling Card" Subtype="10" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/grottobeast.png" Kind="FF" Name="Grotto Beast" Subtype="11" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/downloadfailure.png" Kind="FF" Name="Download Failure" Subtype="16" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/necromancer.png" Kind="FF" Name="Plague of Decay" Subtype="32" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/defuse.png" Kind="FF" Name="Defuse" Subtype="33" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/skip.png" Kind="FF" Name="Skip Card" Subtype="49" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/potofgreed.png" Kind="FF" Name="Pot of Greed" Subtype="48" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/cj_soccer.png" Kind="FF" Name="Soccer" Subtype="50" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/cj_flooringupgrade.png" Kind="FF" Name="Flooring Upgrade" Subtype="51" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/cj_ac3000.png" Kind="FF" Name="AC 3000" Subtype="52" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GiftCard.png" Kind="FF" Name="Gift Card" Subtype="85" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/3ofH.png" Kind="FF" Name="3 of Hearts" Subtype="21" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/JofH.png" Kind="FF" Name="Jack of Hearts" Subtype="22" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/3ofC.png" Kind="FF" Name="3 of Clubs" Subtype="18" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/JofC.png" Kind="FF" Name="Jack of Clubs" Subtype="14" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/QofC.png" Kind="FF" Name="Queen of Clubs" Subtype="30" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/KofC.png" Kind="FF" Name="King of Clubs" Subtype="15" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/3ofD.png" Kind="FF" Name="3 of Diamonds" Subtype="19" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/JofD.png" Kind="FF" Name="Jack of Diamonds" Subtype="13" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/QofD.png" Kind="FF" Name="Queen of Diamonds" Subtype="28" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/KofD.png" Kind="FF" Name="King of Diamonds" Subtype="29" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/3ofS.png" Kind="FF" Name="3 of Spades" Subtype="20" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/JofS.png" Kind="FF" Name="Jack of Spades" Subtype="23" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/QofS.png" Kind="FF" Name="Queen of Spades" Subtype="31" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/misprintedJoker.png" Kind="FF" Name="Misprinted Joker" Subtype="35" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/misprintedJack.png" Kind="FF" Name="Misprinted Jack of Clubs" Subtype="83" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/13ofSt.png" Kind="FF" Name="13 of Stars" Subtype="34" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/WandsAce.png" Kind="FF" Name="Ace of Wands" Subtype="36" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/PentaclesAce.png" Kind="FF" Name="Ace of Pentacles" Subtype="37" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/SwordsAce.png" Kind="FF" Name="Ace of Swords" Subtype="38" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/CupsAce.png" Kind="FF" Name="Ace of Cups" Subtype="39" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Wands2.png" Kind="FF" Name="2 of Wands" Subtype="40" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Pentacles2.png" Kind="FF" Name="2 of Pentacles" Subtype="41" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Swords2.png" Kind="FF" Name="2 of Swords" Subtype="42" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Pentacles3.png" Kind="FF" Name="3 of Pentacles" Subtype="43" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Swords3.png" Kind="FF" Name="3 of Swords" Subtype="44" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/Cups3.png" Kind="FF" Name="3 of Cups" Subtype="45" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/PentaclesKing.png" Kind="FF" Name="King of Pentacles" Subtype="46" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/CupsKing.png" Kind="FF" Name="King of Cups" Subtype="47" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/WandsKing.png" Kind="FF" Name="King of Wands" Subtype="53" Variant="118" />
+	
+    <entity Metadata="1" Group="Pickups" ID="5" Image="icons/FF/Pickups/EnergyRandom.png" Kind="FF" Name="Random Energy" Subtype="2" Variant="302" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyGrass.png" Kind="FF" Name="Grass Energy" Subtype="54" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyFire.png" Kind="FF" Name="Fire Energy" Subtype="55" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyWater.png" Kind="FF" Name="Water Energy" Subtype="56" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyLightning.png" Kind="FF" Name="Lightning Energy" Subtype="57" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyFighting.png" Kind="FF" Name="Fighting Energy" Subtype="58" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyPsychic.png" Kind="FF" Name="Psychic Energy" Subtype="59" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyColorless.png" Kind="FF" Name="Colorless Energy" Subtype="60" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyDarkness.png" Kind="FF" Name="Darkness Energy" Subtype="61" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyMetal.png" Kind="FF" Name="Metal Energy" Subtype="62" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyDragon.png" Kind="FF" Name="Dragon Energy" Subtype="63" Variant="118" />
+    <entity Group="Pickups" ID="750" Image="icons/FF/Pickups/EnergyFairy.png" Kind="FF" Name="Fairy Energy" Subtype="64" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/puzzlepiece.png" Kind="FF" Name="Puzzle Piece" Subtype="17" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/GreenHouse.png" Kind="FF" Name="Green House" Subtype="66" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/BrickSeperator.png" Kind="FF" Name="Brick Seperator" Subtype="67" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/BlankLetterTile.png" Kind="FF" Name="Blank Letter Tile" Subtype="68" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/TopHat.png" Kind="FF" Name="Top Hat" Subtype="84" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/storageBattery0.png" Kind="FF" Name="Storage Battery (0 Charge)" Subtype="69" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/storageBattery1.png" Kind="FF" Name="Storage Battery (1 Charge)" Subtype="70" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/storageBattery2.png" Kind="FF" Name="Storage Battery (2 Charge)" Subtype="71" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/storageBattery3.png" Kind="FF" Name="Storage Battery (3 Charge)" Subtype="72" Variant="118" />
+
+	<entity Metadata="1" Group="Pickups" ID="5" Image="icons/FF/Pickups/DiscRandom.png" Kind="FF" Name="Random Disc" Subtype="1" Variant="302" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscTreasure.png" Kind="FF" Name="Treasure Disc" Subtype="73" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscShop.png" Kind="FF" Name="Shop Disc" Subtype="74" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscBoss.png" Kind="FF" Name="Boss Disc" Subtype="75" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscSecret.png" Kind="FF" Name="Secret Disc" Subtype="76" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscDevil.png" Kind="FF" Name="Devil Disc" Subtype="77" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscAngel.png" Kind="FF" Name="Angel Disc" Subtype="78" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscPlanetarium.png" Kind="FF" Name="Planetarium Disc" Subtype="79" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscChaos.png" Kind="FF" Name="Chaos Disc" Subtype="82" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/DiscBroken.png" Kind="FF" Name="Broken Disc" Subtype="80" Variant="118" />
+
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/SoulOfFiend.png" Kind="FF" Name="Soul of Fiend" Subtype="25" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/SoulOfGolem.png" Kind="FF" Name="Soul of Golem" Subtype="26" Variant="118" />
+	<entity Group="Pickups" ID="750" Image="icons/FF/Pickups/SoulOfRandom.png" Kind="FF" Name="Soul of Random" Subtype="27" Variant="118" />
+
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/shop_chest.png" Kind="FF" Name="Shop Chest" Subtype="0" Variant="711" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/shop_chest_open.png" Kind="FF" Name="Opened Shop Chest" Subtype="1" Variant="711" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/dire_chest.png" Kind="FF" Name="Dire Chest" Subtype="0" Variant="712" />
+	<entity Group="Pickups" ID="5" Image="icons/FF/Pickups/glass_chest.png" Kind="FF" Name="Glass Chest" Subtype="0" Variant="713" />
+
+	<entity Group="Slots" ID="6" Image="icons/FF/6.880 - Grid Restock Machine.png" Kind="FF" Name="Grid Restock Machine" Subtype="0" Variant="880" />
+	<entity Group="Slots" ID="6" Image="icons/FF/pokerReal.png" Kind="FF" Name="Poker Table" Subtype="0" Variant="160" />
+	<entity Group="Slots" ID="6" Image="icons/FF/mrchin.png" Kind="FF" Name="Blacksmith" Subtype="0" Variant="1030" />
+	<entity Group="Slots" ID="6" Image="icons/FF/rob.png" Kind="FF" Name="Robot Teller" Subtype="0" Variant="1032" />
+	<entity Group="Slots" ID="6" Image="icons/FF/zodiacbeggar.png" Kind="FF" Name="Zodiac Beggar" Subtype="0" Variant="1031" />
+	<entity Group="Slots" ID="6" Image="icons/FF/evilbeggar.png" Kind="FF" Name="Evil Beggar" Subtype="0" Variant="1033" />
+	<entity Group="Slots" ID="6" Image="icons/FF/cellgame.png" Kind="FF" Name="Cell Game" Subtype="0" Variant="1036" />
+	<entity Group="Slots" ID="6" Image="icons/FF/hug-beggar.png" Kind="FF" Name="Hug Beggar" Subtype="0" Variant="1037" />
+	<entity ID="6" Image="icons/FF/cosplaybeggar.png" Name="Cosplay Beggar" Subtype="0" Variant="1038" />
+	<entity ID="6" Image="icons/FF/phone_booth.png" Name="Phone Booth" Subtype="0" Variant="1039" />
+	<entity ID="6" Image="icons/FF/goldenslot.png" Name="Golden Slot Machine" Subtype="0" Variant="1040" />
+	<entity ID="6" Image="icons/FF/jukebox.png" Name="Jukebox" Subtype="0" Variant="1041" />
+
+    <!-- Golem NPCs -->
+    <entity Group="Slots" ID="6" Image="icons/FF/mining_machine.png" Kind="FF" Name="Mining Machine" Subtype="0" Variant="1020" />
+    <entity Group="Slots" ID="6" Image="icons/FF/bismuth_trader.png" Kind="FF" Name="Bismuth Trader" Subtype="0" Variant="1021" />
+    <entity Group="Slots" ID="6" Image="icons/FF/sculpteur.png" Kind="FF" Name="Sourpuss" Subtype="0" Variant="1022" />
+    <entity Group="Slots" ID="6" Image="icons/FF/unfinished_golem.png" Kind="FF" Name="Unfinished Golem" Subtype="0" Variant="1023" />
+    <entity Group="Slots" ID="999" Image="icons/FF/subway_text.png" Kind="FF" Name="Subway Text" Variant="1990" Subtype="2176">
+        <bitfield Key="Subtype">
+            <dropdown Length="4">
+                <choice>Grind</choice>
+                <choice>Crush</choice>
+                <choice>Smelt</choice>
+            </dropdown>
+            <spinner Length="4" Name="X Offset" ValueOffset="-8" Unit="1/10th Grids"/>
+            <spinner Length="4" Name="Y Offset" ValueOffset="-8" Unit="1/10th Grids"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Stage" Metadata="1" ID="183" Image="icons/FF/pot_fire.png" Kind="FF" Name="Fire Pot" Subtype="0" Variant="1016" />
+    <entity Group="Stage" ID="292" Image="icons/FF/supertnt.png" Kind="FF" Name="Super TNT" Subtype="0" Variant="750" />
+    <entity Group="Stage" ID="292" Image="icons/FF/watertnt.png" Kind="FF" Name="Water TNT" Subtype="0" Variant="751" />
+    <entity Group="Stage" ID="292" Image="icons/FF/composter_knockback.png" Kind="FF" Name="Buttery Compost Bin" Subtype="0" Variant="752" />
+    <entity Group="Stage" ID="292" Image="icons/FF/composter_unstable.png" Kind="FF" Name="Unstable Compost Bin" Subtype="3" Variant="752" />
+    <entity Group="Stage" ID="292" Image="icons/FF/composter_poison.png" Kind="FF" Name="Gassy Compost Bin" Subtype="1" Variant="752" />
+    <entity Group="Stage" ID="292" Image="icons/FF/composter_charm.png" Kind="FF" Name="Scented Compost Bin" Subtype="2" Variant="752" />
+
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_mines.png" Kind="FF" Name="Rock Ball (Mines)" Subtype="744" Variant="1" />
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_mineslava.png" Kind="FF" Name="Rock Ball (Mines Lava)" Subtype="752" Variant="1" />
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_ashpit.png" Kind="FF" Name="Rock Ball (Ashpit)" Subtype="760" Variant="1" />
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_ashpitlava.png" Kind="FF" Name="Rock Ball (Ashpit Lava)" Subtype="768" Variant="1" />
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_gold.png" Kind="FF" Name="Rock Ball (Gold)" Subtype="776" Variant="1" />
+    <entity Group="Stage" ID="915" Image="icons/FF/rockball_tumbleweed.png" Kind="FF" Name="Rock Ball (Tumbleweed)" Subtype="784" Variant="1" />
+
+    <entity Group="Stage" ID="999" Image="icons/FF/psionic_cluster_portal.png" Kind="FF" Name="Psionic Cluster Portal" Subtype="30" Variant="1980" />
+
+<!-- Retribution Compat -->
+
+	<entity Group="Retribution" ID="85" Image="icons/FF/compat/megaspooter.png" Kind="FF" Name="Mega Spooter" Subtype="0" Variant="963" />
+	<entity Group="Retribution" ID="88" Image="icons/FF/compat/stumblingstickysack.png" Kind="FF" Name="Stumbling Sticky Sack" Subtype="0" Variant="961" />
+	<entity Group="Retribution" ID="61" Image="icons/FF/compat/spitfire.png" Kind="FF" Name="Spitfire" Subtype="0" Variant="961" />
+	<entity Group="Retribution" ID="151" Image="icons/FF/compat/stompy.png" Kind="FF" Name="Stompy" Subtype="0" Variant="7" />
+	<entity Group="Retribution" ID="666" Image="icons/FF/compat/breadbin.png" Kind="FF" Name="Breadbin" Subtype="0" Variant="152" />
+
+<!-- Events -->
+
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_group_0.png" Kind="FF" Name="Event Trigger - Enemy (Group 0)" Subtype="0" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_group_1.png" Kind="FF" Name="Event Trigger - Enemy (Group 1)" Subtype="1" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_group_2.png" Kind="FF" Name="Event Trigger - Enemy (Group 2)" Subtype="2" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_group_3.png" Kind="FF" Name="Event Trigger - Enemy (Group 3)" Subtype="3" Variant="1970" />
+
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_all_0.png" Kind="FF" Name="Event Trigger - Enemy (All 0)" Subtype="10" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_all_1.png" Kind="FF" Name="Event Trigger - Enemy (All 1)" Subtype="11" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_all_2.png" Kind="FF" Name="Event Trigger - Enemy (All 2)" Subtype="12" Variant="1970" />
+    <entity Group="Events" ID="999" Image="icons/FF/triggers/event_enemy_all_3.png" Kind="FF" Name="Event Trigger - Enemy (All 3)" Subtype="13" Variant="1970" />
+
+<!-- Alt path -->
+<!-- Ch 1x -->
+    <entity Group="Ch -1.1 - Downpour" ID="155" Image="icons/FF/archer.png" Kind="FF" Name="Archer" Subtype="0" Variant="4" >
+    	<bitfield Key="Subtype">
+            <dropdown Length="3" Offset="2">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+	<entity Group="Ch -1.1 - Downpour" ID="160" Image="icons/FF/miniminmin.png" Kind="FF" Name="Mini-Min" Subtype="0" Variant="1080" />
+    <entity Group="Ch -1.1 - Downpour" ID="61" Image="icons/FF/mayfly.png" Kind="FF" Name="Mayfly" Subtype="0" Variant="450" />
+    <entity Group="Ch -1.1 - Downpour" ID="25" Image="icons/FF/mightfly.png" Kind="FF" Name="Mightfly" Subtype="0" Variant="451" />
+	<entity Group="Ch -1.1 - Downpour" ID="114" Image="icons/FF/dewdrop.png" Kind="FF" Name="Dewdrop" Subtype="0" Variant="1" />
+	<entity Group="Ch -1.1 - Downpour" ID="120" Image="icons/FF/cuffs.png" Kind="FF" Name="Cuffs" Subtype="0" Variant="224" >
+        <bitfield Key="Subtype">
+            <spinner Name="Cuffed Entities" Length="5" Offset="11" ValueOffset="2" >
+                <tooltip>Number of entities Cuffs will connect to (minimum of 2).</tooltip>
+            </spinner>
+            <spinner Name="Max Distance" Length="11" Offset="0" Minimum="40" >
+                <tooltip>Maximum distance (in-game units) allowed between cuffed entities (minimum of 40).</tooltip>
+            </spinner>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -1.1 - Downpour" ID="130" Image="icons/FF/glasseye.png" Kind="FF" Name="Glass Eye" Subtype="0" Variant="60" />
+    <entity Group="Ch -1.1 - Downpour" ID="817" Image="icons/FF/cushion.png" Kind="FF" Name="Cushion" Subtype="0" Variant="170" />
+	<entity Group="Ch -1.1 - Downpour" ID="114" Image="icons/FF/tango.png" Kind="FF" Name="Tango" Subtype="0" Variant="3" />
+    <entity Group="Ch -1.1 - Downpour" ID="170" Image="icons/FF/skipper.png" Kind="FF" Name="Skipper" Subtype="0" Variant="120" />
+    	<entity Group="Ch -1.1 - Downpour" ID="160" Image="icons/FF/deathany.png" Kind="FF" Name="Deathany" Subtype="1" Variant="1160">
+        <bitfield Key="Subtype">
+            <spinner Length="4" Minimum="1" Name="Wisp Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -1.1 - Downpour" ID="450" Image="icons/FF/ringleader.png" Kind="FF" Name="Ring Leader" Subtype="1" Variant="2">
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Willo Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -1.1 - Downpour" ID="450" Image="icons/FF/tricko.png" Kind="FF" Name="Tricko" Subtype="0" Variant="33"/>
+	<entity Group="Ch -1.1 - Downpour" ID="114" Image="icons/FF/bellow.png" Kind="FF" Name="Bellow" Subtype="0" Variant="4" />
+	<entity Group="Ch -1.1 - Downpour" ID="160" Image="icons/FF/buckethead.png" Kind="FF" Name="Buckethead" Subtype="0" Variant="1250" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -1.1 - Downpour" Metadata="1" ID="183" Image="icons/FF/flippedbucket.png" Kind="FF" Name="Flipped Bucket" Subtype="0" Variant="1038" />
+    <entity Group="Ch -1.1 - Downpour" Metadata="1" ID="33" Image="icons/FF/aleyafire.png" Kind="FF" Name="Aleya Fire Place" Subtype="4" Variant="3" />
+    <entity Group="Ch -1.1 - Downpour" ID="160" Image="icons/FF/bubby.png" Kind="FF" Name="Bubby" Subtype="0" Variant="1260" />
+	<entity Group="Ch -1.1 - Downpour" ID="120" Image="icons/FF/riftwalker.png" Kind="FF" Name="Rift Walker" Subtype="0" Variant="228" >
+		<bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Starts Above Water</choice>
+                <choice>Starts Below Water</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+	<entity Group="Ch -1.1 - Downpour" ID="114" Image="icons/FF/ignis.png" Kind="FF" Name="Ignis" Subtype="0" Variant="14">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch -1.1 - Downpour" ID="812" Image="icons/FF/floaty.png" Kind="FF" Name="Floaty" Subtype="114" Variant="0" />
+    <entity Group="Ch -1.1 - Downpour" ID="450" Image="icons/FF/aleya.png" Kind="FF" Name="Aleya" Subtype="0" Variant="42" />
+    <entity Group="Ch -1.1 - Downpour" ID="160" Image="icons/FF/onlyfan.png" Kind="FF" Name="Onlyfan" Subtype="0" Variant="1320" />
+
+	<entity Metadata="1" Group="Ch -1.2 - Dross" ID="150" Image="icons/FF/backdropPeepee.png" Kind="FF" Name="Peepee Backdrop" Subtype="9" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Peepee Dross Backdrop" />
+    </entity>
+	<entity Group="Ch -1.2 - Dross" ID="160" Image="icons/FF/residuum.png" Kind="FF" Name="Residuum" Subtype="0" Variant="1110" />
+	<entity Group="Ch -1.2 - Dross" ID="160" Image="icons/FF/shittyhorf.png" Kind="FF" Name="Shitty Horf" Subtype="0" Variant="631" />
+	<entity Group="Ch -1.2 - Dross" ID="369" Image="icons/FF/trashbagger.png" Kind="FF" Name="Trashbagger" Subtype="0" Variant="10" />
+	<entity Group="Ch -1.2 - Dross" ID="369" Image="icons/FF/trashbagger_bomber.png" Kind="FF" Name="Stomy" Subtype="2" Variant="10" />
+	<entity Group="Ch -1.2 - Dross" ID="114" Image="icons/FF/connipshit.png" Kind="FF" Name="Connipshit" Subtype="0" Variant="2" />
+    <entity Group="Ch -1.2 - Dross" ID="450" Image="icons/FF/dollop.png" Kind="FF" Name="Dollop" Subtype="0" Variant="34" />
+	<entity Group="Ch -1.2 - Dross" ID="369" Image="icons/FF/pipeneck.png" Kind="FF" Name="Pipeneck" Subtype="0" Variant="11" />
+	<entity Group="Ch -1.2 - Dross" ID="369" Image="icons/FF/shottie.png" Kind="FF" Name="Shottie" Subtype="0" Variant="13" />
+    <entity Group="Ch -1.2 - Dross" ID="450" Image="icons/FF/fishy.png" Kind="FF" Name="Fishy" Subtype="0" Variant="9" />
+    <entity Group="Ch -1.2 - Dross" ID="450" Image="icons/FF/fish.png" Kind="FF" Name="Fish" Subtype="2" Variant="9" />
+    <entity Group="Ch -1.2 - Dross" ID="450" Image="icons/FF/catfish.png" Kind="FF" Name="Catfish" Subtype="0" Variant="10" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+    <entity Group="Ch -1.2 - Dross" ID="450" Image="icons/FF/cathy.png" Kind="FF" Name="Cathy" Subtype="0" Variant="22" />
+	<entity Group="Ch -1.2 - Dross" ID="114" Image="icons/FF/peepisser.png" Kind="FF" Name="Peepisser" Subtype="0" Variant="25" />
+	<entity Group="Ch -1.2 - Dross" ID="114" Image="icons/FF/unshornz.png" Kind="FF" Name="Unshornz" Subtype="0" Variant="28">
+		<bitfield Key="Subtype">
+            <dropdown Length="3">
+                <choice>Random</choice>
+                <choice>Left</choice>
+				<choice>Up</choice>
+				<choice>Right</choice>
+				<choice>Down</choice>
+            </dropdown>
+			<dropdown Length="1" Offset="3">
+                <choice>Clockwise</choice>
+                <choice>Counterclockwise</choice>
+            </dropdown>
+			<checkbox Length="1" Name="Is Leader" Offset="4">
+				<tooltip>All grouped Unshornz will follow this one.</tooltip>
+			</checkbox>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -1.2 - Dross" ID="750" Image="icons/FF/croca.png" Kind="FF" Name="Croca" Subtype="0" Variant="220" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Facing Left</choice>
+                <choice>Facing Up</choice>
+                <choice>Facing Right</choice>
+                <choice>Facing Down</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -1.2 - Dross" ID="160" Image="icons/FF/delinquent.png" Kind="FF" Name="Delinquent" Subtype="0" Variant="1290" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Pissing</choice>
+                <choice>Lollygagging</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -1.2 - Dross" ID="114" Image="icons/FF/coloscope.png" Kind="FF" Name="Coloscope" Subtype="0" Variant="53" />
+<!-- Ch 2x -->
+	<entity Group="Ch -2.1 - Mines" ID="825" Image="icons/FF/0 - Lava Enabler.png" Kind="FF" Name="Ash/Lava Enabler" Subtype="0" Variant="1000" Metadata="1" NoBlockDoors="1"/>
+	<entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/technician.png" Kind="FF" Name="Technician" Subtype="0" Variant="1120" />
+	<entity Group="Ch -2.1 - Mines" ID="369" Image="icons/FF/cappin.png" Kind="FF" Name="Cappin" Subtype="0" Variant="12" />
+	<entity Image="icons/FF/FugoePit.png" Name="Pit With Fuego Spawner" Subtype="0" ID="3001" Kind="FF" Variant="150" Group="Ch -2.1 - Mines" IsGrid="1" XPivot="c0" YPivot="c0">
+		<bitfield Key="Subtype">
+			<slider Length="4" Offset="8" Name="Frequency" Unit="Seconds" ValueOffset="1" ScalarRange="5">
+				<tooltip>Seconds between each spawned Fuego</tooltip>
+			</slider>
+			<spinner Length="4" Offset="4" Name="Jump Distance" Unit="Grids" ValueOffset=".5">
+				<tooltip>Distance the Fuego will jump based on the center of the Spawner. It will die on the 7th bounce.</tooltip>
+			</spinner>
+			<dial Length="4" Offset="0" Name="Angle" Unit="Degrees" ValueOffset="12">
+				<tooltip>Spawn angle of the Fuegos</tooltip>
+			</dial>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/glob.png" Kind="FF" Name="Glob" Subtype="0" Variant="153" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Normal</choice>
+                <choice>Extinguished</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+    <entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/sizzle.png" Kind="FF" Name="Sizzle" Subtype="0" Variant="154" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Normal</choice>
+                <choice>Extinguished</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+	<entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/roasty.png" Kind="FF" Name="Roasty" Subtype="0" Variant="14" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+	<entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/supergrimace.png" Kind="FF" Name="Super Grimace" Subtype="0" Variant="1200" PlaceVisual="1,0.8" DisableOffsetIndicator="1" />
+    <entity Group="Ch -2.1 - Mines" ID="369" Image="icons/FF/cappin.png" Kind="FF" Name="Cappin" Subtype="1" Variant="12" />
+    <entity Group="Ch -2.1 - Mines" ID="170" Image="icons/FF/blastcore.png" Kind="FF" Name="Blastcore" Subtype="0" Variant="110" />
+    <entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/rufus.png" Kind="FF" Name="Rufus" Subtype="0" Variant="40" />
+	<entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/drillbit.png" Kind="FF" Name="Drillbit" Subtype="0" Variant="10">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+    <entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/thumper.png" Kind="FF" Name="Thumper" Subtype="0" Variant="5" />
+    <entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/nubert.png" Kind="FF" Name="Nubert" Subtype="1" Variant="5" />
+    <entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/crucible.png" Kind="FF" Name="Crucible" Subtype="0" Variant="8" />
+	<entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/crucible2.png" Kind="FF" Name="Crucible (Ignited)" Subtype="1" Variant="8" />
+    <entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/shockcollar.png" Kind="FF" Name="Shock Collar" Subtype="0" Variant="21" >
+        <bitfield Key="Subtype">
+            <dropdown Name="Starting Direction" Length="3">
+                <choice Value="0">Random</choice>
+                <choice Value="1">Down Left</choice>
+                <choice Value="2">Down Right</choice>
+                <choice Value="3">Up Left</choice>
+                <choice Value="4">Up Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/stalagnaught.png" Kind="FF" Name="Stalagnaught" Subtype="0" Variant="18">
+		<bitfield Key="Subtype">
+            <dropdown Name="Behavior" Length="4">
+                <choice>Hanging</choice>
+                <choice>Normal</choice>
+				<choice>Waiting Hanging</choice>
+				<choice>Waiting Underground</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/antigolem.png" Kind="FF" Name="Anti Golem" Subtype="0" Variant="19">
+		<bitfield Key="Subtype">
+            <dropdown Name="Behavior" Length="2">
+                <choice>Bombless</choice>
+                <choice>Bomb on Death</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/quaker.png" Kind="FF" Name="Quaker" Subtype="0" Variant="31">
+		<bitfield Key="Subtype">
+            <dropdown Name="Waiting" Length="2">
+                <choice>Standard</choice>
+                <choice>Waiting</choice>
+				<choice>Waiting Over Rock</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.1 - Mines" ID="450" Image="icons/FF/chunkygrilled.png" Kind="FF" Name="Grilled Chunky" Subtype="1" Variant="43" />
+    <entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/grilledmeatwadV.png" Kind="FF" Name="Grilled Meatwad (Vertical)" Subtype="0" Variant="35" />
+    <entity Group="Ch -2.1 - Mines" ID="160" Image="icons/FF/grilledmeatwadH.png" Kind="FF" Name="Grilled Meatwad (Horizontal)" Subtype="1" Variant="35" />
+    <entity Group="Ch -2.1 - Mines" ID="114" Image="icons/FF/spanky.png" Kind="FF" Name="Spanky" Subtype="0" Variant="56" />
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/grazer.png" Kind="FF" Name="Grazer" Subtype="0" Variant="10" />
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/coalby.png" Kind="FF" Name="Coalby" Subtype="0" Variant="40" />
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/coupile.png" Kind="FF" Name="Coupile" Subtype="0" Variant="41" />
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/cairn.png" Kind="FF" Name="Cairn" Subtype="0" Variant="42" />
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/speleo.png" Kind="FF" Name="Speleo" Subtype="0" Variant="130" >
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+                <choice>Waiting Over Rock</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -2.1 - Mines" ID="451" Image="icons/FF/craig.png" Kind="FF" Name="Craig" Subtype="0" Variant="140" />
+
+	<entity Group="Ch -2.2 - Ashpit" ID="825" Image="icons/FF/0 - Ash Enabler.png" Kind="FF" Name="Ash Enabler" Subtype="1" Variant="1000" Metadata="1" NoBlockDoors="1"/>
+    <entity Group="Ch -2.2 - Ashpit" ID="170" Image="icons/FF/pheonix.png" Kind="FF" Name="Phoenix" Subtype="0" Variant="80" />
+    <entity Group="Ch -2.2 - Ashpit" ID="170" Image="icons/FF/pyrochasm.png" Kind="FF" Name="Pyroclasm" Subtype="0" Variant="90" />
+    <entity Group="Ch -2.2 - Ashpit" ID="889" Image="icons/FF/clicketyclash.png" Kind="FF" Name="Clickety Clash" Subtype="0" Variant="750" />
+	<entity Group="Ch -2.2 - Ashpit" ID="29" Image="icons/FF/bombmuncher.png" Kind="FF" Name="Bombmuncher" Subtype="5" Variant="1"	/>
+    <entity Group="Ch -2.2 - Ashpit" ID="170" Image="icons/FF/prick.png" Kind="FF" Name="Prick" Subtype="0" Variant="100">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="10">
+                <choice>Normal</choice>
+                <choice>Inverted</choice>
+            </dropdown>
+            <slider Name="Height" Unit="Segments" Length="10" Offset="0" Minimum="1" Maximum="10">
+                <tooltip>Number of Segments</tooltip>
+            </slider>
+            <slider Name="Step" Unit="Segments each" Length="4" Offset="11" Minimum="1" Maximum="10">
+                <tooltip>Number of Segments of the same type next to each other (try this out to understand it better)</tooltip>
+            </slider>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="880" Image="icons/FF/fleshsistern.png" Kind="FF" Name="Flesh Sistren" Subtype="0" Variant="450"/>
+    <entity Group="Ch -2.2 - Ashpit" ID="153" Image="icons/FF/drywheeze.png" Kind="FF" Name="Dry Wheeze" Subtype="0" Variant="10" />
+    <entity Group="Ch -2.2 - Ashpit" ID="750" Image="icons/FF/ossularry.png" Kind="FF" Name="Ossularry" Subtype="0" Variant="160" />
+	<entity Group="Ch -2.2 - Ashpit" ID="120" Image="icons/FF/fishfreak.png" Kind="FF" Name="Fishfreak" Subtype="0" Variant="229" />
+	<entity Group="Ch -2.2 - Ashpit" ID="120" Image="icons/FF/fishfreakpile.png" Kind="FF" Name="Fishfreak (pile)" Subtype="1" Variant="229" />
+    <entity Group="Ch -2.2 - Ashpit" ID="450" Image="icons/FF/marlin.png" Kind="FF" Name="Marlin" Subtype="0" Variant="32" />
+    <entity Group="Ch -2.2 - Ashpit" ID="207" Image="icons/FF/krassblaster.png" Kind="FF" Name="Krass Blaster" Subtype="2" Variant="961" >
+        <bitfield Key="Subtype">
+            <spinner Name="Offal Count" Length="2" Maximum="2"/>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="160" Image="icons/FF/driedoffal.png" Kind="FF" Name="Dried Offal" Subtype="0" Variant="41" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="450" Image="icons/FF/ashtray.png" Kind="FF" Name="Ashtray" Subtype="60" Variant="7" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Faces Left</choice>
+                <choice>Faces Right</choice>
+            </dropdown>
+            <spinner Name="Attack Delay" Offset="1" Length="7">
+                <tooltip>The Ashtray will wait (displayed value * 5 frames) to swallow its cigarettes.</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="829" Image="icons/FF/blasted.png" Kind="FF" Name="Blasted" Subtype="0" Variant="450" />
+	<entity Group="Ch -2.2 - Ashpit" ID="150" Image="icons/FF/blastedmine.png" Kind="FF" Name="Blasted Mine" Subtype="0" Variant="450" />
+	<entity Group="Ch -2.2 - Ashpit" ID="114" Image="icons/FF/gritty.png" Kind="FF" Name="Gritty" Subtype="0" Variant="23">
+		<bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+	<entity Group="Ch -2.2 - Ashpit" ID="915" Image="icons/FF/singeball.png" Kind="FF" Name="Singe Ball" Subtype="0" Variant="1">
+        <bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>Standard</choice>
+                <choice>Drops Down</choice>
+				<choice>Waiting</choice>
+            </dropdown>
+            <dropdown Length="1" Offset="2">
+                <choice>Breaks on Clear</choice>
+				<choice>Stays on Clear</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="450" Image="icons/FF/ztewie.png" Kind="FF" Name="Ztewie" Subtype="0" Variant="31" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="451" Image="icons/FF/briar.png" Kind="FF" Name="Briar" Subtype="0" Variant="0" />
+    <entity Group="Ch -2.2 - Ashpit" ID="160" Image="icons/FF/beebee.png" Kind="FF" Name="Beebee" Subtype="0" Variant="1280" >
+        <bitfield Key="Subtype">
+            <dropdown Length="3">
+                <choice Value="2">Initial Movement Direction - Up Left</choice>
+                <choice Value="3">Initial Movement Direction - Up Right</choice>
+                <choice Value="1">Initial Movement Direction - Down Left</choice>
+                <choice Value="0">Initial Movement Direction - Down Right</choice>
+                <choice Value="4">Initial Movement Direction - Random</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="114" Image="icons/FF/shellmet.png" Kind="FF" Name="Shellmet" Subtype="0" Variant="36" />
+	<entity Group="Ch -2.2 - Ashpit" ID="114" Image="icons/FF/hangman.png" Kind="FF" Name="Hangman" Subtype="0" Variant="41" />
+    <entity Group="Ch -2.2 - Ashpit" ID="114" Image="icons/FF/firewhirl.png" Kind="FF" Name="Fireswirl" Subtype="0" Variant="49" />
+	<entity Group="Ch -2.2 - Ashpit" ID="151" Image="icons/FF/flinty.png" Kind="FF" Name="Flinty" Subtype="0" Variant="10">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -2.2 - Ashpit" ID="42" Image="icons/FF/casted.png" Kind="FF" Name="Casted" Subtype="0" Variant="964" />
+    <entity Group="Ch - 2.2 - Ashpit" ID="114" Image="icons/FF/spiroll.png" Kind="FF" Name="Spiroll" Subtype="0" Variant="57" >
+        <bitfield Key="Subtype">
+            <dropdown Length="3">
+                <choice Value="0">Random Horizontal</choice>
+                <choice Value="1">Right</choice>
+                <choice Value="2">Left</choice>
+                <choice Value="3">Random Vertical</choice>
+                <choice Value="4">Down</choice>
+                <choice Value="5">Up</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+
+<!-- Ch 3x -->
+    <entity Metadata="1" Group="Ch -3.1 - Mausoleum" ID="150" Image="icons/FF/backdropMausB.png" Kind="FF" Name="Mausoleum Alt Backdrop" Subtype="11" Variant="1000" NoBlockDoors="1">
+		<Gfx RoomGfx="Mausoleum Alt Backdrop" />
+	</entity>
+	<entity Group="Ch -3.1 - Mausoleum" ID="160" Image="icons/FF/sixth.png" Kind="FF" Name="Sixth" Subtype="0" Variant="1100" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="160" Image="icons/FF/looksee.png" Kind="FF" Name="Looksee" Subtype="0" Variant="1130" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="108" Image="icons/FF/rancor.png" Kind="FF" Name="Rancor" Subtype="0" Variant="116">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch -3.1 - Mausoleum" ID="160" Image="icons/FF/clergy.png" Kind="FF" Name="Clergy" Subtype="0" Variant="1140" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="240" Image="icons/FF/arcanecreep.png" Kind="FF" Name="Arcane Creep" Subtype="0" Variant="450" PlaceVisual="WallSnap" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="130" Image="icons/FF/morvid.png" Kind="FF" Name="Morvid" Subtype="0" Variant="40" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="130" Image="icons/FF/morvid_perched.png" Kind="FF" Name="Morvid (Perched)" Subtype="1" Variant="40" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="160" Image="icons/FF/stolas.png" Kind="FF" Name="Stolas" Subtype="0" Variant="1150" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="120" Image="icons/FF/empath.png" Kind="FF" Name="Empath" Subtype="0" Variant="225" >
+        <bitfield Key="Subtype">
+            <spinner Name="Wander Radius" Length="12" Offset="0" Minimum="10" >
+                <tooltip>Maximum radius (in-game units) from starting position Empath will wander (minimum of 10).</tooltip>
+            </spinner>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -3.1 - Mausoleum" ID="25" Image="icons/FF/psychofly.png" Kind="FF" Name="Psycho Fly" Subtype="0" Variant="920" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="369" Image="icons/FF/shi.png" Kind="FF" Name="Shi" Subtype="0" Variant="14" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/psystalk.png" Kind="FF" Name="Psystalk" Subtype="0" Variant="7" >
+		<bitfield Key="Subtype">
+			<dropdown Length="2" Offset="0">
+				<choice>All Directions</choice>
+                <choice>Horizontal</choice>
+                <choice>Vertical</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.1 - Mausoleum" ID="450" Image="icons/FF/zealot.png" Kind="FF" Name="Zealot" Subtype="0" Variant="0" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="450" Image="icons/FF/skulltist.png" Kind="FF" Name="Skulltist" Subtype="0" Variant="1" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/zissuru.png" Kind="FF" Name="Zissuru" Subtype="0" Variant="21" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="450" Image="icons/FF/madhat.png" Kind="FF" Name="Madhat" Subtype="0" Variant="29" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/psyclopia.png" Kind="FF" Name="Psyclopia" Subtype="0" Variant="24" />
+	<entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/alderman.png" Kind="FF" Name="Alderman" Subtype="0" Variant="27" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="450" Image="icons/FF/nihilist.png" Kind="FF" Name="Nihilist" Subtype="120" Variant="25" >
+        <bitfield Key="Subtype">
+			<spinner Name="Aura Size" Length="8">
+				<tooltip>Size of the Nihilist's aura. 120 roughly covers the height of a single normal room.</tooltip>
+			</spinner>
+		</bitfield>
+    </entity>
+	<entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/shaker.png" Kind="FF" Name="Shaker" Subtype="0" Variant="32" >
+		<bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.1 - Mausoleum" ID="450" Image="icons/FF/grimoire.png" Kind="FF" Name="Grimoire" Subtype="0" Variant="30" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="41" Image="icons/FF/psychoknight.png" Kind="FF" Name="Psychoknight" Subtype="0" Variant="114" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/lunksack.png" Kind="FF" Name="Lunksack" Subtype="0" Variant="52" />
+    <entity Group="Ch -3.1 - Mausoleum" ID="877" Image="icons/FF/grievance.png" Kind="FF" Name="Grievance" Subtype="0" Variant="114" >
+        <bitfield Key="Subtype">
+            <spinner Name="Max Distance" Length="8" Minimum="100" >
+                <tooltip>Size of targeting aura.</tooltip>
+            </spinner>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -3.1 - Mausoleum" ID="114" Image="icons/FF/acolyte.png" Kind="FF" Name="Acolyte" Subtype="0" Variant="59" />
+    
+	<entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/gutter.png" Kind="FF" Name="Gutter" Subtype="0" Variant="1090" />
+	<entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/bull.png" Kind="FF" Name="Bull" Subtype="0" Variant="1170" />
+    <entity Group="Ch -3.2 - Gehenna" ID="130" Image="icons/FF/tagbag.png" Kind="FF" Name="Tagbag" Subtype="0" Variant="70" />
+	<entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/aper.png" Kind="FF" Name="Aper" Subtype="0" Variant="1220" >
+		<bitfield Key="Subtype">
+            <dropdown Length="2" Offset="0">
+                <choice>Diagonal Mirror</choice>
+                <choice>Vertical Mirror</choice>
+                <choice>Horizontal Mirror</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="120" Image="icons/FF/manicfly.png" Kind="FF" Name="Manic Fly" Subtype="0" Variant="226" />
+	<entity Group="Ch -3.2 - Gehenna" ID="42" Image="icons/FF/sensoryGrimace.png" Kind="FF" Name="Sensory Grimace" Subtype="0" Variant="963" >
+		<bitfield Key="Subtype">
+            <dropdown Length="2" Offset="0">
+                <choice>Fire Direction - Up</choice>
+                <choice>Fire Direction - Down</choice>
+                <choice>Fire Direction - Left</choice>
+                <choice>Fire Direction - Right</choice>
+            </dropdown>
+		</bitfield>
+		<bitfield Key="Subtype">
+            <dropdown Length="2" Offset="2">
+                <choice>Reacts to Movement Direction - Up</choice>
+                <choice>Reacts to Movement Direction - Down</choice>
+                <choice>Reacts to Movement Direction - Left</choice>
+                <choice>Reacts to Movement Direction - Right</choice>
+            </dropdown>
+		</bitfield>
+		<bitfield Key="Subtype">
+            <dropdown Length="1" Offset="4">
+                <choice>Stays Active on Room Clear - No</choice>
+                <choice>Stays Active on Room Clear - Yes</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/discy.png" Kind="FF" Name="Discy" Subtype="0" Variant="1270" />
+    <entity Group="Ch -3.2 - Gehenna" ID="150" Image="icons/FF/dangerousdisc.png" Kind="FF" Name="Dangerous Disc" Subtype="0" Variant="32" >
+        <bitfield Key="Subtype">
+            <dropdown Name="Attach Direction" Length="2" Offset="0">
+                <choice>Up</choice>
+                <choice>Down</choice>
+                <choice>Left</choice>
+                <choice>Right</choice>
+            </dropdown>
+            <dropdown Name="Rotation" Length="1" Offset="2">
+                <choice>Clockwise</choice>
+                <choice>Counterclockwise</choice>
+            </dropdown>
+            <dropdown Name="Starting Grid Clamp" Length="2" Offset="3">
+                <tooltip>Determines the starting corner of the grid that the Disc spawns on. For example, Top Left means it clamps to the top left corner of its initial grid.</tooltip>
+                <choice>Top Left</choice>
+                <choice>Top Right</choice>
+                <choice>Bottom Left</choice>
+                <choice>Bottom Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/nobody.png" Kind="FF" Name="Nobody" Subtype="1" Variant="1270" />
+	<entity Group="Ch -3.2 - Gehenna" ID="240" Image="icons/FF/scowlCreep.png" Kind="FF" Name="Scowl Creep" Subtype="0" Variant="114" PlaceVisual="WallSnap" />
+    <entity Group="Ch -3.2 - Gehenna" ID="450" Image="icons/FF/mazerunner.png" Kind="FF" Name="Maze Runner" Subtype="0" Variant="18" />
+    <entity Group="Ch -3.2 - Gehenna" ID="450" Image="icons/FF/apega.png" Kind="FF" Name="Apega" Subtype="0" Variant="35" />
+	<entity Group="Ch -3.2 - Gehenna" ID="114" Image="icons/FF/gabber.png" Kind="FF" Name="Gabber" Subtype="0" Variant="17" />
+    <entity Group="Ch -3.2 - Gehenna" ID="750" Image="icons/FF/ripcord.png" Kind="FF" Name="Ripcord" Subtype="0" Variant="200" />
+    <entity Group="Ch -3.2 - Gehenna" ID="750" Image="icons/FF/bead_fly.png" Kind="FF" Name="Bead Fly" Subtype="0" Variant="201" >
+        <bitfield Key="Subtype">
+            <checkbox Length="1" Offset="3"  Name="Alternate Sprite" >
+                <tooltip>Should this Bead Fly use the Ringpull sprite from Ripcord-spawned strings.</tooltip>
+            </checkbox>
+            <dropdown name="Starting Movement" Length="3" Offset="0">
+                <choice>Initial Movement: Random</choice>
+                <choice>Initial Movement: Down-Left</choice>
+                <choice>Initial Movement: Up-Left</choice>
+                <choice>Initial Movement: Up-Right</choice>
+                <choice>Initial Movement: Down-Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="450" Image="icons/FF/kukodemon.png" Kind="FF" Name="Kukodemon" Subtype="0" Variant="17" />
+    <entity Group="Ch -3.2 - Gehenna" ID="160" Image="icons/FF/pitchforkhitcher.png" Kind="FF" Name="Pitchfork Hitcher" Subtype="0" Variant="661" PlaceVisual="-0.5,0" DisableOffsetIndicator="1"/>
+    <entity Group="Ch -3.2 - Gehenna" ID="450" Image="icons/FF/lurch.png" Kind="FF" Name="Lurch" Subtype="0" Variant="15" />
+	<entity Group="Ch -3.2 - Gehenna" ID="124" Image="icons/FF/punisher.png" Kind="FF" Name="Punisher" Subtype="0" Variant="0" >
+		<bitfield Key="Subtype">
+			<spinner Name="Bullet ammount" Length="5" Offset="0" ValueOffset="0" Minimum="2" Maximum="31" >
+				<tooltip>Number of bullets Punisher shoots per attack.</tooltip>
+			</spinner>
+		</bitfield>
+	</entity>
+	<entity Group="Ch -3.2 - Gehenna" ID="108" Image="icons/FF/eye of shaggoth.png" Kind="FF" Name="Eye of Shaggoth" Subtype="60" Variant="118" >
+		<bitfield Key="Subtype">
+			<spinner Name="Aura Size" Length="15">
+				<tooltip>Size of the Eye of Shaggoth's aura. 60 is Glass Eye-sized, 150 roughly covers the height of a single normal room.</tooltip>
+			</spinner>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="750" Image="icons/FF/haemo.png" Kind="FF" Name="Haemo" Subtype="0" Variant="230" />
+    <entity Group="Ch -3.2 - Gehenna" ID="114" Image="icons/FF/thwammy.png" Kind="FF" Name="Thwammy" Subtype="0" Variant="58" >
+        <bitfield Key="Subtype">
+           <checkbox Name="Stays Active" Length="1">
+                <tooltip>If checked, continues to stomp down even when the room is clear.</tooltip>
+            </checkbox>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="750" Image="icons/FF/supershottie.png" Kind="FF" Name="Super Shottie" Subtype="0" Variant="280" />
+    <entity Group="Ch -3.2 - Gehenna" ID="451" Image="icons/FF/gamper.png" Kind="FF" Name="Gamper" Subtype="5" Variant="110" >
+        <bitfield Key="Subtype">
+            <spinner Length="8" Minimum="1" Name="Chain Length"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -3.2 - Gehenna" ID="451" Image="icons/FF/gamperpeg.png" Kind="FF" Name="Gamper Peg" Subtype="0" Variant="111" />
+<!-- Ch 4x -->
+    <entity Metadata="1" Group="Ch -4.1 - Corpse" ID="150" Image="icons/FF/backdropMorbus.png" Kind="FF" Name="Morbus Backdrop" Subtype="10" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Morbus Backdrop" />
+    </entity>
+    <entity Group="Ch -4.1 - Corpse" ID="150" Image="icons/FF/poisoncloud.png" Kind="FF" Name="Poison Cloud" Subtype="0" Variant="33" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Disappear on Room Clear</choice>
+                <choice>Persistent</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch -4.1 - Corpse" ID="160" Image="icons/FF/fingore.png" Kind="FF" Name="Fingore" Subtype="0" Variant="1070" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/rotspin_1.png" Kind="FF" Name="Rotspin (1)" Subtype="0" Variant="170" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/rotspin_2.png" Kind="FF" Name="Rotspin (2)" Subtype="2" Variant="170" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/rotspin_3.png" Kind="FF" Name="Rotspin (3)" Subtype="3" Variant="170" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/rotspin_4.png" Kind="FF" Name="Rotspin (4)" Subtype="4" Variant="170" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/spoilie.png" Kind="FF" Name="Spoilie" Subtype="0" Variant="172" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/rotdrink.png" Kind="FF" Name="Rotdrink" Subtype="0" Variant="16" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/rotskull.png" Kind="FF" Name="Rotskull" Subtype="1" Variant="16" />
+    <entity Group="Ch -4.1 - Corpse" ID="41" Image="icons/FF/gutknight.png" Kind="FF" Name="Gut Knight" Subtype="0" Variant="450" />
+    <entity Group="Ch -4.1 - Corpse" ID="151" Image="icons/FF/marzy.png" Kind="FF" Name="Marzlammer" Subtype="0" Variant="9" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -4.1 - Corpse" ID="25" Image="icons/FF/droolie.png" Kind="FF" Name="Droolie" Subtype="0" Variant="450" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/coconut.png" Kind="FF" Name="Coconut" Subtype="0" Variant="6" />
+    <entity Group="Ch -4.1 - Corpse" ID="150" Image="icons/FF/miscarriage.png" Kind="FF" Name="Miscarriage" Subtype="0" Variant="30">
+        <bitfield Key="Subtype">
+            <dropdown Length="4">
+                <choice>Empty</choice>
+                <choice>Wrinkly</choice>
+                <choice>Unborn</choice>
+                <choice>Maggots</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/torment.png" Kind="FF" Name="Torment" Subtype="0" Variant="20">
+		<bitfield Key="Subtype">
+            <dropdown Length="7">
+                <choice>Normal</choice>
+				<choice>Waiting Torment</choice>
+                <choice>Waiting Gaper (Random)</choice>
+				<choice>Waiting Gaper (Fast)</choice>
+				<choice>Waiting Gaper (Faster)</choice>
+				<choice>Waiting Gaper (Maggot)</choice>
+				<choice>Waiting Gaper (Slow)</choice>
+				<choice>Waiting Gaper (Slippery)</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/wheezer.png" Kind="FF" Name="Wheezer" Subtype="0" Variant="22">
+		<bitfield Key="Subtype">
+			<spinner Name="Gas Size" Length="10" Offset="0" ValueOffset="0" Minimum="0">
+				<tooltip>Max number of gas rings. Default is 5</tooltip>
+			</spinner>
+		</bitfield>
+	</entity>
+    <entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/whale.png" Kind="FF" Name="Whale" Subtype="0" Variant="50" />
+    <entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/whaleguts.png" Kind="FF" Name="Whale Guts" Subtype="1" Variant="50" />
+    <entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/putrefatty.png" Kind="FF" Name="Putrefatty" Subtype="0" Variant="54" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/conglobberatesmall.png" Kind="FF" Name="Conglobberate (Small)" Subtype="0" Variant="180" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/conglobberatemedium.png" Kind="FF" Name="Conglobberate (Medium)" Subtype="0" Variant="181" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/conglobberatelarge.png" Kind="FF" Name="Conglobberate (Large)" Subtype="0" Variant="182" />
+    <entity Group="Ch -4.1 - Corpse" ID="310" Image="icons/FF/tomachunk.png" Kind="FF" Name="Toma Chunk" Subtype="2302" Variant="1" />
+    <entity Group="Ch -4.1 - Corpse" ID="120" Image="icons/FF/foetus.png" Kind="FF" Name="Foetus" Subtype="0" Variant="232" />
+    <entity Group="Ch -4.1 - Corpse" ID="120" Image="icons/FF/foetu.png" Kind="FF" Name="Foetu" Subtype="1" Variant="232" />
+    <entity Group="Ch -4.1 - Corpse" ID="120" Image="icons/FF/oralopede_active.png" Kind="FF" Name="Oralopede" Subtype="0" Variant="234" >
+        <bitfield Key="Subtype">
+			<dropdown Length="1">
+				<choice>Active</choice>
+				<choice>Dormant</choice>
+			</dropdown>
+        </bitfield>
+        <bitfield Key="Subtype">
+            <spinner Name="Number of Randomly Spawned Oralids" Length="15" Offset="1" Maximum="10" >
+                <tooltip>Number of Oralids that will be spawned in random locations close to the Oralopede. Active / Dormant state will match the Oralopede.</tooltip>
+            </spinner>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -4.1 - Corpse" ID="120" Image="icons/FF/oralid_active.png" Kind="FF" Name="Oralid" Subtype="0" Variant="235" >
+        <bitfield Key="Subtype">
+			<dropdown Length="1">
+				<choice>Active</choice>
+				<choice>Dormant</choice>
+			</dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/bub.png" Kind="FF" Name="Bub" Subtype="5" Variant="12" >
+    <bitfield Key="Subtype">
+            <dropdown Length="6">
+                <choice>Shoots Teeth</choice>
+				<choice>Spawns Spiders</choice>
+                <choice>Toma Chunk on Death</choice>
+				<choice>Projectile Burst on Death</choice>
+				<choice>Leaves Body on Death</choice>
+				<choice>Random</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -4.1 - Corpse" ID="310" Image="icons/FF/molly.png" Kind="FF" Name="Molly" Subtype="0" Variant="450" >
+    <bitfield Key="Subtype">
+            <dropdown Length="4">
+                <choice>No Degradation</choice>
+				<choice>Slightly Degraded</choice>
+                <choice>Moderately Degraded</choice>
+				<choice>Completely Degraded</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch -4.1 - Corpse" ID="205" Image="icons/FF/molargan.png" Kind="FF" Name="Molargan" Subtype="0" Variant="451" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/quitter.png" Kind="FF" Name="Quitter" Subtype="0" Variant="39" />
+    <entity Group="Ch -4.1 - Corpse" ID="206" Image="icons/FF/tommy.png" Kind="FF" Name="Tommy" Subtype="0" Variant="450" />
+    <entity Group="Ch -4.1 - Corpse" ID="207" Image="icons/FF/benny.png" Kind="FF" Name="Benny" Subtype="0" Variant="450" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/steralis.png" Kind="FF" Name="Steralis" Subtype="0" Variant="36">
+        <bitfield Key="Subtype">
+            <dropdown Name="When Will It Spawn" Length="1" Offset="0">
+                <choice>Time Based</choice>
+                <choice>Room Clear</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch -4.1 - Corpse" ID="108" Image="icons/FF/cancerboy.png" Kind="FF" Name="Cancer Boy" Subtype="0" Variant="117" />
+    <entity Group="Ch -4.1 - Corpse" ID="450" Image="icons/FF/weeper.png" Kind="FF" Name="Weeper" Subtype="0" Variant="20" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/nematode.png" Kind="FF" Name="Nematode" Subtype="0" Variant="37" />
+    <entity Group="Ch -4.1 - Corpse" ID="750" Image="icons/FF/knot.png" Kind="FF" Name="Knot" Subtype="0" Variant="250">
+        <bitfield Key="Subtype">
+            <dropdown Length="2" Offset="0">
+                <choice>TL</choice>
+                <choice>TR</choice>
+                <choice>BR</choice>
+                <choice>BL</choice>
+            </dropdown>  
+        </bitfield>
+    </entity>
+    <entity Group="Ch -4.1 - Corpse" ID="114" Image="icons/FF/musk.png" Kind="FF" Name="Musk" Subtype="0" Variant="55" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bit_1.png" Kind="FF" Name="Lurker 1" Subtype="0" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bit_2.png" Kind="FF" Name="Lurker 2" Subtype="1" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bit_3.png" Kind="FF" Name="Lurker 3" Subtype="2" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bit_4.png" Kind="FF" Name="Lurker 4" Subtype="3" Variant="260" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bridge_1.png" Kind="FF" Name="Lurker Bridge 1" Subtype="4" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bridge_2.png" Kind="FF" Name="Lurker Bridge 2" Subtype="5" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bridge_3.png" Kind="FF" Name="Lurker Bridge 3" Subtype="6" Variant="260" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_bridge_4.png" Kind="FF" Name="Lurker Bridge 4" Subtype="7" Variant="260" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_core_1.png" Kind="FF" Name="Lurker Core 1" Subtype="0" Variant="261" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_core_2.png" Kind="FF" Name="Lurker Core 2" Subtype="1" Variant="261" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_core_3.png" Kind="FF" Name="Lurker Core 3" Subtype="2" Variant="261" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_core_4.png" Kind="FF" Name="Lurker Core 4" Subtype="3" Variant="261" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_1.png" Kind="FF" Name="Lurker Tooth 1" Subtype="0" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_2.png" Kind="FF" Name="Lurker Tooth 2" Subtype="1" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_3.png" Kind="FF" Name="Lurker Tooth 3" Subtype="2" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_4.png" Kind="FF" Name="Lurker Tooth 4" Subtype="3" Variant="262" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_bridge_1.png" Kind="FF" Name="Lurker Tooth Bridge 1" Subtype="4" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_bridge_2.png" Kind="FF" Name="Lurker Tooth Bridge 2" Subtype="5" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_bridge_3.png" Kind="FF" Name="Lurker Tooth Bridge 3" Subtype="6" Variant="262" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_tooth_bridge_4.png" Kind="FF" Name="Lurker Tooth Bridge 4" Subtype="7" Variant="262" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stoma_1.png" Kind="FF" Name="Lurker Stoma 1" Subtype="0" Variant="263" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stoma_2.png" Kind="FF" Name="Lurker Stoma 2" Subtype="1" Variant="263" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stoma_3.png" Kind="FF" Name="Lurker Stoma 3" Subtype="2" Variant="263" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stoma_4.png" Kind="FF" Name="Lurker Stoma 4" Subtype="3" Variant="263" />
+
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stretch_1.png" Kind="FF" Name="Lurker Stretch 1" Subtype="0" Variant="264" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stretch_2.png" Kind="FF" Name="Lurker Stretch 2" Subtype="1" Variant="264" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stretch_3.png" Kind="FF" Name="Lurker Stretch 3" Subtype="2" Variant="264" />
+    <entity Group="Ch -4.1 - Lurker" ID="750" Image="icons/FF/lurker/lurker_stretch_4.png" Kind="FF" Name="Lurker Stretch 4" Subtype="3" Variant="264" />
+
+
+	<entity Group="Z - Jokes" ID="160" Image="icons/FF/fingore.png" Kind="FF" Name="Fingore (No movement)" Subtype="1" Variant="1070" />
+
+    <entity Group="Ch -5 - Backwards" ID="160" Image="icons/FF/dwellerTainted.png" Kind="FF" Name="Missing Link" Subtype="0" Variant="85">
+        <bitfield Key="Subtype">
+            <dropdown Length="16">
+                <choice Value="0">No Item</choice>
+                <choice Value="167">Harlequin Baby</choice>
+                <choice Value="329">The Ludovico Technique</choice>
+                <choice Value="331">Godhead</choice>
+                <choice Value="369">Continuum</choice>
+                <choice Value="395">Tech X</choice>
+                <choice Value="452">Varicose Veins</choice>
+                <choice Value="1000">Random</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+	<entity Group="Ch -5 - Backwards" ID="160" Image="icons/FF/magGaper.png" Kind="FF" Name="Mag Gaper" Subtype="0" Variant="1210" />
+	<entity Group="Ch -5 - Backwards" ID="160" Image="icons/FF/reaper.png" Kind="FF" Name="Reaper" Subtype="0" Variant="666" />
+    <entity Group="Ch -5 - Backwards" ID="170" Image="icons/FF/dizzy.png" Kind="FF" Name="Dizzy" Subtype="0" Variant="11" />
+	<entity Group="Ch -5 - Backwards" ID="114" Image="icons/FF/accursed.png" Kind="FF" Name="Accursed" Subtype="0" Variant="34" />
+    <entity Group="Ch -5 - Backwards" ID="160" Image="icons/FF/buckshot.png" Kind="FF" Name="Buckshot" Subtype="0" Variant="701" />
+	<entity Group="Ch -5 - Backwards" ID="114" Image="icons/FF/murmur.png" Kind="FF" Name="Murmur" Subtype="0" Variant="35" />
+	<entity Group="Ch -5 - Backwards" ID="160" Image="icons/FF/tallboiTainted.png" Kind="FF" Name="Really Tall Boi" Subtype="0" Variant="505" />
+
+<!-- Ch 1 -->
+    <entity Group="Ch 1" ID="151" Image="icons/FF/slammer.png" Kind="FF" Name="Slammer" Subtype="0" Variant="0">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 1" ID="151" Image="icons/FF/wimpy_slammer.png" Kind="FF" Name="Wimpy" Subtype="0" Variant="1">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 1" ID="155" Image="icons/FF/Weaver.png" Kind="FF" Name="Weaver" Subtype="0" Variant="0" />
+    <entity Group="Ch 1" ID="160" Image="icons/FF/Morsel1.png" Kind="FF" Name="Morsel" Subtype="0" Variant="50" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 1" ID="160" Image="icons/FF/dung.png" Kind="FF" Name="Dung" Subtype="0" Variant="10" />
+    <entity Group="Ch 1" ID="666" Image="icons/FF/drinkworm.png" Kind="FF" Name="Drink Worm" Subtype="0" Variant="100" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/tap.png" Kind="FF" Name="Tap" Subtype="0" Variant="490" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/tallboi.png" Kind="FF" Name="Tall Boi" Subtype="0" Variant="500" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/shitling.png" Kind="FF" Name="Shitling" Subtype="0" Variant="501" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/poobottle.png" Kind="FF" Name="Poobottle" Subtype="0" Variant="560" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/redhorf.png" Kind="FF" Name="Red Horf" Subtype="0" Variant="630" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/bumbler.png" Kind="FF" Name="Bumbler" Subtype="0" Variant="700" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/bowler.png" Kind="FF" Name="Bowler" Subtype="0" Variant="760" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/loafer.png" Kind="FF" Name="Loafer" Subtype="1" Variant="760" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/bowlerhead.png" Kind="FF" Name="Bowler Ball" Subtype="2" Variant="760" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/mrhorf.png" Kind="FF" Name="Mr. Horf" Subtype="0" Variant="770" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/mrredhorf.png" Kind="FF" Name="Mr. Red Horf" Subtype="0" Variant="772" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/pester.png" Kind="FF" Name="Pester" Subtype="0" Variant="830" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/slim.png" Kind="FF" Name="Slim" Subtype="0" Variant="820" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/limb.png" Kind="FF" Name="Limb" Subtype="2" Variant="820" />
+    <entity Group="Ch 1" ID="170" Image="icons/FF/mutanthord.png" Kind="FF" Name="Mutant Horf" Subtype="0" Variant="70" />
+	<entity Group="Ch 1" ID="114" Image="icons/FF/benign.png" Kind="FF" Name="Benign" Subtype="0" Variant="0" />
+    <entity Group="Ch 1" ID="450" Image="icons/FF/shotfly.png" Kind="FF" Name="Shot Fly" Subtype="0" Variant="23" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 1" ID="450" Image="icons/FF/shoter.png" Kind="FF" Name="Shoter" Subtype="0" Variant="24" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 1" ID="450" Image="icons/FF/buttfly.png" Kind="FF" Name="Butt Fly" Subtype="0" Variant="44" >
+        <bitfield Key="Subtype">
+            <dropdown Name="Starting Direction" Length="3">
+                <choice Value="0">Random</choice>
+                <choice Value="1">Down Left</choice>
+                <choice Value="2">Down Right</choice>
+                <choice Value="3">Up Left</choice>
+                <choice Value="4">Up Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 1" ID="15" Image="icons/FF/drumstick.png" Kind="FF" Name="Drumstick" Subtype="0" Variant="450" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/slobber.png" Kind="FF" Name="Slobber" Subtype="0" Variant="2100" />
+	<entity Group="Ch 1" ID="160" Image="icons/FF/bleedy.png" Kind="FF" Name="Bleeder" Subtype="0" Variant="2101" />
+    <entity Group="Ch 1" ID="451" Image="icons/FF/potluck.png" Kind="FF" Name="Potluck" Subtype="0" Variant="60" />
+    <entity Group="Ch 1" ID="451" Image="icons/FF/casualty.png" Kind="FF" Name="Casualty" Subtype="0" Variant="70" />
+
+    <entity Metadata="1" Group="Ch 1.1 - Cellar" ID="150" Image="icons/FF/backdropHoneyedCellar.png" Kind="FF" Name="Honeyed Backdrop" Subtype="4" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Honeyed Cellar Backdrop" />
+    </entity>
+    <entity Group="Ch 1.1 - Cellar" ID="85" Image="icons/FF/Spooter.png" Kind="FF" Name="Spooter" Subtype="0" Variant="960" />
+    <entity Group="Ch 1.1 - Cellar" ID="85" Image="icons/FF/SuperSpooter.png" Kind="FF" Name="Super Spooter" Subtype="0" Variant="961" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/beeter.png" Kind="FF" Name="Beeter" Subtype="0" Variant="180" />
+    <entity Group="Ch 1.1 - Cellar" ID="30" Image="icons/FF/StickySack.png" Kind="FF" Name="Sticky Sack" Subtype="0" Variant="960" />
+    <entity Group="Ch 1.1 - Cellar" ID="88" Image="icons/FF/StickySack2.png" Kind="FF" Name="Walking Sticky Sack" Subtype="0" Variant="960" />
+    <entity Group="Ch 1.1 - Cellar" ID="85" Image="icons/FF/baby_spider.png" Kind="FF" Name="Baby Spider" Subtype="0" Variant="962" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/haunted.png" Kind="FF" Name="Haunted" Subtype="0" Variant="230" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/yawner.png" Kind="FF" Name="Yawner" Subtype="0" Variant="231" />
+    <entity Group="Ch 1.1 - Cellar" ID="666" Image="icons/FF/skuzz.png" Kind="FF" Name="Skuzz" Subtype="0" Variant="60" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/zingling.png" Kind="FF" Name="Zingling" Subtype="0" Variant="401" />
+    <entity Group="Ch 1.1 - Cellar" ID="666" Image="icons/FF/ransacked.png" Kind="FF" Name="Ransacked" Subtype="0" Variant="70" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/homer.png" Kind="FF" Name="Homer" Subtype="0" Variant="590" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/poker.png" Kind="FF" Name="Hover" Subtype="0" Variant="610" />
+    <entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/stingler.png" Kind="FF" Name="Stingler" Subtype="0" Variant="681" />
+	<entity Group="Ch 1.1 - Cellar" ID="140" Image="icons/FF/Honey Eye.png" Kind="FF" Name="Honey Eye" Subtype="0" Variant="0" />
+	<entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/honeydrip.png" Kind="FF" Name="Honeydrip" Subtype="0" Variant="810" />
+	<entity Group="Ch 1.1 - Cellar" ID="666" Image="icons/FF/marge.png" Kind="FF" Name="Marge" Subtype="0" Variant="180" />
+	<entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/nannyLL.png" Kind="FF" Name="Nanny Long Legs" Subtype="0" Variant="1040" />
+	<entity Group="Ch 1.1 - Cellar" ID="160" Image="icons/FF/coby.png" Kind="FF" Name="Coby" Subtype="0" Variant="1050" />
+	<entity Group="Ch 1.1 - Cellar" ID="114" Image="icons/FF/Crotchety.png" Kind="FF" Name="Crotchety" Subtype="0" Variant="16" />
+    <entity Group="Ch 1.1 - Cellar" ID="451" Image="icons/FF/dim.png" Kind="FF" Name="Dim" Subtype="0" Variant="90" />
+    <entity Group="Ch 1.1 - Cellar" ID="450" Image="icons/FF/shirk.png" Kind="FF" Name="Shirk" Subtype="0" Variant="13" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+		</bitfield>
+    </entity>
+    <entity Group="Ch 1.1 - Cellar" ID="150" Image="icons/FF/shirkspot.png" Kind="FF" Name="Shirk Spot" Subtype="0" Variant="451" />
+	<entity Group="Ch 1.1 - Cellar" ID="114" Image="icons/FF/brood.png" Kind="FF" Name="Brood" Subtype="0" Variant="26">
+		<bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Egg</choice>
+                <choice>No Egg</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+    <entity Group="Ch 1.1 - Cellar" ID="750" Image="icons/FF/spoop.png" Kind="FF" Name="Spoop" Subtype="10" Variant="210" >
+        <bitfield Key="Subtype">
+            <spinner Name="Fuse Length" Length="8">
+                <tooltip>Number of seconds until Spoop tries to attack.</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 1.1 - Cellar" ID="114" Image="icons/FF/congaskuzz.png" Kind="FF" Name="Army Skuzz" Subtype="0" Variant="44" >
+		<bitfield Key="Subtype">
+           <checkbox Name="Leader" Length="1">
+                <tooltip>If checked, prioritized to lead the group of nearby scuzzes</tooltip>
+            </checkbox>
+		</bitfield>
+	</entity>
+	<entity Group="Ch 1.1 - Cellar" ID="114" Image="icons/FF/ringskuzz.png" Kind="FF" Name="Ring Skuzz" Subtype="0" Variant="45" >
+		<bitfield Key="Subtype">
+			<spinner Name="Group Number" Length="3">
+				<tooltip>Which ring a skuzz is part of</tooltip>
+			</spinner>
+		</bitfield>
+	</entity>
+    <entity Group="Ch 1.1 - Cellar" ID="114" Image="icons/FF/mite.png" Kind="FF" Name="Mite" Subtype="0" Variant="47" />
+
+    <entity Metadata="1" Group="Ch 1.2 - Burning" ID="150" Image="icons/FF/backdropSmoky.png" Kind="FF" Name="Smoky Backdrop" Subtype="2" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Smoky Burning Basement Backdrop" />
+    </entity>
+    <entity Group="Ch 1.2 - Burning" ID="151" Image="icons/FF/smore.png" Kind="FF" Name="S'More" Subtype="0" Variant="5">
+		<bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 1.2 - Burning" ID="61" Image="icons/FF/spitroast.png" Kind="FF" Name="Spitroast" Subtype="0" Variant="960" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/mrflare.png" Kind="FF" Name="Mr. Flare" Subtype="0" Variant="280" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/crisply.png" Kind="FF" Name="Mr. Crisply" Subtype="0" Variant="281" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/woodburner.png" Kind="FF" Name="Woodburner" Subtype="0" Variant="310" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/fumegeist.png" Kind="FF" Name="Fumegeist" Subtype="0" Variant="350" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/mote.png" Kind="FF" Name="Mote" Subtype="0" Variant="351" />
+    <entity Group="Ch 1.2 - Burning" ID="227" Image="icons/FF/powderkeg.png" Kind="FF" Name="Powderkeg" Subtype="0" Variant="961" />
+    <entity Group="Ch 1.2 - Burning" ID="240" Image="icons/FF/fried.png" Kind="FF" Name="Fried" Subtype="0" Variant="700" PlaceVisual="WallSnap" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/charlie.png" Kind="FF" Name="Charlie" Subtype="0" Variant="430" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/sooty.png" Kind="FF" Name="Sooty" Subtype="0" Variant="431" />
+    <entity Group="Ch 1.2 - Burning" ID="208" Image="icons/FF/bigsmoke.png" Kind="FF" Name="Big Smoke" Subtype="0" Variant="963" />
+    <entity ID="160" Image="icons/FF/smokin.png" Name="Ultimate Smokin" Subtype="0" Variant="440" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/smokin2.png" Kind="FF" Name="Smokin" Subtype="0" Variant="441" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/spark.png" Kind="FF" Name="Spark" Subtype="0" Variant="152" />
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/mullikaboom.png" Kind="FF" Name="Mullikaboom" Subtype="0" Variant="550" />
+    <entity Group="Ch 1.2 - Burning" ID="180" Image="icons/FF/commission.png" Kind="FF" Name="Commission" Subtype="0" Variant="21" />
+    <entity Group="Ch 1.2 - Burning" ID="750" Image="icons/FF/wick.png" Kind="FF" Name="Wick" Subtype="0" Variant="110" />
+	<entity Group="Ch 1.2 - Burning" ID="817" Image="icons/FF/smogger.png" Kind="FF" Name="Smogger" Subtype="0" Variant="140" />
+	<entity Group="Ch 1.2 - Burning" ID="114" Image="icons/FF/brisket.png" Kind="FF" Name="Brisket" Subtype="0" Variant="33">
+		<bitfield Key="Subtype">
+            <dropdown Length="2">
+                <choice>+ Patterns</choice>
+                <choice>X Patterns</choice>
+				<choice>Random Pattern</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 1.2 - Burning" ID="451" Image="icons/FF/trailblazer.png" Kind="FF" Name="Trailblazer" Subtype="0" Variant="100"/>
+
+	 <!-- Flamin -->
+    <entity Group="Ch 1.2 - Burning" ID="160" Image="icons/FF/flamin.png" Kind="FF" Name="Flamin" Subtype="0" Variant="442">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Clockwise</choice>
+                <choice>Counter-Clockwise</choice>
+            </dropdown>
+            <spinner Name="Distance" ValueOffset="1" Length="4">
+                <tooltip>Number of segments between Flamin and its fire.
+    Actual game distance = displayed value * 25, where 40 is the length of a grid</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+    <!-- Square Flies -->
+    <entity Group="Ch 1" ID="152" Image="icons/FF/squarefly.png" Kind="FF" Name="Square Fly" Subtype="0" Variant="0">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Clockwise</choice>
+                <choice>Counter-Clockwise</choice>
+            </dropdown>
+            <dropdown Length="2">
+                <choice>Moving Right</choice>
+                <choice>Moving Down</choice>
+                <choice>Moving Left</choice>
+                <choice>Moving Up</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+	<!-- Dropping Spiders -->
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropLvl2.png" Kind="FF" Name="lvl2 Spider (Waiting)" Subtype="0" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropTicking.png" Kind="FF" Name="Ticking Spider (Waiting)" Subtype="1" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropBabyLong.png" Kind="FF" Name="Baby Long Legs (Waiting)" Subtype="2" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropBabyLongSmall.png" Kind="FF" Name="Small Baby Long Legs (Waiting)" Subtype="3" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropCrazyLong.png" Kind="FF" Name="Crazy Long Legs (Waiting)" Subtype="4" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropCrazyLongSmall.png" Kind="FF" Name="Small Crazy Long Legs (Waiting)" Subtype="5" Variant="10" />
+	<entity Group="Ch 1/2 - Dropping Spiders" ID="150" Image="icons/FF/spiderDropFull.png" Kind="FF" Name="Full Spider(Waiting)" Subtype="6" Variant="10" />
+
+	<!-- Waiting Worms -->
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingRound.png" Kind="FF" Name="Round Worm (Waiting)" Subtype="1" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingNight.png" Kind="FF" Name="Nightcrawler (Waiting)" Subtype="2" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingUlcer.png" Kind="FF" Name="Ulcer (Waiting)" Subtype="3" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingRoundy.png" Kind="FF" Name="Roundy (Waiting)" Subtype="4" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingTube.png" Kind="FF" Name="Tube Worm (Waiting)" Subtype="5" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingPara.png" Kind="FF" Name="Parabite (Waiting)" Subtype="6" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingParaSc.png" Kind="FF" Name="Scarred Parabite (Waiting)" Subtype="7" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingDrink.png" Kind="FF" Name="Drink Worm (Waiting)" Subtype="9" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingBone.png" Kind="FF" Name="Bone Worm (Waiting)" Subtype="8" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingLump.png" Kind="FF" Name="Lump (Waiting)" Subtype="10" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingFred.png" Kind="FF" Name="Fred (Waiting)" Subtype="11" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingWeaver.png" Kind="FF" Name="Weaver (Waiting)" Subtype="12" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingWeaverII.png" Kind="FF" Name="Weaver Sr.(Waiting)" Subtype="13" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingPin.png" Kind="FF" Name="Pin (Waiting)" Subtype="14" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingFrail.png" Kind="FF" Name="Frail (Waiting)" Subtype="16" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingScolex.png" Kind="FF" Name="Scolex (Waiting)" Subtype="15" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/WaitingKP.png" Kind="FF" Name="Kingpin (Waiting)" Subtype="17" Variant="16" />
+    <entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/waitingbunkerworm.png" Kind="FF" Name="Bunker Worm (Waiting)" Subtype="18" Variant="16" />
+    <entity Group="Ch 1+ - Waiting Enemies" ID="150" Image="icons/FF/waitingdrunkworm.png" Kind="FF" Name="Drunk Worm (Waiting)" Subtype="19" Variant="16" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingpolty.png" Kind="FF" Name="Polty (Waiting)" Subtype="1" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingneedle.png" Kind="FF" Name="Needle (Waiting)" Subtype="2" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingpasty.png" Kind="FF" Name="Pasty (Waiting)" Subtype="3" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingleaper.png" Kind="FF" Name="Leaper (Waiting)" Subtype="4" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingstickyleaper.png" Kind="FF" Name="Sticky Leaper (Waiting)" Subtype="5" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingmrmine.png" Kind="FF" Name="Mr. Mine (Waiting)" Subtype="6" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingmole.png" Kind="FF" Name="Mole (Waiting)" Subtype="7" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingblasted.png" Kind="FF" Name="Blasted (Waiting)" Subtype="8" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingwizoob.png" Kind="FF" Name="Wizoob (Waiting)" Subtype="9" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingredghost.png" Kind="FF" Name="Red Ghost (Waiting)" Subtype="10" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingfireworm.png" Kind="FF" Name="Fire Worm (Waiting)" Subtype="11" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingtarboy.png" Kind="FF" Name="Tar Boy (Waiting)" Subtype="12" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingkineti.png" Kind="FF" Name="Kineti (Waiting)" Subtype="13" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingdust.png" Kind="FF" Name="Dust (Waiting)" Subtype="14" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingadultleech.png" Kind="FF" Name="Adult Leech (Waiting)" Subtype="15" Variant="1004" />
+	<entity Group="Ch 1+ - Waiting Enemies" ID="114" Image="icons/FF/waitingfatsack.png" Kind="FF" Name="Fat Sack (Waiting)" Subtype="16" Variant="1004" />
+	<!-- Ch 2 -->
+
+    <entity Metadata="1" Group="Ch 2" ID="150" Image="icons/FF/backdropPrimordial.png" Kind="FF" Name="Primordial Backdrop" Subtype="6" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Primitive Caves Backdrop" />
+    </entity>
+	<entity Group="Ch 2" ID="160" Image="icons/FF/poople.png" Kind="FF" Name="Poople" Subtype="0" Variant="0" />
+    <entity Group="Ch 2" ID="155" Image="icons/FF/Weaver2.png" Kind="FF" Name="Weaver Sr." Subtype="0" Variant="1" />
+    <entity Group="Ch 2" ID="21" Image="icons/FF/rolypoly.png" Kind="FF" Name="Roly Poly" Subtype="0" Variant="960" />
+    <entity Group="Ch 2" ID="154" Image="icons/FF/Snagger.png" Kind="FF" Name="Snagger" Subtype="0" Variant="0" />
+    <entity Group="Ch 2" ID="130" Image="icons/FF/hooligan.png" Kind="FF" Name="Hooligan" Subtype="0" Variant="50">
+        <bitfield Key="Subtype">
+            <checkbox Name="Can be Contained" Length="1">
+                <tooltip>Determines if this hooligan is inside another</tooltip>
+            </checkbox>
+            <spinner Name="Contained Entities" Length="4" ValueOffset="1">
+                <tooltip>Number of entities contained within the hooligan (minimum 1)</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2" ID="160" Image="icons/FF/MeatwadV.png" Kind="FF" Name="Meatwad (Vertical)" Subtype="0" Variant="30" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/MeatwadH.png" Kind="FF" Name="Meatwad (Horizontal)" Subtype="1" Variant="30" />
+    <entity Group="Ch 2" ID="450" Image="icons/FF/chunky.png" Kind="FF" Name="Chunky" Subtype="0" Variant="43" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/balor.png" Kind="FF" Name="Balor" Subtype="0" Variant="170" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/eyesore.png" Kind="FF" Name="Eyesore" Subtype="0" Variant="171" />
+    <entity Group="Ch 2" ID="666" Image="icons/FF/foamy.png" Kind="FF" Name="Foamy" Subtype="0" Variant="40" />
+    <entity Group="Ch 2" ID="666" Image="icons/FF/fathead.png" Kind="FF" Name="Fathead" Subtype="0" Variant="50" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/baby_bat.png" Kind="FF" Name="Milk Tooth" Subtype="0" Variant="320" />
+    <entity Group="Ch 2" ID="160" Image="icons/Probirth/FatShroom.png" Kind="FF" Name="Splattercap" Subtype="0" Variant="2000" />
+    <entity Group="Ch 2" ID="160" Image="icons/Probirth/ShroomLeaper.png" Kind="FF" Name="Cordy" Subtype="0" Variant="2001" />
+	<entity Group="Ch 2" ID="666" Image="icons/FF/wobbles.png" Kind="FF" Name="Wobbles" Subtype="0" Variant="110" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/fossilizedboomie.png" Kind="FF" Name="Fossilized Boom Fly" Subtype="0" Variant="680" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/fishaac.png" Kind="FF" Name="Fishaac" Subtype="0" Variant="690" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/centihead.png" Kind="FF" Name="Centipede" Subtype="0" Variant="540" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/centiseg.png" Kind="FF" Name="Centipede Segment" Subtype="1" Variant="540" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/centipit.png" Kind="FF" Name="Centipede (Pit)" Subtype="100" Variant="540" >
+        <bitfield Key="Subtype">
+            <spinner ValueOffset="-100" Minimum="103" Length="8" Name="Number of Segments"/>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 2" ID="160" Image="icons/FF/cordify.png" Kind="FF" Name="Cordify" Subtype="0" Variant="780" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/slimpale.png" Kind="FF" Name="Pale Slim" Subtype="0" Variant="821" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/jim.png" Kind="FF" Name="Jim" Subtype="1" Variant="821" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/limbp.png" Kind="FF" Name="Pale Limb" Subtype="2" Variant="821" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/slick.png" Kind="FF" Name="Slick" Subtype="0" Variant="52" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2" ID="160" Image="icons/FF/stump.png" Kind="FF" Name="Stump" Subtype="0" Variant="53" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 2" ID="160" Image="icons/FF/smidgen.png" Kind="FF" Name="Smidgen" Subtype="0" Variant="860" />
+	<entity Group="Ch 2" ID="160" Image="icons/FF/smidgenRed.png" Kind="FF" Name="Red Smidgen" Subtype="0" Variant="861" />
+    <entity Group="Ch 2" ID="160" Image="icons/FF/bunkerworm.png" Kind="FF" Name="Bunker Worm" Subtype="0" Variant="1240" />
+	<entity Group="Ch 2" ID="114" Image="icons/FF/globlet.png" Kind="FF" Name="Globlet" Subtype="0" Variant="15">
+		<bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Deformed</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 2" ID="114" Image="icons/FF/skullcap.png" Kind="FF" Name="Hoster" Subtype="0" Variant="39" >
+		<bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+
+    <entity Group="Ch 2" ID="160" Image="icons/FF/mobileMushroom.png" Kind="FF" Name="Mobile Mushroom" Subtype="0" Variant="1310" />
+
+    <entity Group="Ch 2" ID="451" Image="icons/FF/infectedmushroom.png" Kind="FF" Name="Infected Mushroom" Subtype="60" Variant="30" >
+        <bitfield Key="Subtype">
+			<spinner Name="Aura Size" Length="8">
+				<tooltip>Size of the Infected Mushroom's aura. 80 roughly covers the height of a single normal room. 40 is roughly a 3*3 area.</tooltip>
+			</spinner>
+		</bitfield>
+    </entity>
+    <entity Group="Ch 2" ID="114" Image="icons/FF/edema.png" Kind="FF" Name="Edema" Subtype="512" Variant="60" >
+        <bitfield Key="Subtype">
+            <checkbox Name="Starts Falling" Length="1">
+                <tooltip>Determines if Edema starts midair</tooltip>
+            </checkbox>
+            <dropdown Length="3" Offset="1">
+                <choice>Random</choice>
+                <choice>Down Right</choice>
+                <choice>Down Left</choice>
+                <choice>Up Left</choice>
+                <choice>Up Right</choice>
+            </dropdown>
+            <spinner Name="Frame Offset" Length="6" Offset="4" Minimum="0" Maximum="64" ValueOffset="-32">
+                <tooltip>How many frames the Redema is offset when starting</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+
+	<entity Group="Ch 2 - Ramblin" ID="160" Image="icons/FF/eartbond.png" Kind="FF" Name="Ramblin' Evil Mushroom" Subtype="0" Variant="840" />
+	<entity Group="Ch 2 - Ramblin" ID="150" Image="icons/FF/eartbondPoint.png" Kind="FF" Name="Red Ramblepoint" Subtype="1" Variant="1001">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Minimum="1" Name="Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2 - Ramblin" ID="150" Image="icons/FF/eartbondPointblue.png" Kind="FF" Name="Blue Ramblepoint" Subtype="1" Variant="1002">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Minimum="1" Name="Group"/>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 2" ID="160" Image="icons/FF/dweller.png" Kind="FF" Name="Dweller" Subtype="0" Variant="80">
+        <bitfield Key="Subtype">
+            <dropdown Length="16">
+                <choice Value="0">No Item</choice>
+                <choice Value="2">Inner Eye</choice>
+                <choice Value="3">Spoon Bender</choice>
+                <choice Value="6">Number One</choice>
+                <choice Value="8">Brother Bobby</choice>
+                <choice Value="68">Technology</choice>
+                <choice Value="169">Polyphemus</choice>
+                <choice Value="213">Lost Contact</choice>
+                <choice Value="224">Cricket's Body</choice>
+                <choice Value="316">Cursed Eye</choice>
+                <choice Value="330">Soy Milk</choice>
+                <choice Value="496">Euthanasia</choice>
+                <choice Value="1000">Random</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 2" ID="160" Image="icons/FF/resident.png" Kind="FF" Name="Resident" Subtype="0" Variant="82">
+        <bitfield Key="Subtype">
+            <dropdown Length="16">
+                <choice Value="0">No Item</choice>
+                <choice Value="38">Tammy's Head</choice>
+                <choice Value="42">Bob's Rotten Head</choice>
+                <choice Value="56">Lemon Mishap</choice>
+                <choice Value="58">Book of Shadows</choice>
+                <choice Value="83">The Nail</choice>
+                <choice Value="107">The Pinking Shears</choice>
+                <choice Value="145">Guppy's Head</choice>
+                <choice Value="160">Crack the Sky</choice>
+                <choice Value="282">How To Jump</choice>
+                <choice Value="288">Box of Spiders</choice>
+                <choice Value="289">Red Candle</choice>
+                <choice Value="294">Butter Bean</choice>
+                <choice Value="687">Friend Finder</choice>
+                <choice Value="999">Random</choice>
+                <choice Value="1001">iPad</choice>
+                <choice Value="1002">A.V.G.M.</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2" ID="160" Image="icons/FF/pale bleedy.png" Kind="FF" Name="Pale Bleeder" Subtype="0" Variant="2102" />
+    <entity Group="Ch 2" ID="114" Image="icons/FF/frowny.png" Kind="FF" Name="Frowny" Subtype="0" Variant="6"/>
+
+	<entity Group="Ch 2 - Shiitake" ID="160" Image="icons/FF/shiitake1.png" Kind="FF" Name="Shiitake" Subtype="0" Variant="750" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2.1 - Catacombs" ID="153" Image="icons/FF/Sniffle.png" Kind="FF" Name="Sniffle" Subtype="0" Variant="0" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/tadokid.png" Kind="FF" Name="Tado Kid" Subtype="0" Variant="210" />
+    <entity Group="Ch 2.1 - Catacombs" ID="29" Image="icons/FF/tot.png" Kind="FF" Name="Tot" Subtype="0" Variant="960" />
+    <entity Group="Ch 2.1 - Catacombs" ID="29" Image="icons/FF/spinneretch.png" Kind="FF" Name="Spinneretch" Subtype="0" Variant="961" />
+    <entity Group="Ch 2.1 - Catacombs" ID="150" Image="icons/FF/spinneretchegg.png" Kind="FF" Name="Spider Egg" Subtype="1" Variant="0" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/spitum.png" Kind="FF" Name="Spitum" Subtype="0" Variant="260" />
+    <entity Group="Ch 2.1 - Catacombs" ID="25" Image="icons/FF/warhead.png" Kind="FF" Name="Warhead" Subtype="0" Variant="962" />
+    <entity Group="Ch 2.1 - Catacombs" ID="750" Image="icons/FF/mamapooter.png" Kind="FF" Name="Mama Pooter" Subtype="0" Variant="50" />
+    <entity Group="Ch 2.1 - Catacombs" ID="21" Image="icons/FF/creepymaggot.png" Kind="FF" Name="Creepy Maggot" Subtype="0" Variant="750" />
+    <entity Group="Ch 2.1 - Catacombs" ID="750" Image="icons/FF/sackboy.png" Kind="FF" Name="Sackboy" Subtype="0" Variant="80" />
+    <entity ID="160" Image="icons/FF/colonel.png" Name="Retired Colonel" Subtype="200" Variant="400" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/colonelNEW.png" Kind="FF" Name="Colonel" Subtype="0" Variant="400" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/sourpatch.png" Kind="FF" Name="Sourpatch" Subtype="0" Variant="360" />
+    <entity Group="Ch 2.1 - Catacombs" ID="29"  Image="icons/FF/sourpatchhead.png" Kind="FF" Name="Sourpatch Head" Subtype="0" Variant="962" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/sourpatchbody.png" Kind="FF" Name="Sourpatch Body" Subtype="0" Variant="361" />
+    <entity Group="Ch 2.1 - Catacombs" ID="750" Image="icons/FF/ragurge.png" Kind="FF" Name="Ragurge" Subtype="0" Variant="100" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/flickerspiritradius.png" Kind="FF" Name="Flickerspirit" Subtype="0" Variant="450" PlaceVisual="0,3.3" DisableOffsetIndicator="1" />
+    <entity Group="Ch 2.1 - Catacombs" ID="240" Image="icons/FF/ogre_creep.png" Kind="FF" Name="Ogre Creep" Subtype="0" Variant="701" PlaceVisual="WallSnap" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/menace.png" Kind="FF" Name="Menace" Subtype="0" Variant="710" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/drshambles.png" Kind="FF" Name="Dr. Shambles" Subtype="0" Variant="890" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/bunch.png" Kind="FF" Name="Bunch" Subtype="0" Variant="683" />
+    <entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/grape.png" Kind="FF" Name="Grape" Subtype="1" Variant="683" />
+	<entity Group="Ch 2.1 - Catacombs" ID="666" Image="icons/FF/drunkworm.png" Kind="FF" Name="Drunk Worm" Subtype="0" Variant="101" />
+	<entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/matte.png" Kind="FF" Name="Matte" Subtype="0" Variant="1230" />
+	<entity Group="Ch 2.1 - Catacombs" ID="160" Image="icons/FF/carrot.png" Kind="FF" Name="Carrot" Subtype="0" Variant="1718" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Normal</choice>
+                <choice>Shifted to the right a little bit</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 2.1 - Catacombs" ID="450" Image="icons/FF/mothman.png" Kind="FF" Name="Mothman" Subtype="0" Variant="38" />
+    <entity Group="Ch 2.1 - Catacombs" ID="451" Image="icons/FF/shrunkenhead.png" Kind="FF" Name="Shrunken Head" Subtype="0" Variant="80" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="1" Name="Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2.1 - Catacombs" ID="240" Image="icons/FF/scopecreep.png" Kind="FF" Name="Scope Creep" Subtype="0" Variant="115" PlaceVisual="WallSnap" />
+
+	<entity Group="Ch 2.2 - Drowned" ID="184" Metadata="1" Image="icons/FF/shampoo.png" Kind="FF" Name="Shampoo" Subtype="0" Variant="1020" />
+    <entity Group="Ch 2.2 - Drowned" Metadata="1" ID="183" Image="icons/FF/lily_pad.png" Kind="FF" Name="Lily Pad" Subtype="0" Variant="1024" NoBlockDoors="1"/>
+    <entity Group="Ch 2.2 - Drowned" ID="258" Image="icons/FF/drowned_fat_bat.png" Kind="FF" Name="Bubble Bat" Subtype="0" Variant="960" />
+    <entity Group="Ch 2.2 - Drowned" ID="42" Image="icons/FF/floodgrimace.png" Kind="FF" Name="Wetstone" Subtype="0" Variant="960" />
+    <entity Group="Ch 2.2 - Drowned" ID="22" Image="icons/FF/cistern.png" Kind="FF" Name="Cistern" Subtype="0" Variant="666" />
+    <entity Group="Ch 2.2 - Drowned" ID="207" Image="icons/FF/gutbuster.png" Kind="FF" Name="Gutbuster" Subtype="0" Variant="960" />
+    <entity Group="Ch 2.2 - Drowned" ID="207" Image="icons/FF/gutbusterempty.png" Kind="FF" Name="Empty Gutbuster" Subtype="1" Variant="960" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/gutbusterguts.png" Kind="FF" Name="Offal" Subtype="0" Variant="40" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/gutbustergutswaiting.png" Kind="FF" Name="Offal (Waiting)" Subtype="1" Variant="40" />
+    <entity Group="Ch 2.2 - Drowned" ID="208" Image="icons/FF/tubby.png" Kind="FF" Name="Tubby" Subtype="0" Variant="961" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/frog.png" Kind="FF" Name="Frog" Subtype="0" Variant="60">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/warty.png" Kind="FF" Name="Warty" Subtype="0" Variant="90" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/drip.png" Kind="FF" Name="Drop" Subtype="0" Variant="150">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="1">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/dribble.png" Kind="FF" Name="Dribble" Subtype="0" Variant="151" />
+    <entity Group="Ch 2.2 - Drowned" ID="170" Image="icons/FF/lightning_fly.png" Kind="FF" Name="Lightning Fly" Subtype="0" Variant="30" />
+    <entity Group="Ch 2.2 - Drowned" ID="21" Image="icons/FF/nimbus.png" Kind="FF" Name="Nimbus" Subtype="0" Variant="666" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/fishface.png" Kind="FF" Name="Fishface" Subtype="0" Variant="240" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/fishfaceWaiting.png" Kind="FF" Name="Fishface (Waiting)" Subtype="1" Variant="240" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/bubbleblowindoublebaby.png" Kind="FF" Name="Bubble Blowing Double Baby" Subtype="0" Variant="250" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/madclaw.png" Kind="FF" Name="Madclaw" Subtype="0" Variant="380" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/madclawWaiting.png" Kind="FF" Name="Madclaw (Waiting)" Subtype="1" Variant="380" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/globulon.png" Kind="FF" Name="Globulon" Subtype="0" Variant="410" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/zapbladder.png" Kind="FF" Name="Zapbladder" Subtype="0" Variant="640" >
+        <bitfield Key="Subtype">
+            <spinner Length="5" Minimum="0" Name="Wire Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/wire.png" Kind="FF" Name="Wire" Subtype="0" Variant="641" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/eroded_host.png" Kind="FF" Name="Eroded Host" Subtype="0" Variant="730" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/eroded_host2.png" Kind="FF" Name="Eroded Host" Subtype="1" Variant="730" />
+    <entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/eroded_host3.png" Kind="FF" Name="Eroded Host" Subtype="2" Variant="730" />
+	<entity Group="Ch 2.2 - Drowned" ID="666" Image="icons/FF/panini.png" Kind="FF" Name="Panini" Subtype="1" Variant="150" />
+	<entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/drainfly.png" Kind="FF" Name="Drainfly" Subtype="0" Variant="561" />
+	<entity Group="Ch 2.2 - Drowned" ID="21" Image="icons/FF/rolypolywater.png" Kind="FF" Name="Isopoly" Subtype="2" Variant="960" />
+	<entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/smidgenBlue1.png" Kind="FF" Name="Eroded Smidgen" Subtype="0" Variant="862" />
+	<entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/smidgenBlue2.png" Kind="FF" Name="Eroded Smidgen" Subtype="1" Variant="862" />
+	<entity Group="Ch 2.2 - Drowned" ID="180" Image="icons/FF/bluehorf.png" Kind="FF" Name="Aquabab" Subtype="0" Variant="161" />
+	<entity Group="Ch 2.2 - Drowned" ID="160" Image="icons/FF/geyser.png" Kind="FF" Name="Geyser" Subtype="0" Variant="1180" />
+	<entity Group="Ch 2.2 - Drowned" ID="114" Image="icons/FF/floodface.png" Kind="FF" Name="Floodface (Random)" Subtype="0" Variant="5" />
+	<entity Group="Ch 2.2 - Drowned" ID="114" Image="icons/FF/floodface_chase.png" Kind="FF" Name="Floodface (Chasing)" Subtype="1" Variant="5" />
+	<entity Group="Ch 2.2 - Drowned" ID="114" Image="icons/FF/fount.png" Kind="FF" Name="Fount" Subtype="0" Variant="9" />
+    <entity Group="Ch 2.2 - Drowned" ID="120" Image="icons/FF/anemone.png" Kind="FF" Name="Anemone" Subtype="0" Variant="233" />
+    <entity Group="Ch 2.2 - Drowned" ID="450" Image="icons/FF/squid.png" Kind="FF" Name="Squid" Subtype="0" Variant="11" />
+    <entity Group="Ch 2.2 - Drowned" ID="450" Image="icons/FF/puffer.png" Kind="FF" Name="Puffer" Subtype="0" Variant="27" >
+        <bitfield Key="Subtype">
+            <dropdown Name="Starting Direction" Length="3">
+                <choice Value="0">Random</choice>
+                <choice Value="1">Down Left</choice>
+                <choice Value="2">Down Right</choice>
+                <choice Value="3">Up Left</choice>
+                <choice Value="4">Up Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 2.2 - Drowned" ID="450" Image="icons/FF/dolphin.png" Kind="FF" Name="Dolphin" Subtype="0" Variant="28">
+        <bitfield Key="Subtype">
+            <dropdown Length="2" Offset="0">
+                <choice>On Land</choice>
+                <choice>In Water</choice>
+                <choice>Waiting In Water</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 2.2 - Drowned" ID="21" Image="icons/FF/seacucumber.png" Kind="FF" Name="Sea Cucumber" Subtype="0" Variant="114" />
+    <entity Group="Ch 2.2 - Drowned" ID="114" Image="icons/FF/clam.png" Kind="FF" Name="Clam" Subtype="0" Variant="51" />
+    <entity Group="Ch 2.2 - Drowned" ID="450" Image="icons/FF/sponge.png" Kind="FF" Name="Sponge" Subtype="0" Variant="45" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_tiny.png" Kind="FF" Name="Bubble (Tiny)" Subtype="0" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_small.png" Kind="FF" Name="Bubble (Small)" Subtype="1" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_medium.png" Kind="FF" Name="Bubble (Medium)" Subtype="2" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_large.png" Kind="FF" Name="Bubble (Large)" Subtype="3" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_fly.png" Kind="FF" Name="Bubble (Fly)" Subtype="4" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_spider.png" Kind="FF" Name="Bubble (Spider)" Subtype="5" Variant="1" />
+	<entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_isopoly.png" Kind="FF" Name="Bubble (Isopoly)" Subtype="10" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_watery_small.png" Kind="FF" Name="Bubble (Small Watery)" Subtype="7" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_watery_medium.png" Kind="FF" Name="Bubble (Medium Watery)" Subtype="8" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_watery_large.png" Kind="FF" Name="Bubble (Large Watery)" Subtype="9" Variant="1" />
+    <entity Group="Ch 2.2 - Projectiles" ID="150" Image="icons/FF/bubble_explosive.png" Kind="FF" Name="Bubble (Explosive)" Subtype="6" Variant="1" />
+
+    <!-- Ch 3 -->
+
+    <entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/softserve1.png" Kind="FF" Name="Scoop" Subtype="0" Variant="2" />
+    <entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/softserve2.png" Kind="FF" Name="Sundae" Subtype="0" Variant="1" />
+    <entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/softserve.png" Kind="FF" Name="Soft Serve" Subtype="0" Variant="0" />
+    <entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/load.png" Kind="FF" Name="Load" Subtype="0" Variant="10" />
+    <entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/load2.png" Kind="FF" Name="Corn Load" Subtype="0" Variant="11" />
+    <entity Group="Ch 3.1 - Depths" ID="151" Image="icons/FF/stone_slammer.png" Kind="FF" Name="Stoney Slammer" Subtype="0" Variant="2">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 3.1 - Depths" ID="151" Image="icons/FF/Pale_slammer.png" Kind="FF" Name="Smasher" Subtype="0" Variant="4">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 3.1 - Depths" ID="170" Image="icons/FF/temper.png" Kind="FF" Name="Temper" Subtype="0" Variant="0" />
+    <entity Group="Ch 3.1 - Depths" ID="227" Image="icons/FF/lobotomised.png" Kind="FF" Name="Hollow Knight" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/toxicknight.png" Kind="FF" Name="Toxic Knight" Subtype="0" Variant="220" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/ghostse.png" Kind="FF" Name="Ghostse" Subtype="0" Variant="270" />
+    <entity Group="Ch 3.1 - Depths" ID="750" Image="icons/FF/gnawful.png" Kind="FF" Name="Gnawful" Subtype="0" Variant="90" />
+    <entity Group="Ch 3.1 - Depths" ID="218" Image="icons/FF/banshee.png" Kind="FF" Name="Banshee" Subtype="0" Variant="750" />
+    <entity Group="Ch 3.1 - Depths" ID="108" Image="icons/FF/mistmonger.png" Kind="FF" Name="Mistmonger" Subtype="0" Variant="113" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/scytherider.png" Kind="FF" Name="Scythe Rider" Subtype="0" Variant="660" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/squire.png" Kind="FF" Name="Squire" Subtype="0" Variant="330" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/eternalflickerspirit.png" Kind="FF" Name="Eternal Flickerspirit" Subtype="0" Variant="451" />
+    <entity Group="Ch 3.1 - Depths" ID="130" Image="icons/FF/viscerspirit.png" Kind="FF" Name="Viscerspirit" Subtype="0" Variant="30" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/1keyes.png" Kind="FF" Name="Thousand Eyes" Subtype="0" Variant="711" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/1keyeswaiting.png" Kind="FF" Name="Thousand Eyes (Waiting)" Subtype="10" Variant="711" />
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/peekaboo.png" Kind="FF" Name="Peek-a-boo" Subtype="0" Variant="880" />
+	<entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/striker.png" Kind="FF" Name="Striker" Subtype="0" Variant="761" />
+	<entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/loaferP.png" Kind="FF" Name="Pale Loafer" Subtype="1" Variant="761" />
+	<entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/strikerHead.png" Kind="FF" Name="Striker Ball" Subtype="2" Variant="761" />
+	<entity Group="Ch 3.1 - Depths" ID="666" Image="icons/FF/patzer.png" Kind="FF" Name="Patzer" Subtype="0" Variant="200" PlaceVisual="0,1" DisableOffsetIndicator="1"/>
+	<entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/flanks.png" Kind="FF" Name="Flanks" Subtype="0" Variant="980">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 3.1 - Depths" ID="130" Image="icons/FF/sleeper.png" Kind="FF" Name="Sleeper" Subtype="0" Variant="80"/>
+    <entity Group="Ch 3.1 - Depths" ID="450" Image="icons/FF/dungeonmaster.png" Kind="FF" Name="Dungeon Master" Subtype="0" Variant="1500" >
+    	<bitfield Key="Subtype">
+            <checkbox Length="1" Offset="0"  Name="Regenerating" >
+                <tooltip>Regenerating Dungeon Masters continually spawn new Key Fiends but die on room clear.</tooltip>
+            </checkbox>
+            <spinner Length="3" Offset="1" Name="Red Key Fiends"/>
+            <spinner Length="3" Offset="4" Name="Blue Key Fiends"/>
+            <spinner Length="3" Offset="7" Name="Green Key Fiends"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.1 - Depths" ID="150" Image="icons/FF/dungeonlock.png" Kind="FF" Name="Dungeon Locker" Subtype="0" Variant="452" >
+        <bitfield Key="Subtype">
+            <spinner Length="4" Minimum="1" Name="Enemies Locked" >
+                <tooltip>Number of nearby enemies that will be given Dungeon Locks. Dungeon Locked enemies dissappear if all Dungeon Masters in the room are killed.</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.1 - Depths" Metadata="1" ID="183" Image="icons/FF/keyblockgray.png" Kind="FF" Name="Gray Lock" Subtype="0" Variant="1034" />
+    <entity Group="Ch 3.1 - Depths" Metadata="1" ID="183" Image="icons/FF/graychainlock.png" Kind="FF" Name="Gray Chain Lock" Subtype="5" Variant="1035">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Frame Delay"/>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 3.1 - Depths" ID="120" Image="icons/FF/king.png" Kind="FF" Name="King" Subtype="0" Variant="230" >
+        <bitfield Key="Subtype">
+            <spinner Name="Number of Randomly Spawned Pawns" Length="16" Offset="0" Maximum="10" >
+                <tooltip>Number of Pawns that will be spawned in random locations close to the King.</tooltip>
+            </spinner>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 3.1 - Depths" ID="120" Image="icons/FF/pawn.png" Kind="FF" Name="Pawn" Subtype="0" Variant="231"/>
+	<entity Group="Ch 3.1 - Depths" ID="114" Image="icons/FF/g_host.png" Kind="FF" Name="G. Host" Subtype="0" Variant="38" />
+    <entity Group="Ch 3.1 - Depths" ID="451" Image="icons/FF/blare.png" Kind="FF" Name="Blare" Subtype="0" Variant="50" />
+    <entity Group="Ch 3.1 - Depths" ID="114" Image="icons/FF/redema.png" Kind="FF" Name="Redema" Subtype="512" Variant="61" >
+        <bitfield Key="Subtype">
+            <checkbox Name="Starts Falling" Length="1">
+                <tooltip>Determines if Redema starts midair</tooltip>
+            </checkbox>
+            <dropdown Length="3" Offset="1">
+                <choice>Random</choice>
+                <choice>Down Right</choice>
+                <choice>Down Left</choice>
+                <choice>Up Left</choice>
+                <choice>Up Right</choice>
+            </dropdown>
+            <spinner Name="Frame Offset" Length="6" Offset="4" Minimum="0" Maximum="64" ValueOffset="-32">
+                <tooltip>How many frames the Redema is offset when starting</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 3.1 - Depths" ID="160" Image="icons/FF/spook.png" Kind="FF" Name="Spook" Subtype="0" Variant="790">
+        <bitfield Key="Subtype">
+            <spinner Name="Delay" Length="8">
+                <tooltip>Determines the delay in Spook copying player movement
+Delay = displayed value * 5 frames</tooltip>
+            </spinner>
+            <spinner Name="Count" Length="8" ValueOffset="1" Unit="Spooks">
+                <tooltip>If set above 1, spawns N Spooks with sequential delays from Delay.</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 3.1 - Depths" ID="451" Image="icons/FF/wailer.png" Kind="FF" Name="Wailer" Subtype="9" Variant="120">
+		<bitfield Key="Subtype">
+            <spinner Length="5" Offset="0" Name="Interval" >
+                <tooltip>Determines how long Wailer will remain tangible/intangible. Display value * 5 frames</tooltip>
+            </spinner>
+            <spinner Length="5" Offset="5" Name="Delay" >
+                <tooltip>Determines added initial delay for when Wailer will activate. Display value * 5 frames</tooltip>
+            </spinner>
+            <dropdown Length="2" Offset="10" Name="Movement Pattern">
+                <choice>Stationary</choice>
+                <choice>Bouncing</choice>
+                <choice>Wall Hugging (Clockwise)</choice>
+                <choice>Wall Hugging (Counterclockwise)</choice>
+			</dropdown>
+            <dropdown Length="2" Offset="12" Name="Movement Direction">
+                <tooltip>If Stationary movement pattern is used, this option can be ignored.</tooltip>
+                <choice>Left</choice>
+				<choice>Up</choice>
+				<choice>Right</choice>
+				<choice>Down</choice>
+            </dropdown>
+		</bitfield>
+	</entity>
+
+    <!--
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spook1.png" Kind="FF" Name="Spook" Subtype="0" Variant="790" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spook2.png" Kind="FF" Name="Spook" Subtype="1" Variant="790" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spook3.png" Kind="FF" Name="Spook" Subtype="2" Variant="790" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spook4.png" Kind="FF" Name="Spook" Subtype="3" Variant="790" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spook5.png" Kind="FF" Name="Spook" Subtype="4" Variant="790" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spookS2.png" Kind="FF" Name="Spook" Subtype="2" Variant="791" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spookS3.png" Kind="FF" Name="Spook" Subtype="3" Variant="791" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spookS4.png" Kind="FF" Name="Spook" Subtype="4" Variant="791" />
+    <entity Group="Ch 3.1 - Spook" ID="160" Image="icons/FF/spookS5.png" Kind="FF" Name="Spook" Subtype="5" Variant="791" />-->
+
+    <entity Group="Ch 3.2 - Necropolis" ID="244" Image="icons/FF/boneworm.png" Kind="FF" Name="Bone Worm" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.2 - Necropolis" ID="666" Image="icons/FF/Baro.png" Kind="FF" Name="Baro" Subtype="0" Variant="20" />
+    <entity Group="Ch 3.2 - Necropolis" ID="170" Image="icons/FF/Spinny.png" Kind="FF" Name="Spinny" Subtype="0" Variant="10" />
+    <entity Group="Ch 3.2 - Necropolis" ID="25" Image="icons/FF/doom fly.png" Kind="FF" Name="Doom Fly" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.2 - Necropolis" ID="23" Image="icons/FF/bonecharger.png" Kind="FF" Name="Sternum" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.2 - Necropolis" ID="23" Image="icons/FF/bonecharger_black.png" Kind="FF" Name="Splodum" Subtype="0" Variant="961" />
+    <entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/Ribeye.png" Kind="FF" Name="Ribeye" Subtype="0" Variant="120">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/liljon.png" Kind="FF" Name="Lil' Jon" Subtype="0" Variant="190" />
+    <entity Group="Ch 3.2 - Necropolis" ID="258" Image="icons/FF/ribbone.png" Kind="FF" Name="Ribbone" Subtype="0" Variant="961" />
+    <entity Group="Ch 3.2 - Necropolis" ID="234" Image="icons/FF/jawbone.png" Kind="FF" Name="Jawbone" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.2 - Necropolis" ID="150" Image="icons/FF/jawbone_corpse.png" Kind="FF" Name="Jawbone Corpse" Subtype="0" Variant="4" />
+    <entity Group="Ch 3.2 - Necropolis" ID="227" Image="icons/FF/possessed.png" Kind="FF" Name="Possessed" Subtype="0" Variant="750" />
+    <entity Group="Ch 3.2 - Necropolis" ID="750" Image="icons/FF/moaner.png" Kind="FF" Name="Moaner" Subtype="0" Variant="20" />
+    <entity Group="Ch 3.2 - Necropolis" ID="750" Image="icons/FF/possessedcorpse.png" Kind="FF" Name="Possessed" Subtype="0" Variant="10" />
+    <entity Group="Ch 3.2 - Necropolis" ID="750" Image="icons/FF/unpawtunate.png" Kind="FF" Name="Unpawtunate" Subtype="0" Variant="30" />
+    <entity Group="Ch 3.2 - Necropolis" ID="750" Image="icons/FF/unpawtunateskull.png" Kind="FF" Name="Unpawtunate Skull" Subtype="0" Variant="40" />
+    <entity Group="Ch 3.2 - Necropolis" ID="227" Image="icons/FF/crepitus.png" Kind="FF" Name="Crepitus" Subtype="0" Variant="666" />
+    <entity Group="Ch 3.2 - Necropolis" ID="750" Image="icons/FF/boneslammer.png" Kind="FF" Name="Cracker" Subtype="0" Variant="140">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 3.2 - Necropolis" ID="666" Image="icons/FF/creepterum.png" Kind="FF" Name="Creepterum" Subtype="0" Variant="130" />
+	<entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/tombit.png" Kind="FF" Name="Tombit" Subtype="0" Variant="580" />
+	<entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/gravin.png" Kind="FF" Name="Gravin" Subtype="0" Variant="581" />
+	<entity Group="Ch 3.2 - Necropolis" ID="666" Image="icons/FF/ca;zpme.png" Kind="FF" Name="Calzone" Subtype="0" Variant="150" />
+	<entity Group="Ch 3.2 - Necropolis" ID="610" Image="icons/FF/dangler.png" Kind="FF" Name="Dangler" Subtype="0" Variant="0" />
+	<entity Group="Ch 3.2 - Necropolis" ID="150" Image="icons/FF/gary.png" Kind="FF" Name="Gary" Subtype="0" Variant="14" PlaceVisual="WallSnap">
+        <bitfield Key="Subtype">
+            <dropdown Name="When Will It Spawn" Length="1" Offset="0">
+                <choice>Time Based</choice>
+                <choice>Room Clear</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/ringFlyRing.png" Kind="FF" Name="Ring of Ring Flies" Subtype="0" Variant="888"/>
+	<entity Group="Ch 3.2 - Necropolis" ID="227" Image="icons/FF/mrboneswildride.png" Kind="FF" Name="Mr. Bones" Subtype="0" Variant="667" />
+	<entity Group="Ch 3.2 - Necropolis" ID="160" Image="icons/FF/carrier.png" Kind="FF" Name="Carrier" Subtype="0" Variant="990" />
+    <entity Group="Ch 3.2 - Necropolis" ID="450" Image="icons/FF/molarsystem.png" Kind="FF" Name="Molar System" Subtype="0" Variant="26" >
+        <bitfield Key="Subtype">
+            <spinner Length="3" Maximum="4" Name="Missing Teeth"/>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 3.2 - Necropolis" ID="114" Image="icons/FF/fracture.png" Kind="FF" Name="Fracture" Subtype="0" Variant="43" >
+		<bitfield Key="Subtype">
+            <dropdown Name="Damaged State" Length="2" Offset="0">
+                <choice>Single Shot</choice>
+                <choice>Double Shot</choice>
+				<choice>Triple Shot</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+
+
+    <entity Metadata="1" Group="Ch 3.3 - Dank" ID="150" Image="icons/FF/backdropDanker.png" Kind="FF" Name="Danker Depths Backdrop" Subtype="1" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Danker Depths Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Ch 3.3 - Dank" ID="150" Image="icons/FF/backdropPipes.png" Kind="FF" Name="Pipes Backdrop" Subtype="3" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Pipes Backdrop" />
+    </entity>
+    <entity Metadata="1" Group="Ch 3.3 - Dank" ID="150" Image="icons/FF/backdropTrash.png" Kind="FF" Name="Trash Dank Depths Backdrop" Subtype="8" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Trash Dank Depths Backdrop" />
+    </entity>
+    <entity Group="Ch 3.3 - Dank" ID="150" Image="icons/FF/dankslime.png" Kind="FF" Name="Tar Bubble" Subtype="0" Variant="0" />
+    <entity Group="Ch 3.3 - Dank" ID="208" Image="icons/FF/dank_fatty.png" Kind="FF" Name="Squidge" Subtype="0" Variant="960" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/slagV.png" Kind="FF" Name="Slag (Vertical)" Subtype="0" Variant="31" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/slagH.png" Kind="FF" Name="Slag (Horizontal)" Subtype="1" Variant="31" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/gunk.png" Kind="FF" Name="Gunk" Subtype="0" Variant="100" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/gorger.png" Kind="FF" Name="Gorger" Subtype="0" Variant="140" />
+    <entity Group="Ch 3.3 - Dank" ID="170" Image="icons/FF/blot.png" Kind="FF" Name="Blot" Subtype="0" Variant="40" />
+    <entity Group="Ch 3.3 - Dank" ID="170" Image="icons/FF/melty.png" Kind="FF" Name="Melty" Subtype="0" Variant="50" />
+    <entity Group="Ch 3.3 - Dank" ID="170" Image="icons/FF/pitcher.png" Kind="FF" Name="Pitcher" Subtype="0" Variant="60" />
+    <entity Group="Ch 3.3 - Dank" ID="666" Image="icons/FF/skuzzball.png" Kind="FF" Name="Skuzzball" Subtype="0" Variant="80" />
+    <entity Group="Ch 3.3 - Dank" ID="666" Image="icons/FF/skuzzballsmall.png" Kind="FF" Name="Skuzzball (Small)" Subtype="0" Variant="81" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/gis.png" Kind="FF" Name="Gis" Subtype="0" Variant="530" />
+	<entity Group="Ch 3.3 - Dank" ID="666" Image="icons/FF/sludgehost.png" Kind="FF" Name="Sludge Host" Subtype="0" Variant="120" />
+    <entity Group="Ch 3.3 - Dank" ID="42" Image="icons/FF/furnace.png" Kind="FF" Name="Furnace" Subtype="0" Variant="962" />
+	<entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/grater.png" Kind="FF" Name="Grater" Subtype="0" Variant="570">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 3.3 - Dank" ID="44" Image="icons/FF/grate.png" Kind="FF" Name="Grate" Subtype="0" Variant="980" />
+	<entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/gishle.png" Kind="FF" Name="Gishle" Subtype="0" Variant="600" />
+	<entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/piper.png" Kind="FF" Name="Piper" Subtype="0" Variant="650" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Cardinal Start</choice>
+                <choice>Diagonal Start</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 3.3 - Dank" ID="108" Image="icons/FF/guflush.png" Kind="FF" Name="Guflush" Subtype="0" Variant="115" />
+    <entity Group="Ch 3.3 - Dank" ID="666" Image="icons/FF/boiler.png" Kind="FF" Name="Boiler" Subtype="0" Variant="90" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/Gob.png" Kind="FF" Name="Gob" Subtype="0" Variant="911" />
+    <entity Group="Ch 3.3 - Dank" ID="160" Image="icons/FF/mrGob.png" Kind="FF" Name="Mr. Gob" Subtype="0" Variant="910" />
+	<entity Group="Ch 3.3 - Dank" ID="85" Image="icons/FF/litterbug.png" Kind="FF" Name="Litter Bug" Subtype="0" Variant="964" />
+	<entity Group="Ch 3.3 - Dank" ID="85" Image="icons/FF/litterbugtoxic.png" Kind="FF" Name="Toxic Litter Bug" Subtype="0" Variant="965" />
+	<entity Group="Ch 3.3 - Dank" ID="666" Image="icons/FF/dopehead.png" Kind="FF" Name="Dope's Head" Subtype="0" Variant="210" />
+    <entity Group="Ch 3.3 - Dank" ID="29" Image="icons/FF/gopper.png" Kind="FF" Name="Gobhopper" Subtype="170" Variant="1" />
+	<entity Group="Ch 3.3 - Dank" ID="369" Image="icons/FF/trashbagger_trashnip.png" Kind="FF" Name="Trashbagger (Trash Depths)" Subtype="1" Variant="10" />
+    <entity Group="Ch 3.3 - Dank" ID="450" Image="icons/FF/bunkter.png" Kind="FF" Name="Bunkter" Subtype="0" Variant="19" >
+         <bitfield Key="Subtype">
+            <dropdown Name="How Long Will It Wait" Length="3">
+                <choice Value="0">None</choice>
+                <choice Value="1">Random Short</choice>
+                <choice Value="2">Random Long</choice>
+                <choice Value="3">Room Clear</choice>
+                <choice Value="4">Never</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+	<entity Group="Ch 3.3 - Dank" ID="114" Image="icons/FF/slimer.png" Kind="FF" Name="Slimer" Subtype="0" Variant="42" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 3.3 - Dank" ID="450" Image="icons/FF/clogmo.png" Kind="FF" Name="Clogmo" Subtype="0" Variant="8" >
+        <bitfield Key="Subtype">
+            <spinner Length="4" Name="Pipe Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Dank" ID="44" Image="icons/FF/clogmopipe.png" Kind="FF" Name="Clogmo Pipe" Subtype="0" Variant="4000" >
+        <bitfield Key="Subtype">
+            <spinner Length="4" Name="Pipe Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Dank" ID="44" Image="icons/FF/clogmotunnelhori.png" Kind="FF" Name="Clogmo Tunnel (Horizontal)" Subtype="0" Variant="4001" PlaceVisual="1,0" DisableOffsetIndicator="1">
+        <bitfield Key="Subtype">
+            <spinner Length="4" Name="Pipe Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Dank" ID="44" Image="icons/FF/clogmotunnelverti.png" Kind="FF" Name="Clogmo Tunnel (Vertical)" Subtype="0" Variant="4002" PlaceVisual="0,1" DisableOffsetIndicator="1">
+        <bitfield Key="Subtype">
+            <spinner Length="4" Name="Pipe Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Pipes" ID="44" Image="icons/FF/septicpipe.png" Kind="FF" Name="Septic Pipe" Subtype="1550" Variant="1710">
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal" Length="1"/>
+            <spinner Name="Time Between Shots" ValueOffset="1" Length="4">
+                <tooltip>Delay after each time firing
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Initial Delay" Length="4">
+                <tooltip>Initial delay before firing, used to create offset pipes
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Creep Timeout" ValueOffset="1" Length="4">
+                <tooltip>How long the creep spawned by the pipe lasts
+Creep Timeout = displayed value * 12.5 frames</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Pipes" ID="44" Image="icons/FF/sewarpipe.png" Kind="FF" Name="Sewer Pipe" Subtype="1550" Variant="1711">
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal" Length="1"/>
+            <spinner Name="Time Between Shots" ValueOffset="1" Length="4">
+                <tooltip>Delay after each time firing
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Initial Delay" Length="4">
+                <tooltip>Initial delay before firing, used to create offset pipes
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Creep Timeout" ValueOffset="1" Length="4">
+                <tooltip>How long the creep spawned by the pipe lasts
+Creep Timeout = displayed value * 12.5 frames</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Pipes" ID="44" Image="icons/FF/sludgepipe.png" Kind="FF" Name="Sludge Pipe" Subtype="1550" Variant="1712">
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal" Length="1"/>
+            <spinner Name="Time Between Shots" ValueOffset="1" Length="4">
+                <tooltip>Delay after each time firing
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Initial Delay" Length="4">
+                <tooltip>Initial delay before firing, used to create offset pipes
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Creep Timeout" ValueOffset="1" Length="4">
+                <tooltip>How long the creep spawned by the pipe lasts
+Creep Timeout = displayed value * 12.5 frames</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 3.3 - Pipes" ID="44" Image="icons/FF/splitpipe.png" Kind="FF" Name="Split Pipe" Subtype="1550" Variant="1714">
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal" Length="1"/>
+            <spinner Name="Time Between Shots" ValueOffset="1" Length="4">
+                <tooltip>Delay after each time firing
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Initial Delay" Length="4">
+                <tooltip>Initial delay before firing, used to create offset pipes
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Creep Timeout" ValueOffset="1" Length="4">
+                <tooltip>How long the creep spawned by the pipe lasts
+Creep Timeout = displayed value * 12.5 frames</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 4.2 - Utero - Pipes" ID="44" Image="icons/FF/sphincter.png" Kind="FF" Name="Sphincter" Subtype="1550" Variant="1713">
+        <bitfield Key="Subtype">
+            <checkbox Name="Horizontal" Length="1"/>
+            <spinner Name="Time Between Shots" ValueOffset="1" Length="4">
+                <tooltip>Delay after each time firing
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Initial Delay" Length="4">
+                <tooltip>Initial delay before firing, used to create offset pipes
+Delay = displayed value * 12.5 frames</tooltip>
+            </spinner>
+            <spinner Name="Creep Timeout" ValueOffset="1" Length="4">
+                <tooltip>How long the creep spawned by the pipe lasts
+Creep Timeout = displayed value * 12.5 frames</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+
+    <!-- Ch 4 -->
+    <entity Group="Ch 4.1 - Womb" ID="156" Image="icons/FF/craterface.png" Kind="FF" Name="Craterface" Subtype="0" Variant="0" />
+    <entity Group="Ch 4.1 - Womb" ID="156" Image="icons/FF/Drooler.png" Kind="FF" Name="Drooler" Subtype="0" Variant="69" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/motorneuron.png" Kind="FF" Name="Motor Neuron" Subtype="0" Variant="70" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/Probirth/Berry.png" Kind="FF" Name="Berry" Subtype="0" Variant="2002" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/Probirth/SpicyDip.png" Kind="FF" Name="Spicy Dip" Subtype="0" Variant="2003" />
+    <entity Group="Ch 4.1 - Womb" ID="108" Image="icons/FF/wombpillar.png" Kind="FF" Name="Womb Pillar" Subtype="0" Variant="110" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/effigyred.png" Kind="FF" Name="Harletwin" Subtype="0" Variant="520" />
+    <entity Group="Ch 4.1 - Womb" ID="750" Image="icons/FF/nuchal.png" Kind="FF" Name="Nuchal" Subtype="0" Variant="150" />
+    <entity Group="Ch 4.1 - Womb" ID="750" Image="icons/FF/nuchal walk.png" Kind="FF" Name="Nuchal (Detached)" Subtype="0" Variant="151" />
+    <entity Group="Ch 4.1 - Womb" ID="750" Image="icons/FF/nuchal cord.png" Kind="FF" Name="Nuchal (Cord)" Subtype="0" Variant="152" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/immural.png" Kind="FF" Name="Immural" Subtype="0" Variant="740" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/globscraper4.png" Kind="FF" Name="Globscraper (4)" Subtype="0" Variant="920" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/globscraper3.png" Kind="FF" Name="Globscraper (3)" Subtype="1" Variant="920" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/globscraper2.png" Kind="FF" Name="Globscraper (2)" Subtype="2" Variant="920" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/foe.png" Kind="FF" Name="Foe" Subtype="0" Variant="930" />
+    <entity Group="Ch 4.1 - Womb" ID="155" Image="icons/FF/thread.png" Kind="FF" Name="Thread" Subtype="0" Variant="3" />
+    <entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/cword.png" Kind="FF" Name="C Word" Subtype="0" Variant="970" PlaceVisual="0,0.5" DisableOffsetIndicator="1"/>
+	<entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/neonate.png" Kind="FF" Name="Neonate" Subtype="0" Variant="971" />
+	<entity Group="Ch 4.1 - Womb" ID="160" Image="icons/FF/quack.png" Kind="FF" Name="Quack" Subtype="0" Variant="1010" />
+	<entity Group="Ch 4.1 - Womb" ID="120" Image="icons/FF/punted.png" Kind="FF" Name="Punted" Subtype="0" Variant="223" />
+	<entity Group="Ch 4.1 - Womb" ID="120" Image="icons/FF/punted ground.png" Kind="FF" Name="Punted (grounded)" Subtype="1" Variant="223" />
+
+    <entity Group="Ch 4.1 - Womb" ID="120" Image="icons/FF/warble.png" Kind="FF" Name="Warble" Subtype="0" Variant="227">
+        <bitfield Key="Subtype">
+            <dropdown Length="3">
+                <choice Value="0">Initial Movement Direction - Random</choice>
+                <choice Value="3">Initial Movement Direction - Up Left</choice>
+                <choice Value="4">Initial Movement Direction - Up Right</choice>
+                <choice Value="1">Initial Movement Direction - Down Left</choice>
+                <choice Value="2">Initial Movement Direction - Down Right</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 4.1 - Womb" ID="41"  Image="icons/FF/strobila.png" Kind="FF" Name="Strobila" Subtype="0" Variant="750" />
+    <entity Group="Ch 4.1 - Womb" ID="208" Image="icons/FF/globwad.png" Kind="FF" Name="Globwad" Subtype="0" Variant="750" />
+    <entity Group="Ch 4.1 - Womb" ID="450" Image="icons/FF/glorf.png" Kind="FF" Name="Glorf" Subtype="0" Variant="4" />
+    <entity Group="Ch 4.1 - Womb" ID="750"  Image="icons/FF/chops.png" Kind="FF" Name="Chops" Subtype="0" Variant="240" />
+    <entity Group="Ch 4.1 - Womb" ID="450"  Image="icons/FF/toothache.png" Kind="FF" Name="Toothache" Subtype="0" Variant="41" />
+	<entity Group="Ch 4.1 - Womb" ID="114" Image="icons/FF/chummer.png" Kind="FF" Name="Chummer" Subtype="0" Variant="40">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice Value="0">Standard</choice>
+                <choice Value="1">Pile</choice>
+			</dropdown>
+        </bitfield>
+    </entity>
+
+    <entity Group="Ch 4.1 - Womb" ID="150" Image="icons/FF/sac_empty.png" Kind="FF" Name="Amniotic Sac" Subtype="0" Variant="24">
+        <bitfield Key="Subtype">
+            <dropdown Length="4">
+                <choice>Empty</choice>
+                <choice>Random</choice>
+                <choice>Neonate</choice>
+                <choice>Baby</choice>
+                <choice>Embryo</choice>
+            </dropdown>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.1 - Womb" ID="451" Image="icons/FF/plexus.png" Kind="FF" Name="Plexus" Subtype="0" Variant="20"/>
+    <entity Group="Ch 4.1 - Womb" ID="451" Image="icons/FF/nervie.png" Kind="FF" Name="Nervie Point" Subtype="0" Variant="22" NoBlockDoors="1">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Single Nervie</choice>
+                <choice>Nervie Wave</choice>
+            </dropdown>
+            <spinner Length="2" Offset="1" Name="Group">
+                <tooltip>Will be triggered at the same time as other Nervies in the same group.</tooltip>
+            </spinner>
+            <dial Length="4" Offset="3" Name="Angle" Unit="Degrees" ValueOffset="12">
+				<tooltip>If this is a Nervie Wave, determines the angle the wave will travel.</tooltip>
+			</dial>
+        </bitfield>
+    </entity>
+
+	<entity Metadata="1" Group="Ch 4.2 - Utero" ID="150" Image="icons/FF/backdropEyeball.png" Kind="FF" Name="Eyeball Backdrop" Subtype="5" Variant="1000" NoBlockDoors="1">
+        <Gfx RoomGfx="Eyeball Utero Backdrop" />
+    </entity>
+    <entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/peepling.png" Kind="FF" Name="Peepling" Subtype="0" Variant="510" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/saggingsucker.png" Kind="FF" Name="Sagging Sucker" Subtype="0" Variant="620" />
+	<entity Group="Ch 4.2 - Utero" ID="108" Image="icons/FF/cordend.png" Kind="FF" Name="Cordend" Subtype="0" Variant="114" />
+	<entity Group="Ch 4.2 - Utero" ID="112" Image="icons/FF/valvo.png" Kind="FF" Name="Valvo" Subtype="0" Variant="0" />
+    <entity Group="Ch 4.2 - Utero" ID="205" Image="icons/FF/jammed.png" Kind="FF" Name="Jammed" Subtype="0" Variant="450" />
+    <entity Group="Ch 4.2 - Utero" ID="205" Image="icons/FF/redjammed.png" Kind="FF" Name="Red Jammed" Subtype="1" Variant="450" />
+    <entity ID="27" Image="icons/FF/hostlet.png" Kind="FF" Name="Hostlet" Subtype="250" Variant="0" />
+    <entity ID="27" Image="icons/FF/redhostlet.png" Kind="FF" Name="Red Hostlet" Subtype="251" Variant="1" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/uteropillar.png" Kind="FF" Name="Utero Pillar" Subtype="0" Variant="800" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/organelle.png" Kind="FF" Name="Organelle" Subtype="0" Variant="801" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/bola.png" Kind="FF" Name="Bola" Subtype="0" Variant="850" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/Tricklee.png" Kind="FF" Name="Trickle (Flying)" Subtype="0" Variant="682" />
+	<entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/Tricklee2.png" Kind="FF" Name="Trickle (Skittering)" Subtype="1" Variant="682" />
+	<entity Group="Ch 4.2 - Utero" ID="180" Image="icons/FF/peepee.png" Kind="FF" Name="Peepee" Subtype="0" Variant="93" />
+    <entity Group="Ch 4.2 - Utero" ID="130" Image="icons/FF/magleech.png" Kind="FF" Name="Magleech" Subtype="0" Variant="10" />
+	<entity Group="Ch 4.2 - Utero" ID="120" Image="icons/FF/onlooker.png" Kind="FF" Name="Onlooker" Subtype="0" Variant="222" PlaceVisual="WallSnap" />
+	<entity Group="Ch 4.2 - Utero" ID="114" Image="icons/FF/minimoon.png" Kind="FF" Name="Minimoon" Subtype="0" Variant="11" >
+		<bitfield Key="Subtype">
+            <dropdown Length="4">
+				<choice>Random</choice>
+                <choice>Down Right</choice>
+                <choice>Down Left</choice>
+                <choice>Up Left</choice>
+				<choice>Up Right</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 4.2 - Utero" ID="114" Image="icons/FF/bladder.png" Kind="FF" Name="Bladder" Subtype="0" Variant="12" />
+	<entity Group="Ch 4.2 - Utero" ID="114" Image="icons/FF/heartbeat.png" Kind="FF" Name="Heartbeat" Subtype="0" Variant="13" />
+    <entity Group="Ch 4.2 - Utero" ID="212" Image="icons/FF/astroskull.png" Kind="FF" Name="Astroskull" Subtype="6" Variant="451" >
+        <bitfield Key="Subtype">
+        	<dropdown Length="1" Offset="0">
+				<choice>Clockwise</choice>
+				<choice>Counterclockwise</choice>
+			</dropdown>
+            <spinner Length="5" Offset="1" Name="Lil Junkie Count"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.2 - Utero" ID="21" Image="icons/FF/retch.png" Kind="FF" Name="Retch" Subtype="0" Variant="450" />
+    <entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/tittle.png" Kind="FF" Name="Tittle" Subtype="0" Variant="863" />
+    <entity Group="Ch 4.2 - Utero" ID="160" Image="icons/FF/trojan.png" Kind="FF" Name="Trojan" Subtype="0" Variant="1330" />
+
+    <entity Group="Ch 4.2 - Utero - Blood Cells" ID="44" Image="icons/FF/ArteryWalk.png" Kind="FF" Name="Artery (Mobile)" Subtype="0" Variant="960">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.2 - Utero - Blood Cells" ID="44" Image="icons/FF/ArteryFly.png" Kind="FF" Name="Artery (Spinning)" Subtype="0" Variant="961">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.2 - Utero - Blood Cells" ID="44" Image="icons/FF/Vein.png" Kind="FF" Name="Vein" Subtype="0" Variant="962">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.2 - Utero - Blood Cells" ID="160" Image="icons/FF/bloodcell.png" Kind="FF" Name="Mobile Blood Cell" Subtype="0" Variant="370">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Group"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 4.2 - Utero - Blood Cells" ID="160" Image="icons/FF/bloodcellflying.png" Kind="FF" Name="Spinning Blood Cell" Subtype="0" Variant="371">
+        <bitfield Key="Subtype">
+            <spinner Length="16" Name="Group"/>
+        </bitfield>
+    </entity>
+
+
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/poxV.png" Kind="FF" Name="Pox (Vertical)" Subtype="0" Variant="32" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/poxH.png" Kind="FF" Name="Pox (Horizontal)" Subtype="1" Variant="32" />
+    <entity Group="Ch 4.3 - Scarred" ID="16" Image="icons/FF/facade.png" Kind="FF" Name="Facade" Subtype="0" Variant="960" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/gleek.png" Kind="FF" Name="Gleek" Subtype="0" Variant="110" />
+    <entity Group="Ch 4.3 - Scarred" ID="208" Image="icons/FF/mouthful.png" Kind="FF" Name="Mouthful" Subtype="0" Variant="962" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/incisor.png" Kind="FF" Name="Incisor" Subtype="0" Variant="290" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/starving.png" Kind="FF" Name="Starving" Subtype="0" Variant="300" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/headhoncho.png" Kind="FF" Name="Head Honcho" Subtype="0" Variant="390" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/dogmeat.png" Kind="FF" Name="Dogmeat" Subtype="0" Variant="470" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/brooter.png" Kind="FF" Name="Brooter" Subtype="0" Variant="480" />
+	<entity Group="Ch 4.3 - Scarred" ID="666" Image="icons/FF/curdle.png" Kind="FF" Name="Curdle" Subtype="0" Variant="140" />
+	<entity Group="Ch 4.3 - Scarred" ID="666" Image="icons/FF/curdleLEWD.png" Kind="FF" Name="Curdle (Naked)" Subtype="0" Variant="141" />
+    <entity Group="Ch 4.3 - Scarred" ID="130" Image="icons/FF/myiasis.png" Kind="FF" Name="Myiasis" Subtype="0" Variant="20" />
+    <entity Group="Ch 4.3 - Scarred" ID="130" Image="icons/FF/emptymyiasis.png" Kind="FF" Name="Empty Myiasis" Subtype="1" Variant="20" />
+    <entity Group="Ch 4.3 - Scarred" ID="160" Image="icons/FF/lipoma.png" Kind="FF" Name="Lipoma" Subtype="0" Variant="1020">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+	<entity Group="Ch 4.3 - Scarred" ID="57" Image="icons/FF/cellulitis.png" Kind="FF" Name="Cellulitis" Subtype="0" Variant="114" />
+    <entity Group="Ch 4.3 - Scarred" ID="114" Image="icons/FF/flailer.png" Kind="FF" Name="Flailer" Subtype="0" Variant="46" />
+
+    <!-- Ch 5 -->
+
+    <!-- Sheol -->
+    <entity Metadata="1" Group="Ch 5 - Sheol" ID="150" Image="icons/FF/backdropPsionic.png" Kind="FF" Name="Psionic Backdrop" Subtype="12" Variant="1000" NoBlockDoors="1">
+		<Gfx RoomGfx="Psionic Backdrop" />
+	</entity>
+    <entity Group="Ch 5 - Sheol" ID="159" Image="icons/FF/psion.png" Kind="FF" Name="Psion" Subtype="0" Variant="0" />
+    <entity Group="Ch 5 - Sheol" ID="42" Image="icons/FF/cursedgrimace.png" Kind="FF" Name="Cauldron" Subtype="0" Variant="961" />
+    <entity Group="Ch 5 - Sheol" ID="156" Image="icons/FF/blazer.png" Kind="FF" Name="Blazer" Subtype="0" Variant="666" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/crosseye.png" Kind="FF" Name="Crosseye" Subtype="0" Variant="200" />
+    <entity Group="Ch 5 - Sheol" ID="21" Image="icons/FF/psionicknight.png" Kind="FF" Name="Psionic Knight" Subtype="0" Variant="961" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/foreseer.png" Kind="FF" Name="Foreseer" Subtype="0" Variant="340" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/pleech.png" Kind="FF" Name="Psleech" Subtype="0" Variant="341" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/outlier.png" Kind="FF" Name="Outlier (Vertical)" Subtype="0" Variant="34" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/outlier2.png" Kind="FF" Name="Outlier (Horizontal)" Subtype="1" Variant="34" />
+    <entity Group="Ch 5 - Sheol" ID="450" Image="icons/FF/observer.png" Kind="FF" Name="Observer" Subtype="0" Variant="1510" >
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+				<choice>Clockwise</choice>
+				<choice>Counterclockwise</choice>
+			</dropdown>
+            <checkbox Name="Deactive on Room Clear" Length="1" Offset="1">
+				<tooltip>If checked, then Dogrock will not be required to be killed to clear the room.</tooltip>
+			</checkbox>
+			<dial Length="4" Offset="2" Name="Angle" Unit="Degrees" ValueOffset="12">
+				<tooltip>Starting angle of the tracer.</tooltip>
+			</dial>
+		</bitfield>
+    </entity>
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/msdominator.png" Kind="FF" Name="Ms. Dominator" Subtype="0" Variant="670">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/dominated.png" Kind="FF" Name="Dominated" Subtype="0" Variant="671" />
+    <entity Group="Ch 5 - Sheol" ID="112" Image="icons/FF/sombra.png" Kind="FF" Name="Sombra" Subtype="0" Variant="1" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/psihunter.png" Kind="FF" Name="Psi Hunter" Subtype="0" Variant="940" />
+    <entity Group="Ch 5 - Sheol" ID="160" Image="icons/FF/psiling.png" Kind="FF" Name="Psiling" Subtype="0" Variant="941" />
+    <entity Group="Ch 5 - Sheol" ID="150" Image="icons/FF/eg.png" Kind="FF" Name="Psyeg" Subtype="0" Variant="23" />
+    <entity Group="Ch 5 - Sheol" ID="155" Image="icons/FF/weaverEvil.png" Kind="FF" Name="Dread Weaver" Subtype="0" Variant="2" />
+    <entity Group="Ch 5 - Sheol" ID="151" Image="icons/FF/doomer.png" Kind="FF" Name="Doomer" Subtype="0" Variant="8">
+        <bitfield Key="Subtype">
+            <dropdown Length="1" Offset="0">
+                <choice>Normal</choice>
+                <choice>Waiting</choice>
+            </dropdown>
+        </bitfield>
+	</entity>
+    <entity Group="Ch 5 - Sheol" ID="120" Image="icons/FF/thrall.png" Kind="FF" Name="Thrall" Subtype="0" Variant="236" />
+	<entity Group="Ch 5 - Sheol" ID="114" Image="icons/FF/dreadmaw.png" Kind="FF" Name="Dread Maw" Subtype="0" Variant="29" />
+
+    <entity Group="Ch 5 - Sheol" ID="450" Image="icons/FF/hermit.png" Kind="FF" Name="Hermit" Subtype="0" Variant="46" />
+
+    <entity Group="Ch 5 - Sheol - Umbra" ID="160" Image="icons/FF/umbra.png" Kind="FF" Name="Umbra" Subtype="0" Variant="950" />
+    <entity Group="Ch 5 - Sheol - Umbra" ID="160" Image="icons/FF/umbra2.png" Kind="FF" Name="Blistered Umbra" Subtype="1" Variant="950" />
+    <entity Group="Ch 5 - Sheol - Umbra" ID="160" Image="icons/FF/umbra2F.png" Kind="FF" Name="Blistered Umbra" Subtype="2" Variant="950" />
+    <entity Group="Ch 5 - Sheol - Umbra" ID="160" Image="icons/FF/umbragate.png" Kind="FF" Name="Eclipse" Subtype="1" Variant="951">
+        <bitfield Key="Subtype">
+            <spinner Length="4" Minimum="1" Name="Spawn Cap"/>
+        </bitfield>
+    </entity>
+
+    <!-- Cathederal -->
+    <entity Group="Ch 5 - Cathedral" ID="666" Image="icons/FF/chorister.png" Kind="FF" Name="Chorister" Subtype="0" Variant="30" />
+    <entity Group="Ch 5 - Cathedral" ID="750" Image="icons/FF/gravedigger.png" Kind="FF" Name="Gravedigger" Subtype="0" Variant="60" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/primemind.png" Kind="FF" Name="Primemind" Subtype="0" Variant="420" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/deadfly.png" Kind="FF" Name="Deadfly" Subtype="0" Variant="460" />
+	<entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/effigy.png" Kind="FF" Name="Effigy" Subtype="0" Variant="521" />
+    <entity Group="Ch 5 - Cathedral" ID="108" Image="icons/FF/watcher.png" Kind="FF" Name="Watcher" Subtype="0" Variant="111" />
+    <entity Group="Ch 5 - Cathedral" ID="108" Image="icons/FF/watcher eye.png" Kind="FF" Name="Watcher Eye" Subtype="0" Variant="112" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/warden.png" Kind="FF" Name="Warden" Subtype="0" Variant="720" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/looker.png" Kind="FF" Name="Armoured Looker" Subtype="0" Variant="870" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/looker2.png" Kind="FF" Name="Looker" Subtype="1" Variant="870" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/inner eye.png" Kind="FF" Name="Inner Eye" Subtype="0" Variant="900" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/enlightened.png" Kind="FF" Name="Enlightened" Subtype="0" Variant="901" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/unenlightened.png" Kind="FF" Name="Unenlightened" Subtype="1" Variant="901" />
+    <entity Group="Ch 5 - Cathedral" ID="160" Image="icons/FF/seeker.png" Kind="FF" Name="Seeker" Subtype="0" Variant="960" />
+    <entity Group="Ch 5 - Cathedral" ID="450" Image="icons/FF/cherub.png" Kind="FF" Name="Cherub" Subtype="0" Variant="3" />
+    <entity Group="Ch 5 - Cathedral" ID="212" Image="icons/FF/cherubskull.png" Kind="FF" Name="Cherubskull" Subtype="5" Variant="450" >
+        <bitfield Key="Subtype">
+            <spinner Length="8" Minimum="1" Name="Chain Length"/>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 5 - Cathedral" ID="450" Image="icons/FF/dogrock.png" Kind="FF" Name="Dogrock" Subtype="0" Variant="37" >
+        <bitfield Key="Subtype">
+			<checkbox Name="Deactive on Room Clear" Length="1">
+				<tooltip>If checked, then Dogrock will not be required to be killed to clear the room.</tooltip>
+			</checkbox>
+		</bitfield>
+	</entity>
+	<entity Group="Ch 5 - Cathedral" ID="114" Image="icons/FF/specturn.png" Kind="FF" Name="Specturn" Subtype="0" Variant="30">
+		<bitfield Key="Subtype">
+			<checkbox Name="Vulnerable" Length="1">
+				<tooltip>If checked, orbiting enemies will be vulnerable.</tooltip>
+			</checkbox>
+			<checkbox Name="Die when host is Killed" Length="1" Offset="1">
+				<tooltip>If checked, orbiting enemies will die when the host is killed.</tooltip>
+			</checkbox>
+			<spinner Name="Orbiting Entities" Length="5" Offset="2" Minimum="1">
+                <tooltip>Number of entities Specturn will make orbit.</tooltip>
+            </spinner>
+			<dropdown Length="1" Offset="7">
+				<choice>Clockwise</choice>
+				<choice>Counterclockwise</choice>
+			</dropdown>
+			<dropdown Length="3" Offset="8">
+				<choice>Check Nearest</choice>
+				<choice>Check Right</choice>
+				<choice>Check Down</choice>
+				<choice>Check Left</choice>
+				<choice>Ckeck Up</choice>
+			</dropdown>
+			<spinner Name="Max Distance" Length="4" Offset="11" Minimum="2">
+                <tooltip>Maximum distance (in half grids) of the orbit.</tooltip>
+            </spinner>
+		</bitfield>
+	</entity>
+    <entity Group="Ch 5 - Cathedral" ID="709" Image="icons/FF/Congression (East).png" Kind="FF" Name="Congression" Subtype="82" Variant="0">
+        <bitfield Key="Subtype">
+            <dropdown Length="1">
+                <choice>Moves East</choice>
+                <choice>Moves West</choice>
+            </dropdown>
+            <checkbox Name="Sine Wave Path" Length="1">
+                <tooltip>If checked, moves in a sine wave. Otherwise, moves straight.</tooltip>
+            </checkbox>
+            <checkbox Name="Randomize Position" Length="1">
+                <tooltip>If checked, randomly sets its Y position each time it enters the screen</tooltip>
+            </checkbox>
+            <spinner Name="X Offset" Unit="Grids" Length="5" ValueOffset="-10" Minimum="0" Maximum="20">
+                <tooltip>Number of grids to offset X position by. Negative is left, positive is right.</tooltip>
+            </spinner>
+        </bitfield>
+    </entity>
+    <entity Group="Ch 5 - Cathedral" ID="114" Image="icons/FF/holywobbles.png" Kind="FF" Name="Holy Wobbles" Subtype="0" Variant="48" />
+
+    <!-- Dark Room -->
+    <entity Group="Ch 6 - Dark Room" ID="160" Image="icons/FF/slimshady.png" Kind="FF" Name="Slim Shady" Subtype="0" Variant="822" />
+    <entity Group="Ch 6 - Dark Room" ID="160" Image="icons/FF/redhand.png" Kind="FF" Name="Red Hand" Subtype="2" Variant="822" />
+</data>

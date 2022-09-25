@@ -1,0 +1,175 @@
+<data>
+    <room Name="Hive Backdrop">
+        <Gfx BGPrefix="backdrops/hive">
+            <Entity ID="1000" Image="../resources/gfx/grid/hive_rocks.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Hive.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Hives.png" />
+        </Gfx>
+    </room>
+    <room Name="Challenge Backdrop">
+        <Gfx StageGfx="Sheol" BGPrefix="backdrops/challenge">
+            <Entity ID="3000" Image="../resources/gfx/grid/grid_ambush_pit.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/rock_challenge_placeholderrecolor.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Depths.png" />
+        </Gfx>
+    </room>
+    <room Name="Danker Depths Backdrop">
+        <Gfx StageGfx="Dank Depths" BGPrefix="backdrops/danker" />
+    </room>
+    <room Name="Trash Dank Depths Backdrop">
+        <Gfx StageGfx="Dank Depths" BGPrefix="backdrops/trash" />
+    </room>
+    <room Name="Pipes Backdrop">
+        <Gfx StageGfx="Dank Depths" BGPrefix="backdrops/pipes">
+            <Entity ID="3000" Image="../resources/gfx/grid/grid_pipe_pit.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_pipes.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Pipe.png" />
+			<Entity ID="1900" Image="icons/FF/1900.0.0 - Block Pipe.png" />
+        </Gfx>
+    </room>
+	<room Name="Mausoleum Alt Backdrop">
+        <Gfx StageGfx="Mausoleum" BGPrefix="backdrops/mausb">
+            <Entity ID="3000" Image="../resources/gfx/grid/grid_pit_mausoleumb.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_mausoleumb.png" />
+            <Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock MausB.png" />
+			<Entity ID="1900" Image="icons/FF/1900.0.0 - Block MausB.png" />
+			<Entity ID="1901" Image="icons/FF/1901.0.0 - Tall Block MausB.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot MausB.png" />
+        </Gfx>
+    </room>
+    <room Name="Morbus Backdrop">
+        <Gfx StageGfx="Corpse" BGPrefix="backdrops/morbus">
+            <Entity ID="3000" Image="../resources/gfx/grid/morbus/morbus_pit.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/morbus/morbus_rocks.png" />
+            <Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Morbus.png" />
+            <Entity ID="1900" Image="icons/FF/1900.0.0 - Block Morbus.png" />
+			<Entity ID="1901" Image="icons/FF/1901.0.0 - Tall Block Morbus.png" />
+			<Entity ID="1010" Image="icons/FF/1010.0.0 - Spike Rock Morbus.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Morbus.png" />
+        </Gfx>
+    </room>
+    <room Name="Eyeball Utero Backdrop">
+        <Gfx StageGfx="Utero" BGPrefix="backdrops/eyeball" />
+    </room>
+    <room Name="Primitive Caves Backdrop">
+        <Gfx StageGfx="Caves" BGPrefix="backdrops/primitive">
+            <Entity ID="3000" Image="../resources/gfx/grid/grid_primitive_pit.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_primitive.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Old.png" />
+			<Entity ID="1900" Image="icons/FF/1900.0.0 - Block Old.png" />
+			<Entity ID="1901" Image="icons/FF/1901.0.0 - Tall Block Old.png" />
+        </Gfx>
+    </room>
+    <room Name="Honeyed Cellar Backdrop">
+        <Gfx StageGfx="Cellar" BGPrefix="backdrops/honeyed" />
+    </room>
+    <room Name="Smoky Burning Basement Backdrop">
+        <Gfx StageGfx="Burning Basement" BGPrefix="backdrops/smoky">
+            <Entity ID="3000" Image="../resources/gfx/grid/pit_smoky.png" />
+            <Entity ID="1000" Image="../resources/gfx/grid/smoky_rocks.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Smoky.png" />
+        </Gfx>
+    </room>	
+    <room Name="Peepee Dross Backdrop">
+        <Gfx StageGfx="Dross">
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_peepee.png" />
+        </Gfx>
+    </room>
+    <room Name="Psionic Backdrop">
+        <Gfx StageGfx="Sheol" BGPrefix="backdrops/psionic" />
+    </room>
+
+    <room Name="Luscious Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Luscious.png" InvertDepth="1" PlaceVisual="0,0.4" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Luscious.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Luscious.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Luscious.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Ossuary Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Ossuary.png" InvertDepth="1" PlaceVisual="0,0.4" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Ossuary.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Ossuary.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Ossuary.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Pipes Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Pipes.png" InvertDepth="1" PlaceVisual="0,0.2" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Pipes.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Pipes.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Pipes.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Creature Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Creature.png" InvertDepth="1" PlaceVisual="0,0.2" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Creature.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Creature.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Creature.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Fortress Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Fortress.png" InvertDepth="1" PlaceVisual="0,0.2" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Fortress.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Fortress.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Fortress.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Insulation Crawlspace Backdrop">
+        <Gfx RoomGfx="Crawlspace">
+            <Entity ID="1900" Variant="0"  Image="icons/FF/1900.0.0 - Crawlspace Brick Insulation.png" InvertDepth="1" PlaceVisual="0,0.2" />
+            <Entity ID="0"    Variant="10" Image="icons/FF/0.10.0 - Ladder Insulation.png" />
+            <Entity ID="0"    Variant="20" Image="icons/FF/0.20.0 - Ladder Base Insulation.png" />
+            <Entity ID="0"    Variant="30" Image="icons/FF/0.30.0 - Ladder Through Insulation.png" />
+        </Gfx>
+    </room>
+
+    <room Name="Secret Room">
+        <Gfx>
+            <Entity ID="3000" Image="../resources/gfx/grid/grid_secret_pit_large.png" />
+			<Entity ID="1000" Image="../resources/gfx/grid/rocks_secret.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Secret.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Caves.png" />
+        </Gfx>
+    </room>
+    <room Name="Shop">
+        <Gfx>
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_shop.png"/>
+			<Entity ID="3000" Image="../resources/gfx/grid/grid_chest_pit_alt.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Shop.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Shop.png" />
+			<Entity ID="1900" Image="icons/FF/1900.0.0 - Block Shop.png" />
+        </Gfx>
+    </room>
+    <room Name="Crawlspace">
+        <Gfx>
+            <Entity ID="1000" Image="../resources/gfx/grid/rocks_crawlspace.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Crawl.png" />
+        </Gfx>
+    </room>
+    <room Name="Challenge Room">
+        <Gfx StageGfx="" RoomGfx="Challenge Backdrop" />
+    </room>
+    <room Name="Error Room">
+		<Gfx>
+			<Entity ID="1000" Image="../resources/gfx/grid/rocks_error-1.png.png" />
+			<Entity ID="1002" Image="icons/FF/1002.0.0 - Pot Error.png" />
+			<Entity ID="1001" Image="icons/FF/1001.0.0 - Bomb Rock Error.png" />
+			<Entity ID="1900" Image="icons/FF/1900.0.0 - Block Error.png" />
+		</Gfx>
+    </room>
+    <room Name="Dice Room">
+		<Gfx>
+			<Entity ID="1000" Image="../resources/gfx/grid/rocks_dice.png" />
+		</Gfx>
+    </room>
+</data>

@@ -1,0 +1,33 @@
+<AnimatedActor>
+	<Info CreatedBy="robot" CreatedOn="3/2/2022 10:40:03 PM" Version="66" Fps="45"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="originalDog.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="dog" Id="0" SpritesheetId="0"/>
+		</Layers>
+		<Nulls/>
+		<Events>
+			<Event Name="Drop" Id="0"/>
+			<Event Name="Vanish" Id="1"/>
+		</Events>
+	</Content>
+	<Animations DefaultAnimation="ghosty">
+		<Animation Name="ghosty" FrameNum="65" Loop="false">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="24" YPivot="24" XCrop="0" YCrop="0" Width="48" Height="48" XScale="5" YScale="5" Delay="14" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="5" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-45" XPivot="24" YPivot="24" XCrop="0" YCrop="0" Width="48" Height="48" XScale="66" YScale="66" Delay="16" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="200" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="360" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="-45" XPivot="24" YPivot="24" XCrop="0" YCrop="0" Width="48" Height="48" XScale="66" YScale="66" Delay="34" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="200" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+					<Frame XPosition="0" YPosition="-45" XPivot="24" YPivot="24" XCrop="0" YCrop="0" Width="48" Height="48" XScale="66" YScale="66" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="0" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true"/>
+				</LayerAnimation>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>

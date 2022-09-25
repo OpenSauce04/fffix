@@ -22774,8 +22774,8 @@ function mod:bloodsacktouch(pickup, collider)
 	end
 end
 
-function mod:bloodsackontouch(pickup)
-	mod:bloodsackburst(pickup)
+function mod:bloodsackontouch(pickup, collider)
+	mod:bloodsackburst(pickup, false, collider)
 	--[[if Game():GetRoom():GetType() == RoomType.ROOM_CHALLENGE then
 		pickup:GetData().dummysack = Isaac.Spawn(5, 69, 0, pickup.Position, Vector(0,0), pickup):ToPickup()
 		pickup:GetData().dummysack:GetData().bloodsackspawned = false
@@ -22933,7 +22933,19 @@ function mod:makeFliesNice()
 	--Add later
 end
 
-function mod:bloodsackburst(pickup, isSnagger)
+function mod:bloodsackburst(pickup, isSnagger, collider)
+
+	-- EPIPHANY PICKUP FIX --
+	if collider -- is defined
+	and collider:ToPlayer() -- is a player
+	and Epiphany -- is installed
+	and collider:ToPlayer():GetPlayerType() == Epiphany.table_type_id["KEEPER"] -- player is Tarnished Keeper
+	and pickup.Price -- is defined
+	and not (pickup.Price > 0)
+	and not pickup.Touched
+	then return end -- do not open the pickup
+	-- END --
+
 	--Isaac.ConsoleOutput("blooud")
 	local subt = pickup.SubType
 	if subt == 10 then
@@ -36277,6 +36289,18 @@ end, 20)
 
 
 mod:AddCallback(ModCallbacks.MC_PRE_PICKUP_COLLISION, function(_, pickup, collider)
+	
+	-- EPIPHANY PICKUP FIX --
+	if collider -- is defined
+	and collider:ToPlayer() -- is a player
+	and Epiphany -- is installed
+	and collider:ToPlayer():GetPlayerType() == Epiphany.table_type_id["KEEPER"] -- player is Tarnished Keeper
+	and pickup.Price -- is defined
+	and not (pickup.Price > 0)
+	and not pickup.Touched
+	then return end -- do not check the pickup
+	-- END --
+
 	if pickup.SubType == KeySubType.KEY_SPICY or pickup.SubType == KeySubType.KEY_SPICY_PERM then
 		if collider.Type == 1 then
 			collider = collider:ToPlayer()

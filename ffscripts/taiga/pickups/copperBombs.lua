@@ -62,6 +62,18 @@ function mod:copperPostFireBomb(player, bomb)
 end
 
 mod:AddCallback(ModCallbacks.MC_PRE_PICKUP_COLLISION, function(_, pickup, collider)
+
+	-- EPIPHANY PICKUP FIX --
+	if collider -- is defined
+	and collider:ToPlayer() -- is a player
+	and Epiphany -- is installed
+	and collider:ToPlayer():GetPlayerType() == Epiphany.table_type_id["KEEPER"] -- player is Tarnished Keeper
+	and pickup.Price -- is defined
+	and not (pickup.Price > 0)
+	and not pickup.Touched
+	then return end -- do not check the pickup
+	-- END --
+
 	if pickup.SubType == FiendFolio.PICKUP.BOMB.COPPER then
 		if collider.Type == 1 and collider:GetData().ffsavedata then
 			local player = collider:ToPlayer()
